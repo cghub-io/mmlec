@@ -92,5 +92,9 @@
 
 - Preview
     - Playblast
-
+        - Windows >> Playblast(Option Box)
+        > ![](../img/week3/playblast.png)
+        > Render offscreen - 체크가 되어 있으면 조금더 빠르게 Playblast를 뽑아낼 수 있다
+        > Format <kbd>image</kbd> - Playblast를 이미지 시퀀스로 뽑아낼 수 있다
+        > Encoding <kbd>jpg</kbd> - 가장 무난한 
 ## Lens Distortion Workflow
