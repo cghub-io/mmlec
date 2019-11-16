@@ -16,6 +16,12 @@
     - Set Film Back
     - Set Focal Length
     - Calc >> Calc All From Scratch... <kbd>Alt+C</kbd>
+    - 좋은 솔브
+        1. Curve Editor에서 Rot/Pos XYZ가 노이즈 없이 스무스하게 나온다
+            - 포컬랭스에 키가 들어갔다면 줌커브도 확인
+        1. Deviation Browser에서 Deviation Curve 모양이 바닥과 평행하게 나온다
+            - 모션블러가 심한 구간은 어쩔수 없이 스파이크(spike)가 생긴다
+        1. Lineup Controls(F5)에서 포인트를 잡고 Center3D 했을때 밀리지 않는다
 
 - Focal Length & Lens Distortion & Parameter Adjustment
     - Focal Length / 21mm ~ 30mm / 10 samples
