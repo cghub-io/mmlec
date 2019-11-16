@@ -1,6 +1,6 @@
 # Matchmove Lecture
 
-### [Week1 - Intorduction to Matchmoving](doc/week1.md)
+### [Week1 - Introduction to Matchmove](doc/week1.md)
 
 ### [Week2 - Matchmove Software 101](doc/week2.md)
 
