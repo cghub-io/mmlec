@@ -27,7 +27,12 @@
     > ![](../img/week2/pgm_fl_fb_aov.png)
 1. 사진들간 대응점을 찾는다
     > ![](../img/week2/pgm_correspondence.png)
-1. 사진들을 매치무브 소프트웨어에 넣고 계산한다
+1. 각 카메라의 화각과 대응점 정보를 매치무브 소프트웨어에 넣고 계산한다
     > ![](../img/week2/pgm_calculate.png)
+1. 카메라 캘리브레이션 - 각 카메라의 위치와 회전이 재건
+    > ![](../img/week2/pgm_camera_calibration.png)
+1. 삼각측량법 - 3D 포인트 재건
+    > ![](../img/week2/pgm_triangulation.png)<br>
+    > ![](../img/week2/pgm_triangulation_many.png)<br>
 1. 물체의 높이와 폭을 알아냈다
     > ![](../img/week2/pgm_survey.png)
