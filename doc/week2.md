@@ -21,3 +21,7 @@
 
 1. 촬영한 사진들을 수집한다
     > ![](../img/week2/pgm_collected_photos.png)
+1. 사진들을 매치무브 소프트웨어에 넣고 계산한다
+    > ![](../img/week2/pgm_calculate.png)
+1. 물체의 높이와 폭을 알아냈다
+    > ![](../img/week2/pgm_survey.png)
