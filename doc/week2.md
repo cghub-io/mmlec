@@ -21,6 +21,10 @@
 
 1. 촬영한 사진들을 수집한다
     > ![](../img/week2/pgm_collected_photos.png)
+1. 각 카메라의 화각 정보를 입력한다 (포컬랭스 & 필름백 입력 >> 화각 자동산출)
+    > ![](../img/week2/pgm_fl_fb_aov.png)
+1. 사진들간 대응점을 찾는다
+    > ![](../img/week2/pgm_correspondence.png)
 1. 사진들을 매치무브 소프트웨어에 넣고 계산한다
     > ![](../img/week2/pgm_calculate.png)
 1. 물체의 높이와 폭을 알아냈다
