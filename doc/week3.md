@@ -77,8 +77,14 @@
         - 3DE4 >> Run Warp4...
 
 ## Camera Tracking in Maya
+- Preference
+    - Evaluation Mode <kbd>DG</kbd>
 
 - Modeling Set Geometry
+    - Holdout
     - Point Triangulation
+
+- Preview
+    - Playblast
 
 ## Lens Distortion Workflow
