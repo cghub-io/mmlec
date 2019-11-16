@@ -5,6 +5,8 @@
 - 사진들로부터 물체를 측정하는 작업
 
 ### Concept
+> ![](../img/week2/pgm_concept.png)
+
 1. 물체의 높이와 폭을 알고싶다
     > ![](../img/week2/pgm_what_size.png)
 1. 물체를 여러 각도에서 촬영한다
