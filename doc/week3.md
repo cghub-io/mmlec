@@ -7,7 +7,7 @@
         - <kbd>T</kbd> - 지정된 방향으로 전부 트랙
         - <kbd><</kbd><kbd>></kbd> - 한프레임 앞으로/뒤로 트랙
         - <kbd>E</kbd> - Start/End
-        - Nudge Tool
+        - Nudge Tool (숫자패드)
             > <kbd>7</kbd><kbd>8</kbd><kbd>9</kbd><br>
             > <kbd>4</kbd><kbd>5</kbd><kbd>6</kbd><br>
             > <kbd>1</kbd><kbd>2</kbd><kbd>3</kbd><br>
