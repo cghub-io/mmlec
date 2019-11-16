@@ -10,6 +10,9 @@
         - <kbd>←</kbd><kbd>→</kbd> - 한프레임 뒤로/앞으로 이동
         - <kbd>Page Down</kbd><kbd>Page Up</kbd> - 이전/다음 키프레임으로 이동
         - <kbd>Home</kbd><kbd>End</kbd> - 첫/마지막 프레임으로 이동
+        - <kbd>Ctrl+R</kbd> - 키프레임 제거
+        - <kbd>`</kbd> - 선택된 포인트 락(Lock) 걸기/풀기
+
         - Nudge Tool (숫자패드)
             > <kbd>7</kbd><kbd>8</kbd><kbd>9</kbd><br>
             > <kbd>4</kbd><kbd>5</kbd><kbd>6</kbd><br>
