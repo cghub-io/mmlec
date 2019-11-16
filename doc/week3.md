@@ -7,6 +7,7 @@
         - <kbd>T</kbd> - 지정된 방향으로 전부 트랙
         - <kbd><</kbd><kbd>></kbd> - 한프레임 앞으로/뒤로 트랙
         - <kbd>E</kbd> - Start/End
+        - <kbd>7</kbd><kbd>8</kbd><kbd>9</kbd>
     - 좋은 & 나쁜 2D Track
         1. 좋은 2D Track
             - 수명이 길다
