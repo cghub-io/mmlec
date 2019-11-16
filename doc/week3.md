@@ -20,10 +20,10 @@
     - Point Attributes
         > ![](../img/week3/attribute_editor_point.png)<br>
         > Hide From Display Area - 포인트의 Visibility<br>
-        > Direction - 트래킹이 진행되는 방향을 결정
-        > Rotate Reference Pattern - 레퍼런스 패턴의 로테이션 변화 감지
-        > Scale Reference Pattern - 레퍼런스 패턴의 스케일 변화 감지
-        > Calculation - 포인트가 솔브에 관여할지 결정
+        > Direction - 트래킹이 진행되는 방향을 결정<br>
+        > Rotate Reference Pattern - 레퍼런스 패턴의 로테이션 변화 감지<br>
+        > Scale Reference Pattern - 레퍼런스 패턴의 스케일 변화 감지<br>
+        > Calculation - 포인트가 솔브에 관여할지 결정<br>
     - 좋은 & 나쁜 2D Track
         1. 좋은 2D Track
             - 수명이 길다
