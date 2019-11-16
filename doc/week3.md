@@ -13,6 +13,7 @@
 - Solving
     - Set Film Back
     - Set Focal Length
+    - Calc >> Calc All From Scratch... <kbd>Alt+C</kbd>
 
 - Lens Distortion
 
