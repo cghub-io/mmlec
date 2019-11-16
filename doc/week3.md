@@ -14,6 +14,10 @@
             > <kbd>7</kbd><kbd>8</kbd><kbd>9</kbd><br>
             > <kbd>4</kbd><kbd>5</kbd><kbd>6</kbd><br>
             > <kbd>1</kbd><kbd>2</kbd><kbd>3</kbd><br>
+    - Pattern & Search Box
+        1. Pattern Box
+        1. Search Box
+    - Point Attributes
     - 좋은 & 나쁜 2D Track
         1. 좋은 2D Track
             - 수명이 길다
