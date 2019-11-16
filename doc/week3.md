@@ -72,5 +72,7 @@
 
 ## Camera Tracking in Maya
 
+- Modeling Set Geometry
+    - Point Triangulation
 
 ## Lens Distortion Workflow
