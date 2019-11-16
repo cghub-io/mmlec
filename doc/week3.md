@@ -56,6 +56,7 @@
     FL - 28mm & D2 - 0.0010 >> Alt+C >> Deviation
     FL - 29mm & D2 - 0.0010 >> Alt+C >> Deviation
     FL - 30mm & D2 - 0.0010 >> Alt+C >> Deviation
+    ---------------------------------------------
     FL - 21mm & D2 - 0.0020 >> Alt+C >> Deviation
     FL - 22mm & D2 - 0.0020 >> Alt+C >> Deviation
     FL - 23mm & D2 - 0.0020 >> Alt+C >> Deviation
