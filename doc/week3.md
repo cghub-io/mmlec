@@ -79,7 +79,7 @@
 ## Camera Tracking in Maya
 - Preference
     - Evaluation Mode <kbd>DG</kbd>
-        > Maya2017 이하 버젼에서는 Evaluation Mode가 DG로 설정되어 있지 않으면 이미지플랜 관련 버그가 발생한다.
+        - Maya2017 이하 버젼에서는 Evaluation Mode가 DG로 설정되어 있지 않으면 이미지플랜 관련 버그가 발생한다.
         > ![](../img/week3/evaluation_mode.png)
 
 - Modeling Set Geometry
