@@ -23,9 +23,28 @@
         FL - 21mm >> Alt+C >> Deviation
         FL - 22mm >> Alt+C >> Deviation
         FL - 23mm >> Alt+C >> Deviation
+        FL - 24mm >> Alt+C >> Deviation
+        FL - 25mm >> Alt+C >> Deviation
+        FL - 26mm >> Alt+C >> Deviation
+        FL - 27mm >> Alt+C >> Deviation
+        FL - 28mm >> Alt+C >> Deviation
+        FL - 29mm >> Alt+C >> Deviation
+        FL - 30mm >> Alt+C >> Deviation
         ```
     - Distortion - Degree2 / 0.0010 ~ 0.0100 / 10 samples
-    - 10 samples X 10 samples = 100 samples
+        ```
+        D2 - 0.0010 >> Alt+C >> Deviation
+        D2 - 0.0020 >> Alt+C >> Deviation
+        D2 - 0.0030 >> Alt+C >> Deviation
+        D2 - 0.0040 >> Alt+C >> Deviation
+        D2 - 0.0050 >> Alt+C >> Deviation
+        D2 - 0.0060 >> Alt+C >> Deviation
+        D2 - 0.0070 >> Alt+C >> Deviation
+        D2 - 0.0080 >> Alt+C >> Deviation
+        D2 - 0.0090 >> Alt+C >> Deviation
+        D2 - 0.0100 >> Alt+C >> Deviation
+        ```    
+    - 10 samples(FL) X 10 samples(D2) = 100 samples
     ```
     FL - 21mm & D2 - 0.0010 >> Alt+C >> Deviation
     FL - 22mm & D2 - 0.0010 >> Alt+C >> Deviation
@@ -40,7 +59,9 @@
     FL - 21mm & D2 - 0.0020 >> Alt+C >> Deviation
     FL - 22mm & D2 - 0.0020 >> Alt+C >> Deviation
     FL - 23mm & D2 - 0.0020 >> Alt+C >> Deviation
-    ...
+    .
+    .
+    .
     ```
 
 - Exporting 3DE Scene to Maya
