@@ -79,7 +79,7 @@
 ## Camera Tracking in Maya
 - Preference
     - Evaluation Mode <kbd>DG</kbd>
-        > ![](img/week3/evaluation_mode.png)
+        > ![](../img/week3/evaluation_mode.png)
 
 - Modeling Set Geometry
     - Holdout
