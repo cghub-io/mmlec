@@ -17,7 +17,13 @@
     - Set Focal Length
     - Calc >> Calc All From Scratch... <kbd>Alt+C</kbd>
 
-- Lens Distortion
+- Focal Length & Lens Distortion & Parameter Adjustment
+    - Focal Length / 21mm ~ 30mm / 10 samples
+    - Distortion - Degree2 / 0.0000 ~ 0.0100 / 10 samples<br>
+    ```
+    FL - 21mm & D2 - 0.0000 >> <kbd>Alt+C</kbd> >> Deviation
+    FL - 21mm & D2 - 0.0000 >> <kbd>Alt+C</kbd> >> Deviation
+    ```
 
 - Exporting 3DE Scene to Maya
     1. Export Scene
