@@ -19,7 +19,7 @@
 
 - Focal Length & Lens Distortion & Parameter Adjustment
     - Focal Length / 21mm ~ 30mm / 10 samples
-    - Distortion - Degree2 / 0.0000 ~ 0.0100 / 10 samples<br>
+    - Distortion - Degree2 / 0.0000 ~ 0.0100 / 10 samples
     ```
     FL - 21mm & D2 - 0.0000 >> <kbd>Alt+C</kbd> >> Deviation
     FL - 21mm & D2 - 0.0000 >> <kbd>Alt+C</kbd> >> Deviation
