@@ -19,10 +19,22 @@
 
 - Focal Length & Lens Distortion & Parameter Adjustment
     - Focal Length / 21mm ~ 30mm / 10 samples
-    - Distortion - Degree2 / 0.0000 ~ 0.0100 / 10 samples
+    - Distortion - Degree2 / 0.0010 ~ 0.0100 / 10 samples
     ```
-    FL - 21mm & D2 - 0.0000 >> <kbd>Alt+C</kbd> >> Deviation
-    FL - 21mm & D2 - 0.0000 >> <kbd>Alt+C</kbd> >> Deviation
+    FL - 21mm & D2 - 0.0010 >> <kbd>Alt+C</kbd> >> Deviation
+    FL - 22mm & D2 - 0.0010 >> <kbd>Alt+C</kbd> >> Deviation
+    FL - 23mm & D2 - 0.0010 >> <kbd>Alt+C</kbd> >> Deviation
+    FL - 24mm & D2 - 0.0010 >> <kbd>Alt+C</kbd> >> Deviation
+    FL - 25mm & D2 - 0.0010 >> <kbd>Alt+C</kbd> >> Deviation
+    FL - 26mm & D2 - 0.0010 >> <kbd>Alt+C</kbd> >> Deviation
+    FL - 27mm & D2 - 0.0010 >> <kbd>Alt+C</kbd> >> Deviation
+    FL - 28mm & D2 - 0.0010 >> <kbd>Alt+C</kbd> >> Deviation
+    FL - 29mm & D2 - 0.0010 >> <kbd>Alt+C</kbd> >> Deviation
+    FL - 30mm & D2 - 0.0010 >> <kbd>Alt+C</kbd> >> Deviation
+    FL - 21mm & D2 - 0.0020 >> <kbd>Alt+C</kbd> >> Deviation
+    FL - 22mm & D2 - 0.0020 >> <kbd>Alt+C</kbd> >> Deviation
+    FL - 23mm & D2 - 0.0020 >> <kbd>Alt+C</kbd> >> Deviation
+    ...
     ```
 
 - Exporting 3DE Scene to Maya
