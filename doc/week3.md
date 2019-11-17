@@ -2,7 +2,7 @@
 
 ## Camera Tracking in 3DEqualizer
 ### Customizing 3DEqualizer
-- [easy_dewarp.py](https://gist.github.com/kohyuk91/9df1c8a6903931f2c8ab7cb6bd532d95){:target="_blank"}
+- [easy_dewarp.py](https://gist.github.com/kohyuk91/9df1c8a6903931f2c8ab7cb6bd532d95 target="_blank")
 ### 2D Point Tracking
 - 단축키
     - <kbd>T</kbd> - 지정된 방향으로 전부 트랙
