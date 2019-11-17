@@ -16,7 +16,7 @@
 1. Browse
     > ![](../img/week3/trackboy.0001.jpg)
 1. Export Buffer Compression File
-
+    > ![](../img/week3/export_image_buffer.png)
 ### 2D Point Tracking
 - 단축키
     - <kbd>Ctrl+LMB</kbd> - 포인트 생성
