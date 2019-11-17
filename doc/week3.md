@@ -56,49 +56,52 @@
 ### Focal Length & Lens Distortion & Parameter Adjustment
 - Focal Length / 21mm ~ 30mm / 10 samples
     ```
-    FL - 21mm >> Alt+C >> Deviation
-    FL - 22mm >> Alt+C >> Deviation
-    FL - 23mm >> Alt+C >> Deviation
-    FL - 24mm >> Alt+C >> Deviation
-    FL - 25mm >> Alt+C >> Deviation
-    FL - 26mm >> Alt+C >> Deviation
-    FL - 27mm >> Alt+C >> Deviation
-    FL - 28mm >> Alt+C >> Deviation
-    FL - 29mm >> Alt+C >> Deviation
-    FL - 30mm >> Alt+C >> Deviation
+    1. FL - 21mm >> Alt+C >> Deviation
+    2. FL - 22mm >> Alt+C >> Deviation
+    3. FL - 23mm >> Alt+C >> Deviation
+    4. FL - 24mm >> Alt+C >> Deviation
+    5. FL - 25mm >> Alt+C >> Deviation
+    6. FL - 26mm >> Alt+C >> Deviation
+    7. FL - 27mm >> Alt+C >> Deviation
+    8. FL - 28mm >> Alt+C >> Deviation
+    9. FL - 29mm >> Alt+C >> Deviation
+    10. FL - 30mm >> Alt+C >> Deviation
     ```
-- Distortion - Degree2 / 0.0010 ~ 0.0100 / 10 samples
+- Distortion - Degree2 / 0.0000 ~ 0.0900 / 10 samples
     ```
-    D2 - 0.0010 >> Alt+C >> Deviation
-    D2 - 0.0020 >> Alt+C >> Deviation
-    D2 - 0.0030 >> Alt+C >> Deviation
-    D2 - 0.0040 >> Alt+C >> Deviation
-    D2 - 0.0050 >> Alt+C >> Deviation
-    D2 - 0.0060 >> Alt+C >> Deviation
-    D2 - 0.0070 >> Alt+C >> Deviation
-    D2 - 0.0080 >> Alt+C >> Deviation
-    D2 - 0.0090 >> Alt+C >> Deviation
-    D2 - 0.0100 >> Alt+C >> Deviation
+    1. D2 - 0.0000 >> Alt+C >> Deviation
+    2. D2 - 0.0100 >> Alt+C >> Deviation
+    3. D2 - 0.0200 >> Alt+C >> Deviation
+    4. D2 - 0.0300 >> Alt+C >> Deviation
+    5. D2 - 0.0400 >> Alt+C >> Deviation
+    6. D2 - 0.0500 >> Alt+C >> Deviation
+    7. D2 - 0.0600 >> Alt+C >> Deviation
+    8. D2 - 0.0700 >> Alt+C >> Deviation
+    9. D2 - 0.0800 >> Alt+C >> Deviation
+    10. D2 - 0.0900 >> Alt+C >> Deviation
     ```    
 - 10 samples(FL) X 10 samples(D2) = 100 samples
     ```
-    FL - 21mm & D2 - 0.0010 >> Alt+C >> Deviation
-    FL - 22mm & D2 - 0.0010 >> Alt+C >> Deviation
-    FL - 23mm & D2 - 0.0010 >> Alt+C >> Deviation
-    FL - 24mm & D2 - 0.0010 >> Alt+C >> Deviation
-    FL - 25mm & D2 - 0.0010 >> Alt+C >> Deviation
-    FL - 26mm & D2 - 0.0010 >> Alt+C >> Deviation
-    FL - 27mm & D2 - 0.0010 >> Alt+C >> Deviation
-    FL - 28mm & D2 - 0.0010 >> Alt+C >> Deviation
-    FL - 29mm & D2 - 0.0010 >> Alt+C >> Deviation
-    FL - 30mm & D2 - 0.0010 >> Alt+C >> Deviation
+    1. FL - 21mm & D2 - 0.0000 >> Alt+C >> Deviation
+    2. FL - 22mm & D2 - 0.0000 >> Alt+C >> Deviation
+    3. FL - 23mm & D2 - 0.0000 >> Alt+C >> Deviation
+    4. FL - 24mm & D2 - 0.0000 >> Alt+C >> Deviation
+    5. FL - 25mm & D2 - 0.0000 >> Alt+C >> Deviation
+    6. FL - 26mm & D2 - 0.0000 >> Alt+C >> Deviation
+    7. FL - 27mm & D2 - 0.0000 >> Alt+C >> Deviation
+    8. FL - 28mm & D2 - 0.0000 >> Alt+C >> Deviation
+    9. FL - 29mm & D2 - 0.0000 >> Alt+C >> Deviation
+    10. FL - 30mm & D2 - 0.0000 >> Alt+C >> Deviation
     ---------------------------------------------
-    FL - 21mm & D2 - 0.0020 >> Alt+C >> Deviation
-    FL - 22mm & D2 - 0.0020 >> Alt+C >> Deviation
-    FL - 23mm & D2 - 0.0020 >> Alt+C >> Deviation
+    11. FL - 21mm & D2 - 0.0100 >> Alt+C >> Deviation
+    12. FL - 22mm & D2 - 0.0100 >> Alt+C >> Deviation
+    13. FL - 23mm & D2 - 0.0100 >> Alt+C >> Deviation
     .
     .
     .
+    98. FL - 28mm & D2 - 0.0900 >> Alt+C >> Deviation
+    99. FL - 29mm & D2 - 0.0900 >> Alt+C >> Deviation
+    100. FL - 30mm & D2 - 0.0900 >> Alt+C >> Deviation
     ```
 
 ### Exporting 3DE Scene to Maya
