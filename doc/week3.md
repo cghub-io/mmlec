@@ -154,10 +154,12 @@
     - 3DE4 >> Run Warp4...
     > ![](../img/week3/warp4.png)<br>
     > Save Footage <kbd>V</kbd> - 체크시 지정된 경로로 이미지 저장<br>
-    > Overscan <kbd>User-Defined</kbd> `2033` X `1353`
+    > Overscan <kbd>User-Defined</kbd> | 2033 X 1353<br>
     > `Overscan Value: 1.05`<br>
     > `1936 X 1.05 = 2032.8 >>올림>> 2033`<br>
     > `1288 X 1.05 = 1352.4 >>올림>> 1353`<br>
+    > Preview - 잘리는 픽셀이 있는지 확인<br>
+    > Render... - 지정된 경로로 이미지 저장<br>
 
 ## Camera Tracking in Maya
 ### Install Shelf
