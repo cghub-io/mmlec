@@ -130,6 +130,8 @@
             > FL - Range <kbd>Fine</kbd> | Brute Force `20 Samples`<br>
             > D2 - Range <kbd>Custom</kbd> `-0.1000 ~ 0.1000` | Brute Force `20 Samples`<br>
         - Result
+            > ![](../img/week3/parameter_adjustment_deviation.png)<br>
+            > 평균에러값이 많이 낮아졌지만 아직도 스파이크(spike)가 존재한다<br>
     1. Fine Tune
         - Focal Length & Distortion - Degree2 & Quartic Distortion - Degree4
         - Result
