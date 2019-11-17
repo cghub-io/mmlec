@@ -123,10 +123,16 @@
     99. FL - 29mm & D2 - 0.0900 >> Alt+C >> Deviation
     100. FL - 30mm & D2 - 0.0900 >> Alt+C >> Deviation
     ```
-- Setup
-> ![](../img/week3/parameter_adjustment_start.png)<br>
-> FL - Range <kbd>Fine</kbd> | Brute Force `20 Samples`<br>
-> D2 - Range <kbd>Custom</kbd> `-0.1000 ~ 0.1000` | Brute Force `20 Samples`<br>
+- Adjust
+    1. Start
+        - Focal Length & Distortion - Degree2
+            > ![](../img/week3/parameter_adjustment_start.png)<br>
+            > FL - Range <kbd>Fine</kbd> | Brute Force `20 Samples`<br>
+            > D2 - Range <kbd>Custom</kbd> `-0.1000 ~ 0.1000` | Brute Force `20 Samples`<br>
+        - Result
+    1. Fine Tune
+        - Focal Length & Distortion - Degree2 & Quartic Distortion - Degree4
+        - Result
 ### Export 3DE Project to Maya
 1. Export Project
     - 3DE4 >> Export Project >>> Maya...
