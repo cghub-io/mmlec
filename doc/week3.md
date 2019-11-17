@@ -161,9 +161,9 @@
 
 ### Workflow
 
-1. Work with "Distorted(Original)" plate in Matchmove Software
+1. Work with "Distorted(Original)" plate in 3DEqualizer
     - ex) 1920 x 1080
-1. Export "Undistorted" plate
+1. Export "Undistorted" plate from 3DEqualizer
     - ex) 2112 x 1188 (Overscan Value 1.1)
 1. Work with "Undistorted" plate in Maya
 
