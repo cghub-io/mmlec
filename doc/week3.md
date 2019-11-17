@@ -143,7 +143,10 @@
         - Result
             > ![](../img/week3/parameter_adjustment_finetune_result.png)<br>
             > 평균에러값이 매우 낮아졌고, Deviation Curve 모양이 일자 이면서 바닥과 평행하다.<br>
-            
+
+### Orient Scene
+
+
 ### Export 3DE Project to Maya
 1. Export Project
     - 3DE4 >> Export Project >>> Maya...
