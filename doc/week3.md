@@ -152,16 +152,20 @@
 1. Export Project
     - 3DE4 >> Export Project >>> Maya...
 1. Export Undistorted Plates
-    - 3DE4 >> Run Warp4...
-    > ![](../img/week3/warp4.png)<br>
-    > Save Footage <kbd>V</kbd> - 체크시 지정된 경로로 이미지 저장<br>
-    > Overscan <kbd>User-Defined</kbd> | 2033 X 1353<br>
-    > `Overscan Value: 1.05`<br>
-    > `1936 X 1.05 = 2032.8 >>올림>> 2033`<br>
-    > `1288 X 1.05 = 1352.4 >>올림>> 1353`<br>
-    > Preview - 잘리는 픽셀이 있는지 확인<br>
-    > Render... - 지정된 경로로 이미지 저장<br>
-
+    1. 3DE4 >> Run Warp4...
+        > ![](../img/week3/warp4.png)<br>
+        > Save Footage <kbd>V</kbd> - 체크시 지정된 경로로 이미지 저장<br>
+        > Overscan <kbd>User-Defined</kbd> | 2033 X 1353<br>
+        > `Overscan Value: 1.05`<br>
+        > `1936 X 1.05 = 2032.8 >>올림>> 2033`<br>
+        > `1288 X 1.05 = 1352.4 >>올림>> 1353`<br>
+        > Preview - Undistort Plate 뽑았을때 잘리는 픽셀이 있는지 확인<br>
+        > Render... - 버튼을 누르면 지정된 경로에 Undistort Plate가 저장된다<br>
+    1. Python >> Easy Dewarp...
+        > ![](../img/week3/easy_dewarp.png)<br>
+        > <kbd>+0.05</kbd> 클릭해서 Overscan Value를 `1.05`로 만든다<br>
+        > Bounding Box 글씨가 초록색으로 변했으면, Undistort Plate 뽑았을때 잘리는 픽셀이 없을거라는 뜻<br>
+        > <kbd>Ok</kbd>를 누르면 지정된 경로에 Undistort Plate가 저장된다<br>
 ## Camera Tracking in Maya
 ### Install Shelf
 1. Close Maya
