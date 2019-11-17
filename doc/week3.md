@@ -1,6 +1,7 @@
 # Camera Tracking
 
 ## Camera Tracking in 3DEqualizer
+
 ### Install Scripts
 1. Close 3DEqualizer
 1. Download Scripts
@@ -10,6 +11,11 @@
 1. Move Scripts to...
     - `path\to\3DE4_win64_r5\sys_data\py_scripts`
 1. Start 3DEqualizer
+
+### Load Live Action Footage
+1. Browse
+1. Export Buffer Compression File
+
 ### 2D Point Tracking
 - 단축키
     - <kbd>Ctrl+LMB</kbd> - 포인트 생성
@@ -56,7 +62,7 @@
     - Film Back: 22.20 X 14.8mm
     - Focal Length: 24mm
     > ![](../img/week3/metadata.png)<br>
-    > 메타데이타(Metadata)로도 확인 가능
+    > 메타데이터(Metadata)로도 확인 가능
 - Set Focal Length
 - Calc >> Calc All From Scratch... <kbd>Alt+C</kbd>
 - 좋은 솔브
