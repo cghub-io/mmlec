@@ -68,7 +68,7 @@
     > ![](../img/week3/initial_solve.png)<br>
     - Deviation Curve가 `W` 모양이다. 평균에러값도 `0.5281`로 높은편이다.
 - 좋은 솔브
-    1. Deviation Browser에서 Deviation Curve 모양이 바닥과 평행하게 나온다
+    1. Deviation Browser에서 Deviation Curve 모양이 일자 이면서 바닥과 평행하게 나온다
         - 모션블러가 심한 구간은 어쩔수 없이 스파이크(spike)가 생긴다
     1. Curve Editor에서 Rot/Pos XYZ가 노이즈 없이 스무스하게 나온다
     1. Lineup Controls(F5)에서 포인트를 잡고 Center3D 했을때 밀리지 않는다
@@ -140,7 +140,8 @@
             > D4 - Range <kbd>Fine</kbd> | Adaptive<br>    
         - Result
             > ![](../img/week3/parameter_adjustment_finetune_result.png)<br>
-            > 평균에러값이 매우 낮아졌고, Deviation Curve 모양이 바닥과 평행하다.<br>        
+            > 평균에러값이 매우 낮아졌고, Deviation Curve 모양이 일자 이면서 바닥과 평행하다.<br>
+            
 ### Export 3DE Project to Maya
 1. Export Project
     - 3DE4 >> Export Project >>> Maya...
