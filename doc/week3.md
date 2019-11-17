@@ -123,7 +123,10 @@
     99. FL - 29mm & D2 - 0.0900 >> Alt+C >> Deviation
     100. FL - 30mm & D2 - 0.0900 >> Alt+C >> Deviation
     ```
-
+- Setup
+> ![](../img/week3parameter_adjustment_start.png)<br>
+> FL - Range <kbd>Fine</kbd> / 20 Samples<br>
+> D2 - Range <kbd>Custom</kbd> `-0.1000 ~ 0.1000 / 20 Samples<br>
 ### Export 3DE Project to Maya
 1. Export Project
     - 3DE4 >> Export Project >>> Maya...
