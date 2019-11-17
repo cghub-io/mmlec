@@ -58,13 +58,12 @@
         - 밀린다
 
 ### Solving
-- Set Film Back
+- Set Film Back & 
     - Camera: [Canon EOS 40D](https://ko.wikipedia.org/wiki/%EC%BA%90%EB%85%BC_EOS_40D)
     - Film Back: 22.20 X 14.8mm
     - Focal Length: 24mm
     > ![](../img/week3/metadata.png)<br>
     > 메타데이터(Metadata)로도 확인 가능
-- Set Focal Length
 - Calc >> Calc All From Scratch... <kbd>Alt+C</kbd>
 - 좋은 솔브
     1. Curve Editor에서 Rot/Pos XYZ가 노이즈 없이 스무스하게 나온다
