@@ -10,6 +10,7 @@
     - `path\to\3DE4_win64_r5\sys_data\py_scripts`
 ### 2D Point Tracking
 - 단축키
+    - <kbd>Ctrl+LMB</kbd> - 포인트 생성
     - <kbd>T</kbd> - 지정된 방향으로 전부 트랙
     - <kbd><</kbd><kbd>></kbd> - 한프레임 뒤로/앞으로 트랙
     - <kbd>E</kbd> - Start/End
@@ -23,6 +24,7 @@
         > <kbd>7</kbd><kbd>8</kbd><kbd>9</kbd><br>
         > <kbd>4</kbd><kbd>5</kbd><kbd>6</kbd><br>
         > <kbd>1</kbd><kbd>2</kbd><kbd>3</kbd><br>
+    - <kbd>I</kbd> - Image Controls ON/OFF
 - Pattern & Search Box
     1. Pattern Box
     1. Search Box
