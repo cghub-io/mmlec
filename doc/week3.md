@@ -151,8 +151,10 @@
     > ![](../img/week3/playback.png)
     
 ### 3DE 프로젝트 임포트 (Import 3DE Project)
+- 뷰포트(viewport)에 멜스크립트(MEL Script)를 드래그 앤 드롭
 
 ### 오버스캔 상쇄 (Compensate for Overscan)
+
 
 ### Modeling Set Geometry
 - Holdout
