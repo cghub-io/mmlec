@@ -113,10 +113,13 @@
 
 ## Camera Tracking in Maya
 ### Install Shelf
+1. Close Maya
 1. Download Shelf
     - [shelf_Matchmove.mel](https://gist.github.com/kohyuk91/7edce53bc0c5dfa7a38c775e2edbd51e)
-2. Move Shelf to...
+1. Move Shelf to...
     - `C:\Users\<USER>\Documents\maya\<VERSION>\prefs\shelves`
+1. Start Maya
+    > ![](../img/week3/shelf_installed.png)<br>
 ### Preference
 - Evaluation Mode
     - Windows >> Settings/Preferences >> Preferences
