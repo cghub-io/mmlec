@@ -56,6 +56,7 @@
     - Film Back: 22.20 X 14.8mm
     - Focal Length: 24mm
     > ![](../img/week3/metadata.png)<br>
+    > 메타데이타(Metadata)로도 확인 가능
 - Set Focal Length
 - Calc >> Calc All From Scratch... <kbd>Alt+C</kbd>
 - 좋은 솔브
