@@ -128,6 +128,7 @@
         - Send to Parameter Adjustment Window
             > ![](../img/week3/set_adjust.png)<br>
         - Adjust Focal Length & Distortion - Degree2
+            > Windows >> Parameter Adjustment Window <kbd>Alt+6</kbd><br>
             > ![](../img/week3/parameter_adjustment_start.png)<br>
             > FL - Range <kbd>Fine</kbd> | Brute Force `20 Samples`<br>
             > D2 - Range <kbd>Custom</kbd> `-0.1000 ~ 0.1000` | Brute Force `20 Samples`<br>
