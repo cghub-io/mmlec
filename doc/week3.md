@@ -58,7 +58,7 @@
         - 밀린다
 
 ### Solving
-- Set Film Back & 
+- Set Film Back & Focal Length
     - Camera: [Canon EOS 40D](https://ko.wikipedia.org/wiki/%EC%BA%90%EB%85%BC_EOS_40D)
     - Film Back: 22.20 X 14.8mm
     - Focal Length: 24mm
@@ -125,7 +125,9 @@
     ```
 - Adjust
     1. Start
-        - Focal Length & Distortion - Degree2
+        - Send to Parameter Adjustment Window
+            > ![](../img/week3/set_adjust.png)<br>
+        - Adjust Focal Length & Distortion - Degree2
             > ![](../img/week3/parameter_adjustment_start.png)<br>
             > FL - Range <kbd>Fine</kbd> | Brute Force `20 Samples`<br>
             > D2 - Range <kbd>Custom</kbd> `-0.1000 ~ 0.1000` | Brute Force `20 Samples`<br>
