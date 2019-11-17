@@ -156,3 +156,19 @@
 - Outliner Cleanup
 
 ## Lens Distortion Workflow
+
+### Lens Distortion
+
+### Workflow
+
+1. Work with "Distorted(Original)" plate in Matchmove Software
+    - ex) 1920 x 1080
+1. Export "Undistorted" plate
+    - ex) 2112 x 1188 (Overscan Value 1.1)
+1. Work with "Undistorted" plate in Maya
+
+1. Render Image Resolution "Undistorted" plate Width & Height
+
+1. Redistort Render Image in Nuke
+    - ex) 2112 x 1188 to 1920 x 1080
+1. Merge Render Image with "Distorted(Original)" plate
