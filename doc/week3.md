@@ -103,29 +103,32 @@
         - 3DE4 >> Run Warp4...
 
 ## Camera Tracking in Maya
-- Preference
-    - Evaluation Mode
-        - Windows >> Settings/Preferences >> Preferences
-        - Maya2017 이하 버젼에서는 Evaluation Mode가 DG로 설정되어 있지 않으면 이미지플랜 관련 버그가 발생함
-        > ![](../img/week3/evaluation_mode.png)<br>
-        > Evaluation Mode <kbd>DG</kbd><br>
-    - Playback
-        - Windows >> Settings/Preferences >> Preferences
-        - 이미지 시퀀스를 올바르게 재생하기 위한 셋팅
-        > ![](../img/week3/playback.png)
-- Modeling Set Geometry
-    - Holdout
-    - Point Triangulation
+### Preference
+- Evaluation Mode
+    - Windows >> Settings/Preferences >> Preferences
+    - Maya2017 이하 버젼에서는 Evaluation Mode가 DG로 설정되어 있지 않으면 이미지플랜 관련 버그가 발생함
+    > ![](../img/week3/evaluation_mode.png)<br>
+    > Evaluation Mode <kbd>DG</kbd><br>
+- Playback
+    - Windows >> Settings/Preferences >> Preferences
+    - 이미지 시퀀스를 올바르게 재생하기 위한 셋팅
+    > ![](../img/week3/playback.png)
+### Modeling Set Geometry
+- Holdout
+- Point Triangulation
 
-- Preview
-    - Playblast
-        - Windows >> Playblast(Option Box)
-        > ![](../img/week3/playblast_v2.png)<br>
-        > Render offscreen <kbd>V</kbd> - 조금더 빠르게 Playblast를 뽑는다<br>
-        > Format <kbd>image</kbd> - Playblast를 이미지 시퀀스로 뽑는다<br>
-        > Encoding <kbd>jpg</kbd> - 가장 무난한 확장자<br>
-        > Display size <kbd>From Render Settings</kbd> - Render Settings의 Width & Height값 사용<br>
-        > Scale <kbd>1.00</kbd> - Playblast를 풀스케일로 뽑는다<br>
-        > Movie file <kbd>경로</kbd> - 지정된 경로에 Playblast가 저장된다
-        
+### Preview
+- Playblast
+    - Windows >> Playblast(Option Box)
+    > ![](../img/week3/playblast_v2.png)<br>
+    > Render offscreen <kbd>V</kbd> - 조금더 빠르게 Playblast를 뽑는다<br>
+    > Format <kbd>image</kbd> - Playblast를 이미지 시퀀스로 뽑는다<br>
+    > Encoding <kbd>jpg</kbd> - 가장 무난한 확장자<br>
+    > Display size <kbd>From Render Settings</kbd> - Render Settings의 Width & Height값 사용<br>
+    > Scale <kbd>1.00</kbd> - Playblast를 풀스케일로 뽑는다<br>
+    > Movie file <kbd>경로</kbd> - 지정된 경로에 Playblast가 저장된다
+
+### Publish
+- Outliner Cleanup
+
 ## Lens Distortion Workflow
