@@ -130,6 +130,11 @@
     - Windows >> Settings/Preferences >> Preferences
     - 이미지 시퀀스를 올바르게 재생하기 위한 셋팅
     > ![](../img/week3/playback.png)
+    
+### 3DE 프로젝트 임포트 (Import 3DE Project)
+
+### 오버스캔 상쇄 (Compensate for Overscan)
+
 ### Modeling Set Geometry
 - Holdout
 - Point Triangulation
