@@ -150,6 +150,9 @@
 1. 그라운드 포인트(Ground Point)들 선택하기
     > ![](../img/week3/select_ground_points.png)<br>
 1. 3D Orientation Controls<kbd>F6</kbd> >> Edit >> Align Multiple Points >> XZ Plane
+    > ![](../img/week3/oriented.png)<br>
+- 씬이 거꾸로 뒤집히는 현상이 간헐적으로 발생하는데, 그럴땐 `XZ Plane`대신 `XZ Plane Flip`을 누르면 된다
+    > ![](../img/week3/oriented_flipped.png)<br>
 
 ### Export 3DE Project to Maya
 1. Export Project
