@@ -160,7 +160,7 @@
 ## Lens Distortion Workflow
 
 ### 렌즈 왜곡(Lens Distortion)
-- 간단히 말하면 상이 휘어 보이는 현상. 광학 수차 중 하나.
+- 간단히 말하면 상이 휘어 보이는 현상. [광학 수차](https://ko.wikipedia.org/wiki/%EA%B4%91%ED%95%99_%EC%88%98%EC%B0%A8) 중 하나.
 
 ### Lens Distortion Workflow
 
