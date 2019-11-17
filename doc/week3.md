@@ -162,6 +162,10 @@
 ### 렌즈 왜곡(Lens Distortion)
 - 간단히 말하면 상이 휘어 보이는 현상. [광학 수차](https://ko.wikipedia.org/wiki/%EA%B4%91%ED%95%99_%EC%88%98%EC%B0%A8) 중 하나.
 
+### Problem
+- 렌즈왜곡을 보정하지 않으면 솔브가 제대로 되지않는다.
+- 참고로 모든 렌즈에는 왜곡이 존재한다. 많고 적음의 차이지 없을 순 없다. 왜곡이 별로 없으면 그냥 무시하고 솔브하기도 한다.
+
 ### Lens Distortion Workflow
 
 1. Work with "Distorted(Original)" plate in 3DEqualizer
