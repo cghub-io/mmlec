@@ -161,7 +161,7 @@
 
 ### Lens Distortion
 
-### Workflow
+### Lens Distortion Workflow
 
 1. Work with "Distorted(Original)" plate in 3DEqualizer
     - ex) 1920 x 1080
