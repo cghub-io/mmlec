@@ -134,7 +134,13 @@
             > 평균에러값이 많이 낮아졌지만 아직도 스파이크(spike)가 존재한다<br>
     1. Fine Tune
         - Focal Length & Distortion - Degree2 & Quartic Distortion - Degree4
+            > ![](../img/week3/parameter_adjustment_finetune.png)<br>
+            > FL - Range <kbd>Fine</kbd> | Adaptive<br>
+            > D2 - Range <kbd>Fine</kbd> | Adaptive<br>
+            > D4 - Range <kbd>Fine</kbd> | Adaptive<br>    
         - Result
+            > ![](../img/week3/parameter_adjustment_finetune_result.png)<br>
+            > 평균에러값이 매우 낮아졌고, Deviation Curve 모양이 바닥과 평행하다.<br>        
 ### Export 3DE Project to Maya
 1. Export Project
     - 3DE4 >> Export Project >>> Maya...
