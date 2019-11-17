@@ -52,7 +52,10 @@
 
 ### Solving
 - Set Film Back
-    - 
+    - Camera: [Canon EOS 40D](https://ko.wikipedia.org/wiki/%EC%BA%90%EB%85%BC_EOS_40D)
+    - Film Back: 22.20 X 14.8mm
+    - Focal Length: 24mm
+    > ![](../img/week3/metadata.png)<br>
 - Set Focal Length
 - Calc >> Calc All From Scratch... <kbd>Alt+C</kbd>
 - 좋은 솔브
