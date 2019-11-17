@@ -2,12 +2,14 @@
 
 ## Camera Tracking in 3DEqualizer
 ### Install Scripts
+1. Close 3DEqualizer
 1. Download Scripts
     > ![](../img/week3/download_script.png)
     - [flip_tracking_direction.py](https://gist.github.com/kohyuk91/547c6325b559960702aa5499214d0003)
     - [easy_dewarp.py](https://gist.github.com/kohyuk91/9df1c8a6903931f2c8ab7cb6bd532d95)
 1. Move Scripts to...
     - `path\to\3DE4_win64_r5\sys_data\py_scripts`
+1. Start 3DEqualizer
 ### 2D Point Tracking
 - 단축키
     - <kbd>Ctrl+LMB</kbd> - 포인트 생성
