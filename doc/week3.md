@@ -152,7 +152,8 @@
     - 3DE4 >> Export Project >>> Maya...
 1. Export Undistorted Plates
     - 3DE4 >> Run Warp4...
-
+    > 1936 X 1.05 = 2032.8 >> 2033<br>
+    > 1288 X 1.05 = 1352.4 >> 1353<br>
 
 ## Camera Tracking in Maya
 ### Install Shelf
