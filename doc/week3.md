@@ -104,8 +104,8 @@
     100. FL - 30mm & D2 - 0.0900 >> Alt+C >> Deviation
     ```
 
-### Exporting 3DE Scene to Maya
-1. Export Scene
+### Export 3DE Project to Maya
+1. Export Project
     - 3DE4 >> Export Project >>> Maya...
 1. Export Undistorted Plates
     - 3DE4 >> Run Warp4...
