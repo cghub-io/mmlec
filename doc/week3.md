@@ -23,7 +23,7 @@
     - <kbd>T</kbd> - 지정된 방향으로 전부 트랙
     - <kbd><</kbd><kbd>></kbd> - 한프레임 뒤로/앞으로 트랙
     - <kbd>E</kbd> - Start/End
-    - <kbd>R</kbd> - Flip Tracking Direction (스크립트 설치 필요)
+    - <kbd>R</kbd> - Flip Tracking Direction (스크립트 설치 필요, 단축키 설정 필요)
     - <kbd>←</kbd><kbd>→</kbd> - 한프레임 뒤로/앞으로 이동
     - <kbd>Page Down</kbd><kbd>Page Up</kbd> - 이전/다음 키프레임으로 이동
     - <kbd>Home</kbd><kbd>End</kbd> - 첫/마지막 프레임으로 이동
