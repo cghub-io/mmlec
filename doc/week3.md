@@ -12,8 +12,9 @@
     - `path\to\3DE4_win64_r5\sys_data\py_scripts`
 1. Start 3DEqualizer
 
-### Load Live Action Footage
+### Import Live Action Footage
 1. Browse
+    > ![](../img/week3/trackboy.0001.jpg)
 1. Export Buffer Compression File
 
 ### 2D Point Tracking
