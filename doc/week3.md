@@ -146,7 +146,9 @@
             > 평균에러값이 매우 낮아졌고, Deviation Curve 모양이 일자 이면서 바닥과 평행하다.<br>
 
 ### Orient Scene
-
+1. 그라운드 포인트(Ground Point)들 선택하기
+    > ![](../img/week3/select_ground_points.png)<br>
+1. 3D Orientation Controls<kbd>F6</kbd> >> Edit >> Align Multiple Points >> XZ Plane
 
 ### Export 3DE Project to Maya
 1. Export Project
