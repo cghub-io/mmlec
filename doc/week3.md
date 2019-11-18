@@ -13,9 +13,12 @@
     - `path\to\3DE4_win64_r5\sys_data\py_scripts`
 1. Start 3DEqualizer
 
+### Set Environment
+> ![](../img/week3/basic_environment.png)
+
 ### Import Sequence
 1. Browse
-    > ![](../img/week3/trackboy.0001.jpg)
+    > ![](../img/week3/import_sequence.png)
     > Image courtesy of [Science-D-Visions](http://www.sci-d-vis.com/)<br>
 1. Export Buffer Compression File
     > ![](../img/week3/export_image_buffer.png)
