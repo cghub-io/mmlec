@@ -204,6 +204,7 @@
 
 ### 오버스캔 상쇄 (Compensate for Overscan)
 1. 이미지플랜을 Undistort Plate로 교체한다
+    > ![](../img/week3/maya_undistorted_plate.png)
 1. 가로 & 세로 Scale을 알아낸다
     - Undistort Plate Width / Original Plate Width = 
     - Undistort Plate Height / Original Plate Height = 
