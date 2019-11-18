@@ -219,11 +219,17 @@
         - 0.581 × 1.0504658385 = 0.610
 1. Change Image Plane Size
     > ![](../img/week3/change_imagesize.png)
-    - SizeX = `Compensated Aperture Width`
-    - SizeY = `Compensated Aperture Height`
+    - SizeX = `Compensated Aperture Width` = 0.917
+    - SizeY = `Compensated Aperture Height` = 0.610
 1. Corrected
     > ![](../img/week3/maya_compensated.png)
 - Overscan 스크립트
+    1. 이미지플랜을 Undistort Plate로 교체한다
+    1. Overscan 스크립트 실행
+    1. 아웃라이너(Outliner)에서 카메라 선택하고 <kbd>Get</kbd> 버튼 클릭
+    1. Original Plate Resolution 입력
+    1. <kbd>Overscan</kbd> 버튼 클릭
+    
 ### Modeling Set Geometry
 - Holdout
 - Point Triangulation
