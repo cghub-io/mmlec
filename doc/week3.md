@@ -174,7 +174,7 @@
     1. Python >> Easy Dewarp...
         > ![](../img/week3/easy_dewarp.png)<br>
         > <kbd>+0.05</kbd> 클릭해서 Overscan Value를 `1.05`로 만든다<br>
-        > Bounding Box 글씨가 초록색으로 변했으면, Undistort Plate 뽑았을때 잘리는 픽셀이 없을거라는 뜻<br>
+        > (Bounding Box 글씨가 초록색으로 변하면, Undistort Plate 뽑았을때 잘리는 픽셀이 없다는 뜻)<br>
         > <kbd>Ok</kbd>를 누르면 지정된 경로에 Undistort Plate가 저장된다<br>
 ## Camera Tracking in Maya
 ### Install Shelf
