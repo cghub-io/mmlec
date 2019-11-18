@@ -147,13 +147,16 @@
             > 평균에러값이 매우 낮아졌고, Deviation Curve 모양이 일자 이면서 바닥과 평행하다.<br>
 
 ### Orient Scene
-1. 그라운드 포인트(Ground Point)들 선택하기
-    > ![](../img/week3/select_ground_points.png)<br>
-1. 3D Orientation Controls<kbd>F6</kbd> >> Edit >> Align Multiple Points >> XZ Plane
-    > ![](../img/week3/oriented.png)<br>
-- 씬이 거꾸로 뒤집히는 현상이 간헐적으로 발생하는데, 그럴땐 `XZ Plane`대신 `XZ Plane Flip`
-    > ![](../img/week3/oriented_flipped.png)<br>
-
+1. Align Multiple Points to XZ Plane
+    1. 그라운드 포인트(Ground Point)들 선택
+        > ![](../img/week3/select_ground_points.png)<br>
+    1. 3D Orientation Controls<kbd>F6</kbd> >> Edit >> Align Multiple Points >> XZ Plane
+        > ![](../img/week3/oriented.png)<br>
+    - 씬이 거꾸로 뒤집히는 현상이 간헐적으로 발생하는데, 그럴땐 `XZ Plane`대신 `XZ Plane Flip`
+        > ![](../img/week3/oriented_flipped.png)<br>
+1. Move 1 Point to Origin
+    1. Origin으로 보낼 포인트 하나 선택
+    1. 3D Orientation Controls<kbd>F6</kbd> >> Edit >> Move 1 Point To >> Origin
 ### Export 3DE Project to Maya
 1. Export Project
     - 3DE4 >> Export Project >>> Maya...
