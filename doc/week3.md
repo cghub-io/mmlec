@@ -101,7 +101,7 @@
     9. D2 - 0.0800 >> Alt+C >> Deviation
     10. D2 - 0.0900 >> Alt+C >> Deviation
     ```    
-- 10 samples(FL) X 10 samples(D2) = 100 samples
+- 10 samples(FL) × 10 samples(D2) = 100 samples
     ```
     1. FL - 21mm & D2 - 0.0000 >> Alt+C >> Deviation
     2. FL - 22mm & D2 - 0.0000 >> Alt+C >> Deviation
@@ -169,8 +169,8 @@
         > Save Footage <kbd>V</kbd> - 체크시 지정된 경로로 이미지 저장<br>
         > Overscan <kbd>User-Defined</kbd> | 2033 X 1353<br>
         > `Overscan Value: 1.05`<br>
-        > `1936 X 1.05 = 2032.8 >>올림>> 2033`<br>
-        > `1288 X 1.05 = 1352.4 >>올림>> 1353`<br>
+        > `1936 × 1.05 = 2032.8 >>올림>> 2033`<br>
+        > `1288 × 1.05 = 1352.4 >>올림>> 1353`<br>
         > Preview - Undistort Plate 뽑았을때 잘리는 픽셀이 있는지 확인<br>
         > Render... - 버튼을 누르면 지정된 경로에 Undistort Plate가 저장된다<br>
     1. Python >> Easy Dewarp...
@@ -212,10 +212,13 @@
     - Undistort Plate Height ÷ Original Plate Height = `Height Scale`
         - 1353 ÷ 1288 = 1.0504658385
 1. Change Film Back
-    - Camera Aperture Width X `Width Scale` = Compensated Aperture Width
-        - 22.20 X 1.0501033058 = 23.312
-    - Camera Aperture Height X `Height Scale` = Compensated Aperture Height
-        - 14.768 X 1.0504658385 = 15.513
+    - Camera Aperture Width(inch) × `Width Scale` = `Compensated Aperture Width`
+        - 0.874 × 1.0501033058 = 0.917
+    - Camera Aperture Height(inch) × `Height Scale` = `Compensated Aperture Height`
+        - 0.581 × 1.0504658385 = 0.610
+1. Change Image Plane Size
+    - SizeX = `Compensated Aperture Width`
+    - SizeY = `Compensated Aperture Height`
 - Overscan 스크립트
 ### Modeling Set Geometry
 - Holdout
