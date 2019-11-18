@@ -157,6 +157,7 @@
 1. Move 1 Point to Origin
     1. Origin으로 보낼 포인트 하나 선택
     1. 3D Orientation Controls<kbd>F6</kbd> >> Edit >> Move 1 Point To >> Origin
+        > ![](../img/week3/move_one_point_to_origin.png)<br>
 ### Export 3DE Project to Maya
 1. Export Project
     - 3DE4 >> Export Project >>> Maya...
