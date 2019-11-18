@@ -167,7 +167,7 @@
 ### Scale Scene
 - 3DEqualizer에서 Distance Constraint를 통해 씬스케일 조정 할 수 있으나, 같은 작업을 Maya에서 해보자. 스킵.
 - 남자의 키가 180cm 라고 가정하고 씬스케일을 맞출 것이다. 따라서 남자가 서 있는 (대략적인)위치가 필요하다.
-- 남자가 서 있는 위치를 Triangulate Points 스크립트을 사용해서 알아낸다.
+- 남자가 서 있는 위치를 Triangulate Points를 사용해서 알아낸다.
     > ![](../img/week3/triangulate_points.png)<br>
 ### Export 3DE Project to Maya
 1. Export Project
