@@ -13,7 +13,7 @@
     - `path\to\3DE4_win64_r5\sys_data\py_scripts`
 1. Start 3DEqualizer
 
-### Import Live Action Footage
+### Import Sequence
 1. Browse
     > ![](../img/week3/trackboy.0001.jpg)
     > Image courtesy of [Science-D-Visions](http://www.sci-d-vis.com/)<br>
