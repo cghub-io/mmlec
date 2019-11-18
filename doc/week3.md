@@ -218,6 +218,7 @@
     - Camera Aperture Height(inch) × `Height Scale` = `Compensated Aperture Height`
         - 0.581 × 1.0504658385 = 0.610
 1. Change Image Plane Size
+    > ![](../img/week3/change_imagesize.png)
     - SizeX = `Compensated Aperture Width`
     - SizeY = `Compensated Aperture Height`
 - Overscan 스크립트
