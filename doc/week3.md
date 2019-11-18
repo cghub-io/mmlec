@@ -212,9 +212,9 @@
     > ![](../img/week3/maya_original_plate.png)
 
 ### 오버스캔 상쇄 (Compensate for Overscan)
+- 3D포인트(로케이터)가 이퀄라이져 뷰포트와 다르게 위치해 있다. 이런 현상이 나타나는 이유는 우리가 강제로 이미지 사이즈를 키우면서 화각도 같이 키웠기 때문이다. 필름백 가로 길이와 세로 길이를 조절하여 오버스캔을 상쇄한다.
 1. 이미지플랜을 Undistort Plate로 교체한다
     > ![](../img/week3/maya_undistorted_plate.png)
-    - 3D포인트(로케이터)가 이퀄라이져 뷰포트와 다르게 위치해 있다. 이런 현상이 나타나는 이유는 우리가 강제로 이미지 사이즈를 키우면서 화각도 같이 키웠기 때문이다. 필름백 가로 길이와 세로 길이를 조절하여 오버스캔을 상쇄한다.
 1. Get Scale
     - Undistort Plate Width ÷ Original Plate Width = `Width Scale`
         - 2033 ÷ 1936 = 1.0501033058
