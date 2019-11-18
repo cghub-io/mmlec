@@ -16,6 +16,7 @@
 ### Import Live Action Footage
 1. Browse
     > ![](../img/week3/trackboy.0001.jpg)
+    > Image courtesy of Science-D-Visions<br>
 1. Export Buffer Compression File
     > ![](../img/week3/export_image_buffer.png)
 ### 2D Point Tracking
