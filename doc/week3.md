@@ -200,10 +200,14 @@
     
 ### 3DE 프로젝트 임포트 (Import 3DE Project)
 - 뷰포트(viewport)에 멜스크립트(MEL Script)를 드래그 앤 드롭
+    > ![](../img/week3/maya_original_plate.png)
 
 ### 오버스캔 상쇄 (Compensate for Overscan)
-
-
+1. 이미지플랜을 Undistort Plate로 교체한다
+1. 가로 & 세로 Scale을 알아낸다
+    - Undistort Plate Width / Original Plate Width = 
+    - Undistort Plate Height / Original Plate Height = 
+- Overscan 스크립트
 ### Modeling Set Geometry
 - Holdout
 - Point Triangulation
