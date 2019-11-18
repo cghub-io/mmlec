@@ -18,7 +18,7 @@
 
 ### Import Sequence
 1. Browse
-    > ![](../img/week3/import_sequence.png)
+    > ![](../img/week3/import_sequence.png)<br>
     > ![](../img/week3/import_sequence_done.png)<br>
     > Image courtesy of [Science-D-Visions](http://www.sci-d-vis.com/)<br>
 1. Export Buffer Compression File
