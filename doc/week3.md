@@ -243,6 +243,8 @@
     1. <kbd>Overscan</kbd> 버튼 클릭
     
 ### Modeling Set Geometry
+1. 바닥 & 벽 모델링
+1. 사다리 모델링
 - Holdout
 - Point Triangulation
 
