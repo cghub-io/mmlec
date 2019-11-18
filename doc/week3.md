@@ -161,6 +161,7 @@
 ### Export 3DE Project to Maya
 1. Export Project
     - 3DE4 >> Export Project >>> Maya...
+        > ![](../img/week3/export_maya.png)<br>
 1. Export Undistorted Plates
     1. 3DE4 >> Run Warp4...
         > ![](../img/week3/warp4.png)<br>
