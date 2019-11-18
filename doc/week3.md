@@ -206,9 +206,16 @@
 1. 이미지플랜을 Undistort Plate로 교체한다
     > ![](../img/week3/maya_undistorted_plate.png)
     - 3D포인트(로케이터)가 이퀄라이져 뷰포트와 다르게 위치해 있다. 이런 현상이 나타나는 이유는 우리가 강제로 이미지 사이즈를 키우면서 화각도 같이 키웠기 때문이다. 필름백 가로 길이와 세로 길이를 조절하여 오버스캔을 상쇄한다.
-1. 가로 & 세로 Scale을 알아낸다
-    - Undistort Plate Width ÷ Original Plate Width = 
-    - Undistort Plate Height ÷ Original Plate Height = 
+1. Get Scale
+    - Undistort Plate Width ÷ Original Plate Width = `Width Scale`
+        - 2033 ÷ 1936 = 1.0501033058
+    - Undistort Plate Height ÷ Original Plate Height = `Height Scale`
+        - 1353 ÷ 1288 = 1.0504658385
+1. Change Film Back
+    - Camera Aperture Width X `Width Scale` = Compensated Aperture Width
+        - 22.20 X 1.0501033058 = 23.312
+    - Camera Aperture Height X `Height Scale` = Compensated Aperture Height
+        - 14.768 X 1.0504658385 = 15.513
 - Overscan 스크립트
 ### Modeling Set Geometry
 - Holdout
