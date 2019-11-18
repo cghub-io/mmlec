@@ -221,6 +221,8 @@
     > ![](../img/week3/change_imagesize.png)
     - SizeX = `Compensated Aperture Width`
     - SizeY = `Compensated Aperture Height`
+1. Corrected
+    > ![](../img/week3/maya_compensated.png)
 - Overscan 스크립트
 ### Modeling Set Geometry
 - Holdout
