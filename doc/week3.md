@@ -226,6 +226,7 @@
 - Overscan 스크립트
     1. 이미지플랜을 Undistort Plate로 교체한다
     1. Overscan 스크립트 실행
+        > ![](../img/week3/oscam_mmshelf.png)
     1. 아웃라이너(Outliner)에서 카메라 선택하고 <kbd>Get</kbd> 버튼 클릭
         > ![](../img/week3/oscam_get_camera.png)
     1. Original Plate Resolution 입력
