@@ -212,6 +212,7 @@
     - Undistort Plate Height ÷ Original Plate Height = `Height Scale`
         - 1353 ÷ 1288 = 1.0504658385
 1. Change Film Back
+    > ![](../img/week3/change_fb.png)
     - Camera Aperture Width(inch) × `Width Scale` = `Compensated Aperture Width`
         - 0.874 × 1.0501033058 = 0.917
     - Camera Aperture Height(inch) × `Height Scale` = `Compensated Aperture Height`
