@@ -159,6 +159,10 @@
     1. Origin으로 보낼 포인트 하나 선택
     1. 3D Orientation Controls<kbd>F6</kbd> >> Edit >> Move 1 Point To >> Origin
         > ![](../img/week3/move_one_point_to_origin.png)<br>
+
+### Scale Scene
+- 3DEqualizer에서 Distance Constraint를 통해 씬스케일 조정 할 수 있으나, 같은 작업을 Maya에서 해보자. 스킵. 
+        
 ### Export 3DE Project to Maya
 1. Export Project
     - 3DE4 >> Export Project >>> Maya...
