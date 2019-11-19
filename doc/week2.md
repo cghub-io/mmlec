@@ -39,6 +39,11 @@
 
 ### Condition
 1. 최소 대응점 개수
+- 위치(Position) XYZ, 회전(Rotation) XYZ 6개의 값을 솔브하기 위해서, 프레임 마다 최소 6개의 대응점이 필요하다.
+- BAD
+    > ![](../img/week2/min_markers_bad.gif)
+- GOOD
+    > ![](../img/week2/min_markers_good.gif)
 1. 정적인 장면
 1. 시차
     - Parallax(패럴랙스)
