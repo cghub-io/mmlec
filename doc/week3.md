@@ -69,7 +69,7 @@
     - Film Back: 22.20 X 14.8mm
     - Focal Length: 24mm
     > ![](../img/week3/metadata.png)<br>
-    > 메타데이터(Metadata)로도 확인 가능
+    > 메타데이터(Metadata)
 - Calc >> Calc All From Scratch... <kbd>Alt+C</kbd>
     > ![](../img/week3/initial_solve.png)<br>
     - Deviation Curve가 `W` 모양이다. 평균에러값도 `0.5281`로 높은편이다.
