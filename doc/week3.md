@@ -250,7 +250,7 @@
     > ![](../img/week3/ground_wall_modeling_persp.png)<br>
 
 ### Scale Scene
-- `man_180cm.ma` 파일 임포트
+- `man_180cm.obj` 임포트
 
 ### Preview
 - Playblast
