@@ -1,0 +1,894 @@
+//
+// Maya/MEL export data written by 3DEqualizer4 Release 5
+//
+// All lengths are in centimeter, all angles are in degree.
+//
+
+// create scene group...
+string $sceneGroupName = `group -em -name "Scene"`;
+
+// create camera trackboy_1_1...
+string $cameraNodes[] = `camera -name "trackboy_1_1" -hfa 0.874015748031496  -vfa 0.581473286913516 -fl 24.961197977897292 -ncp 0.01 -fcp 10000 -shutterAngle 180 -ff "overscan"`;
+string $cameraTransform = $cameraNodes[0];
+string $cameraShape = $cameraNodes[1];
+xform -zeroTransformPivots -rotateOrder zxy $cameraTransform;
+setAttr ($cameraShape+".horizontalFilmOffset") -0.000000000000000;
+setAttr ($cameraShape+".verticalFilmOffset") -0.000000000000000;
+xform -translation 19.285990135705703 2.344256286053721 131.995502777628957 $cameraTransform;
+xform -rotation -0.659533758296798 10.830199623863729 -0.190586867347582 $cameraTransform;
+xform -scale 1 1 1 $cameraTransform;
+
+// create image plane...
+string $myImagePlane[] = `imagePlane -camera $cameraTransform` ;
+setAttr ($myImagePlane[1] + ".offsetX") -0.000000000000000;
+setAttr ($myImagePlane[1] + ".offsetY") -0.000000000000000;
+setAttr ($myImagePlane[1]+".useFrameExtension") 1;
+expression -n "frame_ext_expression" -s ($myImagePlane[1]+".frameExtension=frame");
+setAttr ($myImagePlane[1] + ".imageName") -type "string" "c:/Users/hko/Desktop/MM101/week3/trackboy/plate/jpg/trackboy.0001.jpg";
+setAttr ($myImagePlane[1] + ".fit") 4;
+setAttr ($myImagePlane[1] + ".displayOnlyIfCurrent") 1;
+setAttr ($myImagePlane[1]  + ".depth") (9000/2);
+
+// parent camera to scene group...
+parent $cameraTransform $sceneGroupName;
+
+// animating camera trackboy_1_1...
+playbackOptions -min 1 -max 72;
+
+setKeyframe -at translateX -t 1 -v 19.285990135705703 $cameraTransform; 
+setKeyframe -at translateY -t 1 -v 2.344256286053721 $cameraTransform; 
+setKeyframe -at translateZ -t 1 -v 131.995502777628957 $cameraTransform; 
+setKeyframe -at rotateX -t 1 -v -0.659533758296798 $cameraTransform; 
+setKeyframe -at rotateY -t 1 -v 10.830199623863729 $cameraTransform; 
+setKeyframe -at rotateZ -t 1 -v -0.190586867347582 $cameraTransform; 
+setKeyframe -at focalLength -t 1 -v 24.961197977897292 $cameraShape;
+setKeyframe -at translateX -t 2 -v 18.683226515246098 $cameraTransform; 
+setKeyframe -at translateY -t 2 -v 2.340618865203121 $cameraTransform; 
+setKeyframe -at translateZ -t 2 -v 132.159619207483473 $cameraTransform; 
+setKeyframe -at rotateX -t 2 -v -0.622208237287542 $cameraTransform; 
+setKeyframe -at rotateY -t 2 -v 10.324621582734922 $cameraTransform; 
+setKeyframe -at rotateZ -t 2 -v -0.181230360702411 $cameraTransform; 
+setKeyframe -at focalLength -t 2 -v 24.961197977897292 $cameraShape;
+setKeyframe -at translateX -t 3 -v 18.074221021332555 $cameraTransform; 
+setKeyframe -at translateY -t 3 -v 2.335332118160153 $cameraTransform; 
+setKeyframe -at translateZ -t 3 -v 132.319390058004643 $cameraTransform; 
+setKeyframe -at rotateX -t 3 -v -0.655648979402845 $cameraTransform; 
+setKeyframe -at rotateY -t 3 -v 9.793254443264697 $cameraTransform; 
+setKeyframe -at rotateZ -t 3 -v -0.156475168511145 $cameraTransform; 
+setKeyframe -at focalLength -t 3 -v 24.961197977897292 $cameraShape;
+setKeyframe -at translateX -t 4 -v 17.461465949633254 $cameraTransform; 
+setKeyframe -at translateY -t 4 -v 2.329327436046183 $cameraTransform; 
+setKeyframe -at translateZ -t 4 -v 132.473922504576933 $cameraTransform; 
+setKeyframe -at rotateX -t 4 -v -0.696902670123022 $cameraTransform; 
+setKeyframe -at rotateY -t 4 -v 9.267073759318144 $cameraTransform; 
+setKeyframe -at rotateZ -t 4 -v -0.126230869287067 $cameraTransform; 
+setKeyframe -at focalLength -t 4 -v 24.961197977897292 $cameraShape;
+setKeyframe -at translateX -t 5 -v 16.855954259998416 $cameraTransform; 
+setKeyframe -at translateY -t 5 -v 2.324593937181001 $cameraTransform; 
+setKeyframe -at translateZ -t 5 -v 132.622797268192159 $cameraTransform; 
+setKeyframe -at rotateX -t 5 -v -0.694366490547399 $cameraTransform; 
+setKeyframe -at rotateY -t 5 -v 8.716327281993163 $cameraTransform; 
+setKeyframe -at rotateZ -t 5 -v -0.116278274394156 $cameraTransform; 
+setKeyframe -at focalLength -t 5 -v 24.961197977897292 $cameraShape;
+setKeyframe -at translateX -t 6 -v 16.268819340102425 $cameraTransform; 
+setKeyframe -at translateY -t 6 -v 2.321537052992751 $cameraTransform; 
+setKeyframe -at translateZ -t 6 -v 132.764237892159400 $cameraTransform; 
+setKeyframe -at rotateX -t 6 -v -0.689811978679392 $cameraTransform; 
+setKeyframe -at rotateY -t 6 -v 8.189359847403502 $cameraTransform; 
+setKeyframe -at rotateZ -t 6 -v -0.103601537501969 $cameraTransform; 
+setKeyframe -at focalLength -t 6 -v 24.961197977897292 $cameraShape;
+setKeyframe -at translateX -t 7 -v 15.707429342090544 $cameraTransform; 
+setKeyframe -at translateY -t 7 -v 2.319180727276311 $cameraTransform; 
+setKeyframe -at translateZ -t 7 -v 132.896344688709945 $cameraTransform; 
+setKeyframe -at rotateX -t 7 -v -0.698299548232358 $cameraTransform; 
+setKeyframe -at rotateY -t 7 -v 7.703588954749799 $cameraTransform; 
+setKeyframe -at rotateZ -t 7 -v -0.105587854719958 $cameraTransform; 
+setKeyframe -at focalLength -t 7 -v 24.961197977897292 $cameraShape;
+setKeyframe -at translateX -t 8 -v 15.170867734102462 $cameraTransform; 
+setKeyframe -at translateY -t 8 -v 2.316700823987662 $cameraTransform; 
+setKeyframe -at translateZ -t 8 -v 133.019710231535981 $cameraTransform; 
+setKeyframe -at rotateX -t 8 -v -0.694267974887330 $cameraTransform; 
+setKeyframe -at rotateY -t 8 -v 7.217059269140022 $cameraTransform; 
+setKeyframe -at rotateZ -t 8 -v -0.106946598235300 $cameraTransform; 
+setKeyframe -at focalLength -t 8 -v 24.961197977897292 $cameraShape;
+setKeyframe -at translateX -t 9 -v 14.654037976601348 $cameraTransform; 
+setKeyframe -at translateY -t 9 -v 2.314130255183954 $cameraTransform; 
+setKeyframe -at translateZ -t 9 -v 133.135775226815099 $cameraTransform; 
+setKeyframe -at rotateX -t 9 -v -0.679166953181308 $cameraTransform; 
+setKeyframe -at rotateY -t 9 -v 6.751688615909563 $cameraTransform; 
+setKeyframe -at rotateZ -t 9 -v -0.093460102891506 $cameraTransform; 
+setKeyframe -at focalLength -t 9 -v 24.961197977897292 $cameraShape;
+setKeyframe -at translateX -t 10 -v 14.151565948499393 $cameraTransform; 
+setKeyframe -at translateY -t 10 -v 2.312025195486076 $cameraTransform; 
+setKeyframe -at translateZ -t 10 -v 133.245275222691816 $cameraTransform; 
+setKeyframe -at rotateX -t 10 -v -0.665377654428308 $cameraTransform; 
+setKeyframe -at rotateY -t 10 -v 6.296745833653020 $cameraTransform; 
+setKeyframe -at rotateZ -t 10 -v -0.065958168470574 $cameraTransform; 
+setKeyframe -at focalLength -t 10 -v 24.961197977897292 $cameraShape;
+setKeyframe -at translateX -t 11 -v 13.663275509165025 $cameraTransform; 
+setKeyframe -at translateY -t 11 -v 2.310627451784366 $cameraTransform; 
+setKeyframe -at translateZ -t 11 -v 133.346929027762883 $cameraTransform; 
+setKeyframe -at rotateX -t 11 -v -0.662693331825776 $cameraTransform; 
+setKeyframe -at rotateY -t 11 -v 5.915591279774957 $cameraTransform; 
+setKeyframe -at rotateZ -t 11 -v -0.007874892719922 $cameraTransform; 
+setKeyframe -at focalLength -t 11 -v 24.961197977897292 $cameraShape;
+setKeyframe -at translateX -t 12 -v 13.190567779103768 $cameraTransform; 
+setKeyframe -at translateY -t 12 -v 2.309484062078532 $cameraTransform; 
+setKeyframe -at translateZ -t 12 -v 133.438523607658908 $cameraTransform; 
+setKeyframe -at rotateX -t 12 -v -0.653715756794067 $cameraTransform; 
+setKeyframe -at rotateY -t 12 -v 5.520732055572777 $cameraTransform; 
+setKeyframe -at rotateZ -t 12 -v 0.010653598704923 $cameraTransform; 
+setKeyframe -at focalLength -t 12 -v 24.961197977897292 $cameraShape;
+setKeyframe -at translateX -t 13 -v 12.728386087656649 $cameraTransform; 
+setKeyframe -at translateY -t 13 -v 2.308524714540262 $cameraTransform; 
+setKeyframe -at translateZ -t 13 -v 133.520658489566785 $cameraTransform; 
+setKeyframe -at rotateX -t 13 -v -0.654051699663953 $cameraTransform; 
+setKeyframe -at rotateY -t 13 -v 5.128661536599469 $cameraTransform; 
+setKeyframe -at rotateZ -t 13 -v 0.042121151316080 $cameraTransform; 
+setKeyframe -at focalLength -t 13 -v 24.961197977897292 $cameraShape;
+setKeyframe -at translateX -t 14 -v 12.261068199492254 $cameraTransform; 
+setKeyframe -at translateY -t 14 -v 2.308366550928601 $cameraTransform; 
+setKeyframe -at translateZ -t 14 -v 133.597779198728460 $cameraTransform; 
+setKeyframe -at rotateX -t 14 -v -0.663738126788760 $cameraTransform; 
+setKeyframe -at rotateY -t 14 -v 4.757045816011482 $cameraTransform; 
+setKeyframe -at rotateZ -t 14 -v 0.037701146051956 $cameraTransform; 
+setKeyframe -at focalLength -t 14 -v 24.961197977897292 $cameraShape;
+setKeyframe -at translateX -t 15 -v 11.767593588746550 $cameraTransform; 
+setKeyframe -at translateY -t 15 -v 2.308615338462717 $cameraTransform; 
+setKeyframe -at translateZ -t 15 -v 133.677101115133780 $cameraTransform; 
+setKeyframe -at rotateX -t 15 -v -0.680290978912161 $cameraTransform; 
+setKeyframe -at rotateY -t 15 -v 4.352241873786636 $cameraTransform; 
+setKeyframe -at rotateZ -t 15 -v 0.056094743098948 $cameraTransform; 
+setKeyframe -at focalLength -t 15 -v 24.961197977897292 $cameraShape;
+setKeyframe -at translateX -t 16 -v 11.231680958599219 $cameraTransform; 
+setKeyframe -at translateY -t 16 -v 2.307967237169976 $cameraTransform; 
+setKeyframe -at translateZ -t 16 -v 133.764889650775103 $cameraTransform; 
+setKeyframe -at rotateX -t 16 -v -0.693226866446963 $cameraTransform; 
+setKeyframe -at rotateY -t 16 -v 3.925674857117783 $cameraTransform; 
+setKeyframe -at rotateZ -t 16 -v 0.081630610131496 $cameraTransform; 
+setKeyframe -at focalLength -t 16 -v 24.961197977897292 $cameraShape;
+setKeyframe -at translateX -t 17 -v 10.647560432301505 $cameraTransform; 
+setKeyframe -at translateY -t 17 -v 2.306542434523851 $cameraTransform; 
+setKeyframe -at translateZ -t 17 -v 133.862682308305068 $cameraTransform; 
+setKeyframe -at rotateX -t 17 -v -0.696341113285476 $cameraTransform; 
+setKeyframe -at rotateY -t 17 -v 3.386661186858175 $cameraTransform; 
+setKeyframe -at rotateZ -t 17 -v 0.119415080372075 $cameraTransform; 
+setKeyframe -at focalLength -t 17 -v 24.961197977897292 $cameraShape;
+setKeyframe -at translateX -t 18 -v 10.022164988635149 $cameraTransform; 
+setKeyframe -at translateY -t 18 -v 2.305770988611857 $cameraTransform; 
+setKeyframe -at translateZ -t 18 -v 133.966298392197160 $cameraTransform; 
+setKeyframe -at rotateX -t 18 -v -0.670849710591561 $cameraTransform; 
+setKeyframe -at rotateY -t 18 -v 2.830631642378454 $cameraTransform; 
+setKeyframe -at rotateZ -t 18 -v 0.110975977632311 $cameraTransform; 
+setKeyframe -at focalLength -t 18 -v 24.961197977897292 $cameraShape;
+setKeyframe -at translateX -t 19 -v 9.369897761666550 $cameraTransform; 
+setKeyframe -at translateY -t 19 -v 2.306078487535387 $cameraTransform; 
+setKeyframe -at translateZ -t 19 -v 134.068838721881974 $cameraTransform; 
+setKeyframe -at rotateX -t 19 -v -0.636367520560279 $cameraTransform; 
+setKeyframe -at rotateY -t 19 -v 2.249954695737917 $cameraTransform; 
+setKeyframe -at rotateZ -t 19 -v 0.119981763431820 $cameraTransform; 
+setKeyframe -at focalLength -t 19 -v 24.961197977897292 $cameraShape;
+setKeyframe -at translateX -t 20 -v 8.709930494030969 $cameraTransform; 
+setKeyframe -at translateY -t 20 -v 2.306539168910868 $cameraTransform; 
+setKeyframe -at translateZ -t 20 -v 134.165508634850084 $cameraTransform; 
+setKeyframe -at rotateX -t 20 -v -0.653221799778035 $cameraTransform; 
+setKeyframe -at rotateY -t 20 -v 1.718674780862731 $cameraTransform; 
+setKeyframe -at rotateZ -t 20 -v 0.162452876967105 $cameraTransform; 
+setKeyframe -at focalLength -t 20 -v 24.961197977897292 $cameraShape;
+setKeyframe -at translateX -t 21 -v 8.061551831165145 $cameraTransform; 
+setKeyframe -at translateY -t 21 -v 2.306185197160597 $cameraTransform; 
+setKeyframe -at translateZ -t 21 -v 134.255907784225883 $cameraTransform; 
+setKeyframe -at rotateX -t 21 -v -0.696903273519835 $cameraTransform; 
+setKeyframe -at rotateY -t 21 -v 1.135979338990025 $cameraTransform; 
+setKeyframe -at rotateZ -t 21 -v 0.187771852424947 $cameraTransform; 
+setKeyframe -at focalLength -t 21 -v 24.961197977897292 $cameraShape;
+setKeyframe -at translateX -t 22 -v 7.440052070939368 $cameraTransform; 
+setKeyframe -at translateY -t 22 -v 2.304816754276625 $cameraTransform; 
+setKeyframe -at translateZ -t 22 -v 134.340994954595828 $cameraTransform; 
+setKeyframe -at rotateX -t 22 -v -0.676219185992049 $cameraTransform; 
+setKeyframe -at rotateY -t 22 -v 0.563542012206571 $cameraTransform; 
+setKeyframe -at rotateZ -t 22 -v 0.169569506350560 $cameraTransform; 
+setKeyframe -at focalLength -t 22 -v 24.961197977897292 $cameraShape;
+setKeyframe -at translateX -t 23 -v 6.853703942297223 $cameraTransform; 
+setKeyframe -at translateY -t 23 -v 2.302705885097823 $cameraTransform; 
+setKeyframe -at translateZ -t 23 -v 134.418489961621731 $cameraTransform; 
+setKeyframe -at rotateX -t 23 -v -0.623558178015940 $cameraTransform; 
+setKeyframe -at rotateY -t 23 -v 0.002008195033865 $cameraTransform; 
+setKeyframe -at rotateZ -t 23 -v 0.161391950478189 $cameraTransform; 
+setKeyframe -at focalLength -t 23 -v 24.961197977897292 $cameraShape;
+setKeyframe -at translateX -t 24 -v 6.306189336678448 $cameraTransform; 
+setKeyframe -at translateY -t 24 -v 2.299776180269330 $cameraTransform; 
+setKeyframe -at translateZ -t 24 -v 134.482222591255635 $cameraTransform; 
+setKeyframe -at rotateX -t 24 -v -0.571510376927125 $cameraTransform; 
+setKeyframe -at rotateY -t 24 -v -0.499733747339136 $cameraTransform; 
+setKeyframe -at rotateZ -t 24 -v 0.138467037326444 $cameraTransform; 
+setKeyframe -at focalLength -t 24 -v 24.961197977897292 $cameraShape;
+setKeyframe -at translateX -t 25 -v 5.798829139077236 $cameraTransform; 
+setKeyframe -at translateY -t 25 -v 2.295218532262822 $cameraTransform; 
+setKeyframe -at translateZ -t 25 -v 134.527683437987776 $cameraTransform; 
+setKeyframe -at rotateX -t 25 -v -0.556320990503147 $cameraTransform; 
+setKeyframe -at rotateY -t 25 -v -0.897219848056727 $cameraTransform; 
+setKeyframe -at rotateZ -t 25 -v 0.117593736536426 $cameraTransform; 
+setKeyframe -at focalLength -t 25 -v 24.961197977897292 $cameraShape;
+setKeyframe -at translateX -t 26 -v 5.329706885518182 $cameraTransform; 
+setKeyframe -at translateY -t 26 -v 2.288391311869506 $cameraTransform; 
+setKeyframe -at translateZ -t 26 -v 134.557232400127418 $cameraTransform; 
+setKeyframe -at rotateX -t 26 -v -0.590055198783837 $cameraTransform; 
+setKeyframe -at rotateY -t 26 -v -1.320583983372907 $cameraTransform; 
+setKeyframe -at rotateZ -t 26 -v 0.117879022612512 $cameraTransform; 
+setKeyframe -at focalLength -t 26 -v 24.961197977897292 $cameraShape;
+setKeyframe -at translateX -t 27 -v 4.892826198160884 $cameraTransform; 
+setKeyframe -at translateY -t 27 -v 2.280358047721451 $cameraTransform; 
+setKeyframe -at translateZ -t 27 -v 134.578294036555917 $cameraTransform; 
+setKeyframe -at rotateX -t 27 -v -0.626785357828085 $cameraTransform; 
+setKeyframe -at rotateY -t 27 -v -1.666070368845457 $cameraTransform; 
+setKeyframe -at rotateZ -t 27 -v 0.109429817493350 $cameraTransform; 
+setKeyframe -at focalLength -t 27 -v 24.961197977897292 $cameraShape;
+setKeyframe -at translateX -t 28 -v 4.476675771483188 $cameraTransform; 
+setKeyframe -at translateY -t 28 -v 2.273416877079373 $cameraTransform; 
+setKeyframe -at translateZ -t 28 -v 134.597849977088003 $cameraTransform; 
+setKeyframe -at rotateX -t 28 -v -0.615361903481005 $cameraTransform; 
+setKeyframe -at rotateY -t 28 -v -2.029288999887974 $cameraTransform; 
+setKeyframe -at rotateZ -t 28 -v 0.076045158268623 $cameraTransform; 
+setKeyframe -at focalLength -t 28 -v 24.961197977897292 $cameraShape;
+setKeyframe -at translateX -t 29 -v 4.067359559753747 $cameraTransform; 
+setKeyframe -at translateY -t 29 -v 2.268879889337049 $cameraTransform; 
+setKeyframe -at translateZ -t 29 -v 134.617557392469223 $cameraTransform; 
+setKeyframe -at rotateX -t 29 -v -0.603059772963447 $cameraTransform; 
+setKeyframe -at rotateY -t 29 -v -2.385174293216371 $cameraTransform; 
+setKeyframe -at rotateZ -t 29 -v 0.058369039512176 $cameraTransform; 
+setKeyframe -at focalLength -t 29 -v 24.961197977897292 $cameraShape;
+setKeyframe -at translateX -t 30 -v 3.650732152940809 $cameraTransform; 
+setKeyframe -at translateY -t 30 -v 2.266016146294961 $cameraTransform; 
+setKeyframe -at translateZ -t 30 -v 134.635303908921344 $cameraTransform; 
+setKeyframe -at rotateX -t 30 -v -0.609217828619307 $cameraTransform; 
+setKeyframe -at rotateY -t 30 -v -2.749130404707359 $cameraTransform; 
+setKeyframe -at rotateZ -t 30 -v 0.061889443419413 $cameraTransform; 
+setKeyframe -at focalLength -t 30 -v 24.961197977897292 $cameraShape;
+setKeyframe -at translateX -t 31 -v 3.215385012441256 $cameraTransform; 
+setKeyframe -at translateY -t 31 -v 2.263096005186011 $cameraTransform; 
+setKeyframe -at translateZ -t 31 -v 134.649354239561546 $cameraTransform; 
+setKeyframe -at rotateX -t 31 -v -0.596754392258624 $cameraTransform; 
+setKeyframe -at rotateY -t 31 -v -3.103470016787646 $cameraTransform; 
+setKeyframe -at rotateZ -t 31 -v 0.059505613090336 $cameraTransform; 
+setKeyframe -at focalLength -t 31 -v 24.961197977897292 $cameraShape;
+setKeyframe -at translateX -t 32 -v 2.753370454241453 $cameraTransform; 
+setKeyframe -at translateY -t 32 -v 2.259338649571520 $cameraTransform; 
+setKeyframe -at translateZ -t 32 -v 134.660071362675097 $cameraTransform; 
+setKeyframe -at rotateX -t 32 -v -0.602577764135829 $cameraTransform; 
+setKeyframe -at rotateY -t 32 -v -3.470921048193137 $cameraTransform; 
+setKeyframe -at rotateZ -t 32 -v 0.052551909920857 $cameraTransform; 
+setKeyframe -at focalLength -t 32 -v 24.961197977897292 $cameraShape;
+setKeyframe -at translateX -t 33 -v 2.261260849760676 $cameraTransform; 
+setKeyframe -at translateY -t 33 -v 2.255490436040201 $cameraTransform; 
+setKeyframe -at translateZ -t 33 -v 134.669622973261369 $cameraTransform; 
+setKeyframe -at rotateX -t 33 -v -0.624735430097012 $cameraTransform; 
+setKeyframe -at rotateY -t 33 -v -3.916148291819268 $cameraTransform; 
+setKeyframe -at rotateZ -t 33 -v 0.024518703471791 $cameraTransform; 
+setKeyframe -at focalLength -t 33 -v 24.961197977897292 $cameraShape;
+setKeyframe -at translateX -t 34 -v 1.742062566708119 $cameraTransform; 
+setKeyframe -at translateY -t 34 -v 2.251951708834901 $cameraTransform; 
+setKeyframe -at translateZ -t 34 -v 134.678518229238193 $cameraTransform; 
+setKeyframe -at rotateX -t 34 -v -0.618881157187602 $cameraTransform; 
+setKeyframe -at rotateY -t 34 -v -4.365370525864932 $cameraTransform; 
+setKeyframe -at rotateZ -t 34 -v 0.041024944936817 $cameraTransform; 
+setKeyframe -at focalLength -t 34 -v 24.961197977897292 $cameraShape;
+setKeyframe -at translateX -t 35 -v 1.202286110215836 $cameraTransform; 
+setKeyframe -at translateY -t 35 -v 2.248005573635701 $cameraTransform; 
+setKeyframe -at translateZ -t 35 -v 134.684376042893518 $cameraTransform; 
+setKeyframe -at rotateX -t 35 -v -0.607782910041991 $cameraTransform; 
+setKeyframe -at rotateY -t 35 -v -4.807166721258091 $cameraTransform; 
+setKeyframe -at rotateZ -t 35 -v 0.045426307135046 $cameraTransform; 
+setKeyframe -at focalLength -t 35 -v 24.961197977897292 $cameraShape;
+setKeyframe -at translateX -t 36 -v 0.646510415402110 $cameraTransform; 
+setKeyframe -at translateY -t 36 -v 2.243368144154444 $cameraTransform; 
+setKeyframe -at translateZ -t 36 -v 134.684952175607407 $cameraTransform; 
+setKeyframe -at rotateX -t 36 -v -0.601428026722019 $cameraTransform; 
+setKeyframe -at rotateY -t 36 -v -5.242985708240218 $cameraTransform; 
+setKeyframe -at rotateZ -t 36 -v 0.019101418933826 $cameraTransform; 
+setKeyframe -at focalLength -t 36 -v 24.961197977897292 $cameraShape;
+setKeyframe -at translateX -t 37 -v 0.074785226862257 $cameraTransform; 
+setKeyframe -at translateY -t 37 -v 2.238253736183439 $cameraTransform; 
+setKeyframe -at translateZ -t 37 -v 134.680424214097087 $cameraTransform; 
+setKeyframe -at rotateX -t 37 -v -0.607427387311188 $cameraTransform; 
+setKeyframe -at rotateY -t 37 -v -5.692913585039061 $cameraTransform; 
+setKeyframe -at rotateZ -t 37 -v -0.014423395312009 $cameraTransform; 
+setKeyframe -at focalLength -t 37 -v 24.961197977897292 $cameraShape;
+setKeyframe -at translateX -t 38 -v -0.513636073673962 $cameraTransform; 
+setKeyframe -at translateY -t 38 -v 2.232873763640420 $cameraTransform; 
+setKeyframe -at translateZ -t 38 -v 134.672113252794105 $cameraTransform; 
+setKeyframe -at rotateX -t 38 -v -0.612421003171151 $cameraTransform; 
+setKeyframe -at rotateY -t 38 -v -6.175662256660681 $cameraTransform; 
+setKeyframe -at rotateZ -t 38 -v -0.026717393857772 $cameraTransform; 
+setKeyframe -at focalLength -t 38 -v 24.961197977897292 $cameraShape;
+setKeyframe -at translateX -t 39 -v -1.115926952282720 $cameraTransform; 
+setKeyframe -at translateY -t 39 -v 2.227909184757873 $cameraTransform; 
+setKeyframe -at translateZ -t 39 -v 134.660052066510190 $cameraTransform; 
+setKeyframe -at rotateX -t 39 -v -0.609076366839540 $cameraTransform; 
+setKeyframe -at rotateY -t 39 -v -6.644189678770593 $cameraTransform; 
+setKeyframe -at rotateZ -t 39 -v -0.020975311195673 $cameraTransform; 
+setKeyframe -at focalLength -t 39 -v 24.961197977897292 $cameraShape;
+setKeyframe -at translateX -t 40 -v -1.722629118518116 $cameraTransform; 
+setKeyframe -at translateY -t 40 -v 2.223715666453961 $cameraTransform; 
+setKeyframe -at translateZ -t 40 -v 134.642949279545206 $cameraTransform; 
+setKeyframe -at rotateX -t 40 -v -0.592955536135892 $cameraTransform; 
+setKeyframe -at rotateY -t 40 -v -7.131794640054419 $cameraTransform; 
+setKeyframe -at rotateZ -t 40 -v -0.012921354492089 $cameraTransform; 
+setKeyframe -at focalLength -t 40 -v 24.961197977897292 $cameraShape;
+setKeyframe -at translateX -t 41 -v -2.319562684455388 $cameraTransform; 
+setKeyframe -at translateY -t 41 -v 2.219538544346450 $cameraTransform; 
+setKeyframe -at translateZ -t 41 -v 134.620477889159275 $cameraTransform; 
+setKeyframe -at rotateX -t 41 -v -0.604491953469188 $cameraTransform; 
+setKeyframe -at rotateY -t 41 -v -7.583505845245372 $cameraTransform; 
+setKeyframe -at rotateZ -t 41 -v -0.063007938700986 $cameraTransform; 
+setKeyframe -at focalLength -t 41 -v 24.961197977897292 $cameraShape;
+setKeyframe -at translateX -t 42 -v -2.894870478569452 $cameraTransform; 
+setKeyframe -at translateY -t 42 -v 2.215021839584446 $cameraTransform; 
+setKeyframe -at translateZ -t 42 -v 134.593978602860176 $cameraTransform; 
+setKeyframe -at rotateX -t 42 -v -0.601056901041170 $cameraTransform; 
+setKeyframe -at rotateY -t 42 -v -8.072341384195491 $cameraTransform; 
+setKeyframe -at rotateZ -t 42 -v -0.095518686648441 $cameraTransform; 
+setKeyframe -at focalLength -t 42 -v 24.961197977897292 $cameraShape;
+setKeyframe -at translateX -t 43 -v -3.444531280153403 $cameraTransform; 
+setKeyframe -at translateY -t 43 -v 2.211287023288381 $cameraTransform; 
+setKeyframe -at translateZ -t 43 -v 134.564432685026418 $cameraTransform; 
+setKeyframe -at rotateX -t 43 -v -0.601706408137030 $cameraTransform; 
+setKeyframe -at rotateY -t 43 -v -8.500984504191750 $cameraTransform; 
+setKeyframe -at rotateZ -t 43 -v -0.085545238622053 $cameraTransform; 
+setKeyframe -at focalLength -t 43 -v 24.961197977897292 $cameraShape;
+setKeyframe -at translateX -t 44 -v -3.971795819221982 $cameraTransform; 
+setKeyframe -at translateY -t 44 -v 2.209185132259033 $cameraTransform; 
+setKeyframe -at translateZ -t 44 -v 134.531714332445517 $cameraTransform; 
+setKeyframe -at rotateX -t 44 -v -0.599209187979437 $cameraTransform; 
+setKeyframe -at rotateY -t 44 -v -8.934048795823639 $cameraTransform; 
+setKeyframe -at rotateZ -t 44 -v -0.078763850824237 $cameraTransform; 
+setKeyframe -at focalLength -t 44 -v 24.961197977897292 $cameraShape;
+setKeyframe -at translateX -t 45 -v -4.483569781200519 $cameraTransform; 
+setKeyframe -at translateY -t 45 -v 2.208189215545789 $cameraTransform; 
+setKeyframe -at translateZ -t 45 -v 134.495899157593300 $cameraTransform; 
+setKeyframe -at rotateX -t 45 -v -0.600223335586002 $cameraTransform; 
+setKeyframe -at rotateY -t 45 -v -9.323406614427933 $cameraTransform; 
+setKeyframe -at rotateZ -t 45 -v -0.053300003318451 $cameraTransform; 
+setKeyframe -at focalLength -t 45 -v 24.961197977897292 $cameraShape;
+setKeyframe -at translateX -t 46 -v -4.987885171839523 $cameraTransform; 
+setKeyframe -at translateY -t 46 -v 2.207719433179267 $cameraTransform; 
+setKeyframe -at translateZ -t 46 -v 134.458883526588522 $cameraTransform; 
+setKeyframe -at rotateX -t 46 -v -0.610464301189793 $cameraTransform; 
+setKeyframe -at rotateY -t 46 -v -9.706823383681209 $cameraTransform; 
+setKeyframe -at rotateZ -t 46 -v -0.030397919169883 $cameraTransform; 
+setKeyframe -at focalLength -t 46 -v 24.961197977897292 $cameraShape;
+setKeyframe -at translateX -t 47 -v -5.492340307264799 $cameraTransform; 
+setKeyframe -at translateY -t 47 -v 2.207801961428665 $cameraTransform; 
+setKeyframe -at translateZ -t 47 -v 134.422361663415586 $cameraTransform; 
+setKeyframe -at rotateX -t 47 -v -0.594400246717347 $cameraTransform; 
+setKeyframe -at rotateY -t 47 -v -10.145438565652192 $cameraTransform; 
+setKeyframe -at rotateZ -t 47 -v -0.042362430290940 $cameraTransform; 
+setKeyframe -at focalLength -t 47 -v 24.961197977897292 $cameraShape;
+setKeyframe -at translateX -t 48 -v -6.005043664796564 $cameraTransform; 
+setKeyframe -at translateY -t 48 -v 2.208186691602477 $cameraTransform; 
+setKeyframe -at translateZ -t 48 -v 134.385005488055754 $cameraTransform; 
+setKeyframe -at rotateX -t 48 -v -0.566894975263614 $cameraTransform; 
+setKeyframe -at rotateY -t 48 -v -10.570090184499721 $cameraTransform; 
+setKeyframe -at rotateZ -t 48 -v -0.042953854177633 $cameraTransform; 
+setKeyframe -at focalLength -t 48 -v 24.961197977897292 $cameraShape;
+setKeyframe -at translateX -t 49 -v -6.534623786548122 $cameraTransform; 
+setKeyframe -at translateY -t 49 -v 2.208122435430154 $cameraTransform; 
+setKeyframe -at translateZ -t 49 -v 134.342605827654268 $cameraTransform; 
+setKeyframe -at rotateX -t 49 -v -0.534210947437002 $cameraTransform; 
+setKeyframe -at rotateY -t 49 -v -11.013036432336138 $cameraTransform; 
+setKeyframe -at rotateZ -t 49 -v -0.072461822871746 $cameraTransform; 
+setKeyframe -at focalLength -t 49 -v 24.961197977897292 $cameraShape;
+setKeyframe -at translateX -t 50 -v -7.086777391764498 $cameraTransform; 
+setKeyframe -at translateY -t 50 -v 2.207112234235131 $cameraTransform; 
+setKeyframe -at translateZ -t 50 -v 134.289203442992459 $cameraTransform; 
+setKeyframe -at rotateX -t 50 -v -0.494623189733804 $cameraTransform; 
+setKeyframe -at rotateY -t 50 -v -11.450066040882900 $cameraTransform; 
+setKeyframe -at rotateZ -t 50 -v -0.062310988469082 $cameraTransform; 
+setKeyframe -at focalLength -t 50 -v 24.961197977897292 $cameraShape;
+setKeyframe -at translateX -t 51 -v -7.660022579846570 $cameraTransform; 
+setKeyframe -at translateY -t 51 -v 2.205236040796293 $cameraTransform; 
+setKeyframe -at translateZ -t 51 -v 134.220398380622726 $cameraTransform; 
+setKeyframe -at rotateX -t 51 -v -0.506108009437253 $cameraTransform; 
+setKeyframe -at rotateY -t 51 -v -11.911125802362323 $cameraTransform; 
+setKeyframe -at rotateZ -t 51 -v -0.030980980920873 $cameraTransform; 
+setKeyframe -at focalLength -t 51 -v 24.961197977897292 $cameraShape;
+setKeyframe -at translateX -t 52 -v -8.248696783741197 $cameraTransform; 
+setKeyframe -at translateY -t 52 -v 2.202658901584231 $cameraTransform; 
+setKeyframe -at translateZ -t 52 -v 134.135409936836510 $cameraTransform; 
+setKeyframe -at rotateX -t 52 -v -0.526833386448773 $cameraTransform; 
+setKeyframe -at rotateY -t 52 -v -12.385359836038637 $cameraTransform; 
+setKeyframe -at rotateZ -t 52 -v -0.035481758121883 $cameraTransform; 
+setKeyframe -at focalLength -t 52 -v 24.961197977897292 $cameraShape;
+setKeyframe -at translateX -t 53 -v -8.847261727036431 $cameraTransform; 
+setKeyframe -at translateY -t 53 -v 2.198964088525203 $cameraTransform; 
+setKeyframe -at translateZ -t 53 -v 134.037476324324899 $cameraTransform; 
+setKeyframe -at rotateX -t 53 -v -0.587342641310140 $cameraTransform; 
+setKeyframe -at rotateY -t 53 -v -12.848999891965240 $cameraTransform; 
+setKeyframe -at rotateZ -t 53 -v -0.033622986479585 $cameraTransform; 
+setKeyframe -at focalLength -t 53 -v 24.961197977897292 $cameraShape;
+setKeyframe -at translateX -t 54 -v -9.450848660034879 $cameraTransform; 
+setKeyframe -at translateY -t 54 -v 2.193321596033742 $cameraTransform; 
+setKeyframe -at translateZ -t 54 -v 133.931847971736175 $cameraTransform; 
+setKeyframe -at rotateX -t 54 -v -0.633098525397491 $cameraTransform; 
+setKeyframe -at rotateY -t 54 -v -13.343815811427117 $cameraTransform; 
+setKeyframe -at rotateZ -t 54 -v -0.032872268567164 $cameraTransform; 
+setKeyframe -at focalLength -t 54 -v 24.961197977897292 $cameraShape;
+setKeyframe -at translateX -t 55 -v -10.053227979478660 $cameraTransform; 
+setKeyframe -at translateY -t 55 -v 2.185491314012913 $cameraTransform; 
+setKeyframe -at translateZ -t 55 -v 133.821810668309752 $cameraTransform; 
+setKeyframe -at rotateX -t 55 -v -0.662297223484288 $cameraTransform; 
+setKeyframe -at rotateY -t 55 -v -13.803304322970924 $cameraTransform; 
+setKeyframe -at rotateZ -t 55 -v -0.032373952646637 $cameraTransform; 
+setKeyframe -at focalLength -t 55 -v 24.961197977897292 $cameraShape;
+setKeyframe -at translateX -t 56 -v -10.647225241358077 $cameraTransform; 
+setKeyframe -at translateY -t 56 -v 2.176252675102512 $cameraTransform; 
+setKeyframe -at translateZ -t 56 -v 133.708215099220297 $cameraTransform; 
+setKeyframe -at rotateX -t 56 -v -0.697395474144186 $cameraTransform; 
+setKeyframe -at rotateY -t 56 -v -14.308277536471623 $cameraTransform; 
+setKeyframe -at rotateZ -t 56 -v -0.026125607700900 $cameraTransform; 
+setKeyframe -at focalLength -t 56 -v 24.961197977897292 $cameraShape;
+setKeyframe -at translateX -t 57 -v -11.225676379294590 $cameraTransform; 
+setKeyframe -at translateY -t 57 -v 2.167027410746842 $cameraTransform; 
+setKeyframe -at translateZ -t 57 -v 133.592750625132823 $cameraTransform; 
+setKeyframe -at rotateX -t 57 -v -0.742985752129773 $cameraTransform; 
+setKeyframe -at rotateY -t 57 -v -14.763432975597139 $cameraTransform; 
+setKeyframe -at rotateZ -t 57 -v -0.009067035640454 $cameraTransform; 
+setKeyframe -at focalLength -t 57 -v 24.961197977897292 $cameraShape;
+setKeyframe -at translateX -t 58 -v -11.779071335950109 $cameraTransform; 
+setKeyframe -at translateY -t 58 -v 2.159517164984442 $cameraTransform; 
+setKeyframe -at translateZ -t 58 -v 133.480682584904542 $cameraTransform; 
+setKeyframe -at rotateX -t 58 -v -0.786190249552513 $cameraTransform; 
+setKeyframe -at rotateY -t 58 -v -15.178609683608626 $cameraTransform; 
+setKeyframe -at rotateZ -t 58 -v 0.024653640567788 $cameraTransform; 
+setKeyframe -at focalLength -t 58 -v 24.961197977897292 $cameraShape;
+setKeyframe -at translateX -t 59 -v -12.298891777656641 $cameraTransform; 
+setKeyframe -at translateY -t 59 -v 2.154682296965869 $cameraTransform; 
+setKeyframe -at translateZ -t 59 -v 133.378317728438361 $cameraTransform; 
+setKeyframe -at rotateX -t 59 -v -0.813452140985875 $cameraTransform; 
+setKeyframe -at rotateY -t 59 -v -15.585404963096224 $cameraTransform; 
+setKeyframe -at rotateZ -t 59 -v 0.056017212061873 $cameraTransform; 
+setKeyframe -at focalLength -t 59 -v 24.961197977897292 $cameraShape;
+setKeyframe -at translateX -t 60 -v -12.778099710622243 $cameraTransform; 
+setKeyframe -at translateY -t 60 -v 2.152005749544835 $cameraTransform; 
+setKeyframe -at translateZ -t 60 -v 133.288268660636589 $cameraTransform; 
+setKeyframe -at rotateX -t 60 -v -0.813299108148582 $cameraTransform; 
+setKeyframe -at rotateY -t 60 -v -15.985185643081447 $cameraTransform; 
+setKeyframe -at rotateZ -t 60 -v 0.048294479884415 $cameraTransform; 
+setKeyframe -at focalLength -t 60 -v 24.961197977897292 $cameraShape;
+setKeyframe -at translateX -t 61 -v -13.211943218362194 $cameraTransform; 
+setKeyframe -at translateY -t 61 -v 2.150359628824581 $cameraTransform; 
+setKeyframe -at translateZ -t 61 -v 133.207877936997363 $cameraTransform; 
+setKeyframe -at rotateX -t 61 -v -0.764670737658393 $cameraTransform; 
+setKeyframe -at rotateY -t 61 -v -16.380006724544383 $cameraTransform; 
+setKeyframe -at rotateZ -t 61 -v 0.029400953918097 $cameraTransform; 
+setKeyframe -at focalLength -t 61 -v 24.961197977897292 $cameraShape;
+setKeyframe -at translateX -t 62 -v -13.598545793831050 $cameraTransform; 
+setKeyframe -at translateY -t 62 -v 2.148884429652366 $cameraTransform; 
+setKeyframe -at translateZ -t 62 -v 133.132809906267454 $cameraTransform; 
+setKeyframe -at rotateX -t 62 -v -0.773831470816216 $cameraTransform; 
+setKeyframe -at rotateY -t 62 -v -16.702682337482120 $cameraTransform; 
+setKeyframe -at rotateZ -t 62 -v 0.040778517352755 $cameraTransform; 
+setKeyframe -at focalLength -t 62 -v 24.961197977897292 $cameraShape;
+setKeyframe -at translateX -t 63 -v -13.943905752809469 $cameraTransform; 
+setKeyframe -at translateY -t 63 -v 2.147124260360524 $cameraTransform; 
+setKeyframe -at translateZ -t 63 -v 133.059965031686033 $cameraTransform; 
+setKeyframe -at rotateX -t 63 -v -0.779104571318497 $cameraTransform; 
+setKeyframe -at rotateY -t 63 -v -16.930109733298895 $cameraTransform; 
+setKeyframe -at rotateZ -t 63 -v -0.001254703409167 $cameraTransform; 
+setKeyframe -at focalLength -t 63 -v 24.961197977897292 $cameraShape;
+setKeyframe -at translateX -t 64 -v -14.262480968701633 $cameraTransform; 
+setKeyframe -at translateY -t 64 -v 2.144956818600277 $cameraTransform; 
+setKeyframe -at translateZ -t 64 -v 132.987803634970078 $cameraTransform; 
+setKeyframe -at rotateX -t 64 -v -0.769821708425705 $cameraTransform; 
+setKeyframe -at rotateY -t 64 -v -17.199492029600513 $cameraTransform; 
+setKeyframe -at rotateZ -t 64 -v -0.026657876647353 $cameraTransform; 
+setKeyframe -at focalLength -t 64 -v 24.961197977897292 $cameraShape;
+setKeyframe -at translateX -t 65 -v -14.570858277951068 $cameraTransform; 
+setKeyframe -at translateY -t 65 -v 2.142611223669971 $cameraTransform; 
+setKeyframe -at translateZ -t 65 -v 132.915793572144850 $cameraTransform; 
+setKeyframe -at rotateX -t 65 -v -0.809177742907319 $cameraTransform; 
+setKeyframe -at rotateY -t 65 -v -17.432928071953757 $cameraTransform; 
+setKeyframe -at rotateZ -t 65 -v -0.019457763701187 $cameraTransform; 
+setKeyframe -at focalLength -t 65 -v 24.961197977897292 $cameraShape;
+setKeyframe -at translateX -t 66 -v -14.887332611473314 $cameraTransform; 
+setKeyframe -at translateY -t 66 -v 2.140742290043695 $cameraTransform; 
+setKeyframe -at translateZ -t 66 -v 132.843049460540556 $cameraTransform; 
+setKeyframe -at rotateX -t 66 -v -0.829323191790450 $cameraTransform; 
+setKeyframe -at rotateY -t 66 -v -17.677495241356517 $cameraTransform; 
+setKeyframe -at rotateZ -t 66 -v -0.018394511397835 $cameraTransform; 
+setKeyframe -at focalLength -t 66 -v 24.961197977897292 $cameraShape;
+setKeyframe -at translateX -t 67 -v -15.232024474202962 $cameraTransform; 
+setKeyframe -at translateY -t 67 -v 2.140207523887284 $cameraTransform; 
+setKeyframe -at translateZ -t 67 -v 132.766370092498789 $cameraTransform; 
+setKeyframe -at rotateX -t 67 -v -0.815345152137456 $cameraTransform; 
+setKeyframe -at rotateY -t 67 -v -17.952297583804224 $cameraTransform; 
+setKeyframe -at rotateZ -t 67 -v -0.031933387786729 $cameraTransform; 
+setKeyframe -at focalLength -t 67 -v 24.961197977897292 $cameraShape;
+setKeyframe -at translateX -t 68 -v -15.624309435600029 $cameraTransform; 
+setKeyframe -at translateY -t 68 -v 2.141329296945310 $cameraTransform; 
+setKeyframe -at translateZ -t 68 -v 132.680224053370921 $cameraTransform; 
+setKeyframe -at rotateX -t 68 -v -0.802825780783836 $cameraTransform; 
+setKeyframe -at rotateY -t 68 -v -18.272475105460980 $cameraTransform; 
+setKeyframe -at rotateZ -t 68 -v -0.036752001754807 $cameraTransform; 
+setKeyframe -at focalLength -t 68 -v 24.961197977897292 $cameraShape;
+setKeyframe -at translateX -t 69 -v -16.074620415128411 $cameraTransform; 
+setKeyframe -at translateY -t 69 -v 2.143393983865334 $cameraTransform; 
+setKeyframe -at translateZ -t 69 -v 132.579973809127324 $cameraTransform; 
+setKeyframe -at rotateX -t 69 -v -0.796547876434717 $cameraTransform; 
+setKeyframe -at rotateY -t 69 -v -18.621547468551274 $cameraTransform; 
+setKeyframe -at rotateZ -t 69 -v -0.030695653968031 $cameraTransform; 
+setKeyframe -at focalLength -t 69 -v 24.961197977897292 $cameraShape;
+setKeyframe -at translateX -t 70 -v -16.583210182395270 $cameraTransform; 
+setKeyframe -at translateY -t 70 -v 2.145353747037242 $cameraTransform; 
+setKeyframe -at translateZ -t 70 -v 132.462771391641809 $cameraTransform; 
+setKeyframe -at rotateX -t 70 -v -0.772847467285070 $cameraTransform; 
+setKeyframe -at rotateY -t 70 -v -19.003378916843189 $cameraTransform; 
+setKeyframe -at rotateZ -t 70 -v -0.031096098333443 $cameraTransform; 
+setKeyframe -at focalLength -t 70 -v 24.961197977897292 $cameraShape;
+setKeyframe -at translateX -t 71 -v -17.138722789485534 $cameraTransform; 
+setKeyframe -at translateY -t 71 -v 2.146889455913308 $cameraTransform; 
+setKeyframe -at translateZ -t 71 -v 132.328967022229762 $cameraTransform; 
+setKeyframe -at rotateX -t 71 -v -0.745984592953054 $cameraTransform; 
+setKeyframe -at rotateY -t 71 -v -19.462681333155590 $cameraTransform; 
+setKeyframe -at rotateZ -t 71 -v -0.027175153341037 $cameraTransform; 
+setKeyframe -at focalLength -t 71 -v 24.961197977897292 $cameraShape;
+setKeyframe -at translateX -t 72 -v -17.720336845692323 $cameraTransform; 
+setKeyframe -at translateY -t 72 -v 2.148334779146890 $cameraTransform; 
+setKeyframe -at translateZ -t 72 -v 132.184210446600446 $cameraTransform; 
+setKeyframe -at rotateX -t 72 -v -0.760263807185116 $cameraTransform; 
+setKeyframe -at rotateY -t 72 -v -19.938373613508929 $cameraTransform; 
+setKeyframe -at rotateZ -t 72 -v -0.013141847246222 $cameraTransform; 
+setKeyframe -at focalLength -t 72 -v 24.961197977897292 $cameraShape;
+
+// create camera point group...
+string $pointGroupName = `group -em -name  "cameraPGroup_pgroup_1_1" -parent $sceneGroupName`;
+$pointGroupName = ($sceneGroupName + "|" + $pointGroupName);
+
+
+// create point p01...
+string $locator = stringArrayToString(`spaceLocator -name p01`, "");
+$locator = ("|" + $locator);
+xform -t 5.587808786641238 33.535217797667578 -8.146097288244363 $locator;
+parent $locator $pointGroupName;
+
+// create point p02...
+string $locator = stringArrayToString(`spaceLocator -name p02`, "");
+$locator = ("|" + $locator);
+xform -t -5.542838119263273 12.282190069657219 -10.455871660295543 $locator;
+parent $locator $pointGroupName;
+
+// create point p03...
+string $locator = stringArrayToString(`spaceLocator -name p03`, "");
+$locator = ("|" + $locator);
+xform -t 6.846833402316270 -27.069458054389237 -6.885268684854140 $locator;
+parent $locator $pointGroupName;
+
+// create point p04...
+string $locator = stringArrayToString(`spaceLocator -name p04`, "");
+$locator = ("|" + $locator);
+xform -t -1.896059585267116 -8.195060955677086 -9.446748835888144 $locator;
+parent $locator $pointGroupName;
+
+// create point p05...
+string $locator = stringArrayToString(`spaceLocator -name p05`, "");
+$locator = ("|" + $locator);
+xform -t 23.155525100741503 11.935762780415768 -0.626385074382114 $locator;
+parent $locator $pointGroupName;
+
+// create point p06...
+string $locator = stringArrayToString(`spaceLocator -name p06`, "");
+$locator = ("|" + $locator);
+xform -t 23.337773447579053 -12.622005791591285 0.210093690699750 $locator;
+parent $locator $pointGroupName;
+
+// create point p07...
+string $locator = stringArrayToString(`spaceLocator -name p07`, "");
+$locator = ("|" + $locator);
+xform -t -15.308518016752426 32.546301633531421 -11.980260962733126 $locator;
+parent $locator $pointGroupName;
+
+// create point p08...
+string $locator = stringArrayToString(`spaceLocator -name p08`, "");
+$locator = ("|" + $locator);
+xform -t -24.468750164450057 12.935277676541482 -11.967941587129502 $locator;
+parent $locator $pointGroupName;
+
+// create point p09...
+string $locator = stringArrayToString(`spaceLocator -name p09`, "");
+$locator = ("|" + $locator);
+xform -t -19.333167097313240 -1.970099623174154 -11.806875687237863 $locator;
+parent $locator $pointGroupName;
+
+// create point p10...
+string $locator = stringArrayToString(`spaceLocator -name p10`, "");
+$locator = ("|" + $locator);
+xform -t -13.616945134722020 -26.739337271597066 -10.947248601608834 $locator;
+parent $locator $pointGroupName;
+
+// create point p11...
+string $locator = stringArrayToString(`spaceLocator -name p11`, "");
+$locator = ("|" + $locator);
+xform -t -37.265195392630183 -26.678880354603290 -10.382282339290640 $locator;
+parent $locator $pointGroupName;
+
+// create point p12...
+string $locator = stringArrayToString(`spaceLocator -name p12`, "");
+$locator = ("|" + $locator);
+xform -t -28.374141528906854 4.444916297026916 -11.906891811661211 $locator;
+parent $locator $pointGroupName;
+
+// create point p13...
+string $locator = stringArrayToString(`spaceLocator -name p13`, "");
+$locator = ("|" + $locator);
+xform -t -43.222815209799826 -8.664660030884079 -9.603387586608704 $locator;
+parent $locator $pointGroupName;
+
+// create point p14...
+string $locator = stringArrayToString(`spaceLocator -name p14`, "");
+$locator = ("|" + $locator);
+xform -t -33.690247148403856 31.889522101505463 -11.690959520094992 $locator;
+parent $locator $pointGroupName;
+
+// create point p15...
+string $locator = stringArrayToString(`spaceLocator -name p15`, "");
+$locator = ("|" + $locator);
+xform -t -5.778747687422056 39.940461106826781 -10.955932089425204 $locator;
+parent $locator $pointGroupName;
+
+// create point p16...
+string $locator = stringArrayToString(`spaceLocator -name p16`, "");
+$locator = ("|" + $locator);
+xform -t 58.381173699634033 12.944585766607588 30.854458862955667 $locator;
+parent $locator $pointGroupName;
+
+// create point p17...
+string $locator = stringArrayToString(`spaceLocator -name p17`, "");
+$locator = ("|" + $locator);
+xform -t 57.137213238578639 -19.672216696072613 29.916138404367317 $locator;
+parent $locator $pointGroupName;
+
+// create point p18...
+string $locator = stringArrayToString(`spaceLocator -name p18`, "");
+$locator = ("|" + $locator);
+xform -t 50.719838318830625 34.308466713033340 21.250504881562861 $locator;
+parent $locator $pointGroupName;
+
+// create point p19...
+string $locator = stringArrayToString(`spaceLocator -name p19`, "");
+$locator = ("|" + $locator);
+xform -t 34.322974591248567 15.633107680596257 5.963961402186243 $locator;
+parent $locator $pointGroupName;
+
+// create point p20...
+string $locator = stringArrayToString(`spaceLocator -name p20`, "");
+$locator = ("|" + $locator);
+xform -t 43.200051887429709 31.075690850309002 13.257027986866902 $locator;
+parent $locator $pointGroupName;
+
+// create point p21...
+string $locator = stringArrayToString(`spaceLocator -name p21`, "");
+$locator = ("|" + $locator);
+xform -t 46.161643403766000 -17.709425785013995 17.045960551728072 $locator;
+parent $locator $pointGroupName;
+
+// create point p22...
+string $locator = stringArrayToString(`spaceLocator -name p22`, "");
+$locator = ("|" + $locator);
+xform -t 4.448190798148993 21.581518588446503 -8.310671057256911 $locator;
+parent $locator $pointGroupName;
+
+// create point p23...
+string $locator = stringArrayToString(`spaceLocator -name p23`, "");
+$locator = ("|" + $locator);
+xform -t 8.664168433229683 -17.960707544854333 -6.260126023070683 $locator;
+parent $locator $pointGroupName;
+
+// create point p24...
+string $locator = stringArrayToString(`spaceLocator -name p24`, "");
+$locator = ("|" + $locator);
+xform -t 34.692930586395050 -23.658369250581249 7.484183643755401 $locator;
+parent $locator $pointGroupName;
+
+// create point p25...
+string $locator = stringArrayToString(`spaceLocator -name p25`, "");
+$locator = ("|" + $locator);
+xform -t 24.454836715811044 35.140736966386669 -0.441052122423571 $locator;
+parent $locator $pointGroupName;
+
+// create point p26...
+string $locator = stringArrayToString(`spaceLocator -name p26`, "");
+$locator = ("|" + $locator);
+xform -t -33.985931605785254 39.964079144433747 -11.786145043818095 $locator;
+parent $locator $pointGroupName;
+
+// create point p27...
+string $locator = stringArrayToString(`spaceLocator -name p27`, "");
+$locator = ("|" + $locator);
+xform -t 62.654771153800539 32.384344580248587 38.074911632007598 $locator;
+parent $locator $pointGroupName;
+
+// create point p28...
+string $locator = stringArrayToString(`spaceLocator -name p28`, "");
+$locator = ("|" + $locator);
+xform -t 55.711745662554677 -7.381753778483929 27.836579696239838 $locator;
+parent $locator $pointGroupName;
+
+// create point p29...
+string $locator = stringArrayToString(`spaceLocator -name p29`, "");
+$locator = ("|" + $locator);
+xform -t -6.309529961025463 -15.654164626246949 -10.143065659355926 $locator;
+parent $locator $pointGroupName;
+
+// create point p30...
+string $locator = stringArrayToString(`spaceLocator -name p30`, "");
+$locator = ("|" + $locator);
+xform -t -47.945274862388032 30.840048296323861 -8.643584665134739 $locator;
+parent $locator $pointGroupName;
+
+// create point p31...
+string $locator = stringArrayToString(`spaceLocator -name p31`, "");
+$locator = ("|" + $locator);
+xform -t -43.596818354846178 13.152932624551568 -9.813881183322309 $locator;
+parent $locator $pointGroupName;
+
+// create point p32...
+string $locator = stringArrayToString(`spaceLocator -name p32`, "");
+$locator = ("|" + $locator);
+xform -t 54.242381608692085 19.346266372608401 25.355159928301902 $locator;
+parent $locator $pointGroupName;
+
+// create point p33...
+string $locator = stringArrayToString(`spaceLocator -name p33`, "");
+$locator = ("|" + $locator);
+xform -t -58.647274500799540 -27.630911155687507 -4.565610228390142 $locator;
+parent $locator $pointGroupName;
+
+// create point p34...
+string $locator = stringArrayToString(`spaceLocator -name p34`, "");
+$locator = ("|" + $locator);
+xform -t -61.907957899951725 30.890963378416934 -3.363857494565281 $locator;
+parent $locator $pointGroupName;
+
+// create point p35...
+string $locator = stringArrayToString(`spaceLocator -name p35`, "");
+$locator = ("|" + $locator);
+xform -t -30.510416791588909 22.035756012158458 -11.801660927972279 $locator;
+parent $locator $pointGroupName;
+
+// create point p36...
+string $locator = stringArrayToString(`spaceLocator -name p36`, "");
+$locator = ("|" + $locator);
+xform -t -60.182338305574376 -10.242308061376210 -4.228797057330638 $locator;
+parent $locator $pointGroupName;
+
+// create point p37...
+string $locator = stringArrayToString(`spaceLocator -name p37`, "");
+$locator = ("|" + $locator);
+xform -t 52.296256895263468 -24.673606118637966 23.699071941917296 $locator;
+parent $locator $pointGroupName;
+
+// create point p38...
+string $locator = stringArrayToString(`spaceLocator -name p38`, "");
+$locator = ("|" + $locator);
+xform -t -11.015423178994300 -28.674506253007628 21.277905648753190 $locator;
+parent $locator $pointGroupName;
+
+// create point p40...
+string $locator = stringArrayToString(`spaceLocator -name p40`, "");
+$locator = ("|" + $locator);
+xform -t 44.126634868087436 -28.093645193690474 47.988535210795831 $locator;
+parent $locator $pointGroupName;
+
+// create point p41...
+string $locator = stringArrayToString(`spaceLocator -name p41`, "");
+$locator = ("|" + $locator);
+xform -t -40.411486345675264 -29.005051930170350 21.413199620354135 $locator;
+parent $locator $pointGroupName;
+
+// create point p42...
+string $locator = stringArrayToString(`spaceLocator -name p42`, "");
+$locator = ("|" + $locator);
+xform -t -22.287689367182121 -22.963369598757634 -11.687196187360996 $locator;
+parent $locator $pointGroupName;
+
+// create point p43...
+string $locator = stringArrayToString(`spaceLocator -name p43`, "");
+$locator = ("|" + $locator);
+xform -t -59.476889408721036 6.032081725330954 -4.540399799050647 $locator;
+parent $locator $pointGroupName;
+
+// create point p44...
+string $locator = stringArrayToString(`spaceLocator -name p44`, "");
+$locator = ("|" + $locator);
+xform -t -53.728048558199589 41.174407818325570 -6.881753767662275 $locator;
+parent $locator $pointGroupName;
+
+// create point p45...
+string $locator = stringArrayToString(`spaceLocator -name p45`, "");
+$locator = ("|" + $locator);
+xform -t 63.029327279466088 -5.376669366777606 38.994594273724942 $locator;
+parent $locator $pointGroupName;
+
+// create point p46...
+string $locator = stringArrayToString(`spaceLocator -name p46`, "");
+$locator = ("|" + $locator);
+xform -t -15.875896450921061 -28.870394660708719 4.027242606852298 $locator;
+parent $locator $pointGroupName;
+
+// create point p47...
+string $locator = stringArrayToString(`spaceLocator -name p47`, "");
+$locator = ("|" + $locator);
+xform -t -48.313622638046581 -29.290587310576491 -0.549024103402189 $locator;
+parent $locator $pointGroupName;
+
+// create point p50...
+string $locator = stringArrayToString(`spaceLocator -name p50`, "");
+$locator = ("|" + $locator);
+xform -t 41.225483614663297 -28.286135893422291 25.272350337046205 $locator;
+parent $locator $pointGroupName;
+
+// create point p51...
+string $locator = stringArrayToString(`spaceLocator -name p51`, "");
+$locator = ("|" + $locator);
+xform -t -54.085762420269027 23.612377485825618 -6.611068231621147 $locator;
+parent $locator $pointGroupName;
+
+// create point p52...
+string $locator = stringArrayToString(`spaceLocator -name p52`, "");
+$locator = ("|" + $locator);
+xform -t 62.995178705619772 11.795142155445319 38.442296333785649 $locator;
+parent $locator $pointGroupName;
+
+// create point p53...
+string $locator = stringArrayToString(`spaceLocator -name p53`, "");
+$locator = ("|" + $locator);
+xform -t -44.434745158253463 -18.138561153899222 -8.911117036885116 $locator;
+parent $locator $pointGroupName;
+
+// create point p54...
+string $locator = stringArrayToString(`spaceLocator -name p54`, "");
+$locator = ("|" + $locator);
+xform -t -16.796349007434898 19.298630843716346 -12.018974558734016 $locator;
+parent $locator $pointGroupName;
+
+// create point p55...
+string $locator = stringArrayToString(`spaceLocator -name p55`, "");
+$locator = ("|" + $locator);
+xform -t 21.165293419930467 -25.735996389619750 -0.849518577085945 $locator;
+parent $locator $pointGroupName;
+
+// create point p56...
+string $locator = stringArrayToString(`spaceLocator -name p56`, "");
+$locator = ("|" + $locator);
+xform -t 62.079155228515461 -26.439385872057763 37.772156930230281 $locator;
+parent $locator $pointGroupName;
+
+// create point p61...
+string $locator = stringArrayToString(`spaceLocator -name p61`, "");
+$locator = ("|" + $locator);
+xform -t 21.491746378999405 18.977198331822965 -1.604371063491357 $locator;
+parent $locator $pointGroupName;
+
+// create point p64...
+string $locator = stringArrayToString(`spaceLocator -name p64`, "");
+$locator = ("|" + $locator);
+xform -t 44.629105927047924 11.615740093880962 14.603165830878439 $locator;
+parent $locator $pointGroupName;
+
+// create point p56...
+string $locator = stringArrayToString(`spaceLocator -name p56`, "");
+$locator = ("|" + $locator);
+xform -t 44.313999142220624 -28.200729294471678 31.998330843791351 $locator;
+parent $locator $pointGroupName;
+
+// create point p57...
+string $locator = stringArrayToString(`spaceLocator -name p57`, "");
+$locator = ("|" + $locator);
+xform -t 24.928639181631354 -5.130924854243418 60.342809358459931 $locator;
+parent $locator $pointGroupName;
+
+xform -zeroTransformPivots -rotateOrder zxy -scale 1.000000 1.000000 1.000000 $pointGroupName;
+
+xform -zeroTransformPivots -rotateOrder zxy -translation -16.396153408851937 28.734399164442607 -17.372869179131406 -scale 1.000000000000000 1.000000000000000 1.000000000000000 -rotation 0.420944946298737 71.469408487942573 -0.492075486610269 $sceneGroupName;
+
+
