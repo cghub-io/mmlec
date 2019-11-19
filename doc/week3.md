@@ -246,6 +246,7 @@
     
 ### Modeling Set Geometry
 1. 바닥 & 벽 모델링
+    > ![](../img/week3/ground_wall_modeling.png)<br>
 1. 사다리 모델링
 - Holdout
 - Point Triangulation
@@ -263,7 +264,7 @@
 
 ### Publish
 - Outliner Cleanup
-   1. 
+   1. Bake Camera
 
 ## Lens Distortion Workflow
 
