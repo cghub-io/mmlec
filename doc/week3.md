@@ -245,12 +245,12 @@
     1. <kbd>Overscan</kbd> 버튼 클릭
     
 ### Modeling Set Geometry
-1. 바닥 & 벽 모델링
+- 바닥 & 벽 모델링
     > ![](../img/week3/ground_wall_modeling.png)<br>
     > ![](../img/week3/ground_wall_modeling_persp.png)<br>
-1. 사다리 모델링
-- Holdout
-- Point Triangulation
+
+### Scale Scene
+- `man_180cm.ma` 파일 임포트
 
 ### Preview
 - Playblast
