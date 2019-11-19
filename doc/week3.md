@@ -250,8 +250,11 @@
     > ![](../img/week3/ground_wall_modeling_persp.png)<br>
 
 ### Scale Scene
-- `man_180cm.obj` 임포트
-
+1. `man_180cm.obj` 임포트
+    > ![](../img/week3/wrong_scene_scale.png)<br>
+1. 남자 오브젝트를 제외한 모든 오브젝트를 그룹지어서 스케일 조정한다
+    > ![](../img/week3/correct_scene_scale.png)<br>
+    
 ### Preview
 - Playblast
     - Windows >> Playblast(Option Box)
