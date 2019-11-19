@@ -1,6 +1,6 @@
 # Object Tracking
 
-## Object Tracking is 'Inverse Motion' of Camera Tracking
+## Object Tracking Concept
 
 ## Object Tracking in 3DEqualizer
 
