@@ -295,4 +295,4 @@
     - ex) 2112 x 1188 to 1920 x 1080
 1. Merge Render Image with "Distorted(Original)" plate
 
-### [NEXT - Object Tracking](./week4.md)
+### [PREV - Matchmove Software 101](./week2.md) | [NEXT - Object Tracking](./week4.md)
