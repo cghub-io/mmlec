@@ -42,6 +42,7 @@
 1. 정적인 장면
 1. 시차
     - Parallax(패럴랙스)
+    > ![](../img/week2/pgm_parallax.png)
     
 ## 심화
 
