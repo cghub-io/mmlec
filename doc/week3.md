@@ -284,9 +284,11 @@
 ### Lens Distortion Workflow
 
 1. Work with "Distorted(Original)" plate in 3DEqualizer
-    - ex) 1920 x 1080
+    - 1936 x 1288
+    > ![](../img/week3/trackboy.0001.jpg)<br>
 1. Export "Undistorted" plate from 3DEqualizer
-    - ex) 2112 x 1188 (Overscan Value 1.1)
+    - 2033 x 1353 (Overscan Value 1.05)
+
 1. Work with "Undistorted" plate in Maya
 
 1. Render Image Resolution "Undistorted" plate Width & Height
