@@ -197,7 +197,7 @@
 1. Move Shelf to...
     - `C:\Users\<USER>\Documents\maya\<VERSION>\prefs\shelves`
 1. Start Maya
-    > ![](../img/week3/shelf_installed.png)<br>
+    > ![](../img/week3/shelf_update.png)<br>
 ### Preference
 - Evaluation Mode
     - Windows >> Settings/Preferences >> Preferences
