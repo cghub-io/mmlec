@@ -296,7 +296,6 @@
     - !!!! RENDER SIZE - 2033 x 1353 !!!!
     > ![](../img/week3/cone.jpg)<br>
 1. Redistort Render Image in Nuke
-    - ex) 2112 x 1188 to 1920 x 1080
 1. Merge Render Image with "Distorted(Original)" plate
     - FINAL COMP SIZE - 1936 x 1288
     > ![](../img/week3/comp.0001.jpg)<br>
