@@ -291,13 +291,14 @@
     > ![](../img/week3/trackboy_dewarped.0001.jpg)<br>
 1. Work with "Undistorted" plate in Maya
     - Add 3D Asset(Cones)
+    > ![](../img/week3/ldw_maya.png)<br>
 1. Render Image Resolution "Undistorted" plate Width & Height
-    - RENDER SIZE - 2033 x 1353
+    - !!!! RENDER SIZE - 2033 x 1353 !!!!
     > ![](../img/week3/cone.jpg)<br>
 1. Redistort Render Image in Nuke
     - ex) 2112 x 1188 to 1920 x 1080
 1. Merge Render Image with "Distorted(Original)" plate
-    - 1936 x 1288
+    - FINAL COMP SIZE - 1936 x 1288
     > ![](../img/week3/comp.0001.jpg)<br>
 ---
 
