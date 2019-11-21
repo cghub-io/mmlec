@@ -1,6 +1,6 @@
 # Object Tracking
 
-## Object Tracking Concept
+## Intro
 
 ## Object Tracking in 3DEqualizer
 
