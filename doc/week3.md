@@ -172,7 +172,7 @@
     > ![](../img/week3/triangulate_points.png)<br>
 ### Export 3DE Project to Maya
 1. Export Project
-    - 3DE4 >> Export Project >>> Maya...
+    - 3DE4 >> Export Project >> Maya...
         > ![](../img/week3/export_maya.png)<br>
         > Exportfile... - 파일 저장 경로<br>
 1. Export Undistorted Plates
@@ -190,6 +190,9 @@
         > <kbd>+0.05</kbd> 클릭해서 Overscan Value를 `1.05`로 만든다<br>
         > (Bounding Box 글씨가 초록색으로 변하면, Undistort Plate 뽑았을때 잘리는 픽셀이 없다는 뜻)<br>
         > <kbd>Ok</kbd>를 누르면 지정된 경로에 Undistort Plate가 저장된다<br>
+### Export Lens Distortion Node
+- 3DE4 >> File >> >> Export >> Export NukeX LensDistortion Node
+    > ![](../img/week3/export_ld_node_.png)<br>
 ## Camera Tracking in Maya
 ### Install Shelf
 1. Close Maya
