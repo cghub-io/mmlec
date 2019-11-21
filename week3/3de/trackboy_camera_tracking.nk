@@ -1,24 +1,40 @@
-# Created by 3DEqualizer4 using Export Nuke Distortion Nodes export script
-LD_3DE4_Radial_Standard_Degree_4 {
- direction undistort
- tde4_focal_length_cm 2.4961198 
- tde4_custom_focus_distance_cm 91.4400000 
- tde4_filmback_width_cm 2.2200000 
- tde4_filmback_height_cm 1.4769421 
- tde4_lens_center_offset_x_cm 0.0000000 
- tde4_lens_center_offset_y_cm 0.0000000 
- tde4_pixel_aspect 1.0000000 
- field_of_view_xa_unit 0.0000000 
- field_of_view_xb_unit 1.0000000 
- field_of_view_ya_unit 0.0000000 
- field_of_view_yb_unit 1.0000000 
- Distortion_Degree_2 0.0398393 
- U_Degree_2 0.0000000 
- V_Degree_2 0.0000000 
- Quartic_Distortion_Degree_4 -0.0061878 
- U_Degree_4 0.0000000 
- V_Degree_4 0.0000000 
- Phi_Cylindric_Direction 0.0000000 
- B_Cylindric_Bending 0.0000000 
- name LD_3DE4_trackboy
+# Created by 3DEqualizer4 using Export NukeX Native LensDistortion Nodes export script (1.4)
+Transform {
+ scale {{"2.220000 / sqrt(2.220000 * 2.220000 + 1.476942 * 1.476942) * sqrt(width*width + height*height) / width"}  {"1.476942 / sqrt(2.220000 * 2.220000 + 1.476942 * 1.476942) * sqrt(width*width + height*height) / height"}  }
+ center {{"width/2"} {"height/2"}}
+ black_outside false
+ disable {{"abs(width/height - 2.220000/1.476942) < 1e-4"}}
+ name Transform_FilmBack_trackboy
+}
+LensDistortion2 {
+ output Undistort
+ lensType "Beam Splitter"
+ distortionModelPreset "3DEqualizer/3DE4 Radial - Standard, Degree 4"
+ distortionModelType "Radial-Tangential/R-T Uncoupled"
+
+ distortionOrder {2 0}
+ distortionDomain Rectilinear
+ normalisationType Diagonal
+ focal 2.4961198 
+ addUserKnob {20 3DE}
+ addUserKnob {3 focusDistance l "Focus Distance"}
+ focusDistance 91.4400000
+ sensorSize {2.2200000 1.4769421}
+ centre {{"0.0000000 / sqrt(2.2200000*2.2200000 + 1.4769421*1.4769421) * 2"} {"0.0000000 / sqrt(2.2200000*2.2200000 + 1.4769421*1.4769421) * 2"}}
+ distortionNumerator0 0.0398393
+ distortionNumeratorT0 0.0000000
+ distortionNumeratorU0 0.0000000
+ distortionNumerator1 -0.0061878
+ distortionNumeratorT1 0.0000000
+ distortionNumeratorU1 0.0000000
+ beamSplitterDirection 0.0000000
+ beamSplitterBending 0.0000000
+ name LensDistortion_trackboy
+}
+Transform {
+ scale {{"1 / (2.220000 / sqrt(2.220000 * 2.220000 + 1.476942 * 1.476942) * sqrt(width*width + height*height) / width)"}  {"1 / (1.476942 / sqrt(2.220000 * 2.220000 + 1.476942 * 1.476942) * sqrt(width*width + height*height) / height)"}  }
+ center {{"width/2"} {"height/2"}}
+ black_outside false
+ disable {{"abs(width/height - 2.220000/1.476942) < 1e-4"}}
+ name Transform_InverseFilmBack_trackboy
 }
