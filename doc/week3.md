@@ -197,7 +197,7 @@
 1. Move Shelf to...
     - `C:\Users\<USER>\Documents\maya\<VERSION>\prefs\shelves`
 1. Start Maya
-    > ![](../img/week3/shelf_installed.png)<br>
+    > ![](../img/week3/shelf_update.png)<br>
 ### Preference
 - Evaluation Mode
     - Windows >> Settings/Preferences >> Preferences
@@ -284,17 +284,21 @@
 ### Lens Distortion Workflow
 
 1. Work with "Distorted(Original)" plate in 3DEqualizer
-    - ex) 1920 x 1080
+    - 1936 x 1288
+    > ![](../img/week3/trackboy.0001.jpg)<br>
 1. Export "Undistorted" plate from 3DEqualizer
-    - ex) 2112 x 1188 (Overscan Value 1.1)
+    - 2033 x 1353 (Overscan Value 1.05)
+    > ![](../img/week3/trackboy_dewarped.0001.jpg)<br>
 1. Work with "Undistorted" plate in Maya
-
+    - Add 3D Asset(Cones)
+    > ![](../img/week3/ldw_maya.png)<br>
 1. Render Image Resolution "Undistorted" plate Width & Height
-
+    - !!!! RENDER SIZE - 2033 x 1353 !!!!
+    > ![](../img/week3/cone.jpg)<br>
 1. Redistort Render Image in Nuke
-    - ex) 2112 x 1188 to 1920 x 1080
 1. Merge Render Image with "Distorted(Original)" plate
-
+    - FINAL COMP SIZE - 1936 x 1288
+    > ![](../img/week3/comp.0001.jpg)<br>
 ---
 
-### [PREV - Matchmove Software 101](./week2.md) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [NEXT - Object Tracking](./week4.md)
+### [PREV - Matchmove Software](./week2.md) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [NEXT - Object Tracking](./week4.md)
