@@ -293,7 +293,7 @@
 1. Work with "Undistorted" plate in Maya
     - Add 3D Asset(Cones)
     > ![](../img/week3/ldw_maya.png)<br>
-1. Render Image Resolution "Undistorted" plate Width & Height
+1. !!!! Render Image Resolution is "Undistorted" plate Resolution !!!!
     - !!!! RENDER SIZE - 2033 x 1353 !!!!
     > ![](../img/week3/cone.jpg)<br>
 1. Redistort Render Image in Nuke
