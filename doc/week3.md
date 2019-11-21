@@ -297,6 +297,13 @@
     - !!!! RENDER SIZE - 2033 x 1353 !!!!
     > ![](../img/week3/cone.jpg)<br>
 1. Redistort Render Image in Nuke
+    - Node Tree
+        > ![](../img/week3/ldw_node_tree_nukex.png)<br>
+    - Details
+        - Reformat Node
+            > ![](../img/week3/reformat_node.png)<br>
+        - Lens Distortion Node
+            > ![](../img/week3/ld_node.png)<br>
 1. Merge Render Image with "Distorted(Original)" plate
     - FINAL COMP SIZE - 1936 x 1288
     > ![](../img/week3/comp.0001.jpg)<br>
