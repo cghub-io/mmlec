@@ -302,12 +302,12 @@
     - Details
         - Reformat Node
             > ![](../img/week3/reformat_node.png)<br>
-            > output format <kbd>Original Plate Resolution<kbd><br>
-            > resize type <kbd>none<kbd> | <kbd>X<kbd> center<br>
-            > <kbd>X<kbd> preserve bounding box<br>
+            - output format <kbd>Original Plate Resolution<kbd>
+            - resize type <kbd>none<kbd> | <kbd>X<kbd> center
+            - <kbd>X<kbd> preserve bounding box
         - Lens Distortion Node
-            > ![](../img/week3/ld_node.png)<br>
-            > Mode <kbd>Redistort<kbd><br>
+            > ![](../img/week3/ld_node.png)
+            - Mode <kbd>Redistort<kbd>
 1. Merge Render Image with "Distorted(Original)" plate
     - FINAL COMP SIZE - 1936 x 1288
     > ![](../img/week3/comp.0001.jpg)<br>
