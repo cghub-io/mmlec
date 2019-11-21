@@ -1,0 +1,135 @@
+#! /usr/local/Nuke11.3v5/libnuke-11.3.5.so -nx
+version 11.3 v5
+define_window_layout_xml {<?xml version="1.0" encoding="UTF-8"?>
+<layout version="1.0">
+    <window x="1" y="29" w="4355" h="1339" screen="0">
+        <splitter orientation="1">
+            <split size="2560"/>
+            <splitter orientation="1">
+                <split size="2560"/>
+                <dock id="" activePageId="Viewer.1">
+                    <page id="Viewer.1"/>
+                </dock>
+            </splitter>
+            <split size="1791"/>
+            <splitter orientation="2">
+                <split size="1293"/>
+                <dock id="" activePageId="DAG.1">
+                    <page id="DAG.1"/>
+                </dock>
+            </splitter>
+        </splitter>
+    </window>
+</layout>
+}
+Root {
+ inputs 0
+ name /storage/private/hko/mmlec/week3/3de/ldw_nodetree.nk
+ last_frame 72
+ lock_range true
+ format "2048 1556 0 0 2048 1556 1 2K_Super_35(full-ap)"
+ proxy_type scale
+ proxy_format "1024 778 0 0 1024 778 1 1K_Super_35(full-ap)"
+ colorManagement Nuke
+ workingSpaceLUT linear
+ monitorLut sRGB
+ int8Lut sRGB
+ int16Lut sRGB
+ logLut Cineon
+ floatLut linear
+}
+Read {
+ inputs 0
+ file_type png
+ file /storage/private/hko/mmlec/week3/plate/render/cone.%04d.png
+ format "2033 1353 0 0 2033 1353 1 "
+ last 72
+ origlast 72
+ origset true
+ name Read_Render
+ xpos -162
+ ypos 41
+}
+Reformat {
+ format "1936 1288 0 0 1936 1288 1 "
+ resize none
+ pbb true
+ name Reformat1
+ xpos -162
+ ypos 180
+}
+Transform {
+ scale {{"2.220000 / sqrt(2.220000 * 2.220000 + 1.476942 * 1.476942) * sqrt(width*width + height*height) / width"} {"1.476942 / sqrt(2.220000 * 2.220000 + 1.476942 * 1.476942) * sqrt(width*width + height*height) / height"}}
+ center {{width/2} {height/2}}
+ black_outside false
+ name Transform_FilmBack_trackboy
+ xpos -162
+ ypos 280
+ disable {{"abs(width/height - 2.220000/1.476942) < 1e-4"}}
+}
+LensDistortion2 {
+ lensType "Beam Splitter"
+ distortionModelPreset "3DEqualizer/3DE4 Radial - Standard, Degree 4"
+ focal 2.4961198
+ sensorSize {2.22 1.4769421}
+ distortionModelType "Radial-Tangential/R-T Uncoupled"
+ distortionOrder {2 0}
+ distortionDomain Rectilinear
+ normalisationType Diagonal
+ distortionModelDisplayX "xu = xd * (1 + k0 * rd^2 + k1 * rd^4) + (rd^2 + 2 * xd^2) * (k2 + k3 * rd^2) + (2 * xd * yd) * (k4 + k5 * rd^2)"
+ distortionModelDisplayY "yu = yd * (1 + k0 * rd^2 + k1 * rd^4) + (rd^2 + 2 * yd^2) * (k4 + k5 * rd^2) + (2 * xd * yd) * (k2 + k3 * rd^2)"
+ distortionNumerator0 0.0398393
+ distortionNumerator1 -0.0061878
+ centre {{"0.0000000 / sqrt(2.2200000*2.2200000 + 1.4769421*1.4769421) * 2"} {"0.0000000 / sqrt(2.2200000*2.2200000 + 1.4769421*1.4769421) * 2"}}
+ keyFrame {{curve x1 1}}
+ keyingInitialised true
+ output Redistort
+ outputFormat "1936 1288 0 0 1936 1288 1 "
+ "Adjust Bounding Box" 1
+ outputBBox {-48 -32 1985 1321}
+ featuresKnob "
+version 1
+entries 0
+entries 0
+"
+ name LensDistortion_trackboy
+ xpos -162
+ ypos 317
+ addUserKnob {20 3DE}
+ addUserKnob {3 focusDistance l "Focus Distance"}
+ focusDistance 91.44
+}
+Transform {
+ scale {{"1 / (2.220000 / sqrt(2.220000 * 2.220000 + 1.476942 * 1.476942) * sqrt(width*width + height*height) / width)"} {"1 / (1.476942 / sqrt(2.220000 * 2.220000 + 1.476942 * 1.476942) * sqrt(width*width + height*height) / height)"}}
+ center {{width/2} {height/2}}
+ black_outside false
+ name Transform_InverseFilmBack_trackboy
+ xpos -162
+ ypos 369
+ disable {{"abs(width/height - 2.220000/1.476942) < 1e-4" x1 1}}
+}
+Read {
+ inputs 0
+ file_type jpeg
+ file /storage/private/hko/mmlec/week3/plate/jpg/trackboy.####.jpg
+ format "1936 1288 0 0 1936 1288 1 "
+ last 72
+ origlast 72
+ origset true
+ name Read_Original
+ xpos -383
+ ypos 439
+}
+Merge2 {
+ inputs 2
+ name Merge1
+ xpos -162
+ ypos 469
+}
+Viewer {
+ frame 1
+ frame_range 1-72
+ name Viewer1
+ xpos -162
+ ypos 521
+}
