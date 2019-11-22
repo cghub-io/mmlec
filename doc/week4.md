@@ -1,6 +1,6 @@
 # Object Tracking
 
-## Intro
+## Problem
 1. 평평한 땅을 직선으로 달리는 자동차를 매치무브 하려고 한다
     > ![](../img/week4/object_tracking_concept-optimize.gif)<br>
 1. 오브젝트에만 2D Point들을 찍어서 솔브한다
@@ -12,8 +12,8 @@
         > ![](../img/week4/fixed_camera_moving_object.gif)<br>
     - 이렇게 Point Group Type까지 바꾸었는데도 자동차는 직선으로 움직이지 않고있다. 무엇이 문제일까?
     
----
-
+## Answer
+- 카메라 트래킹 없이 오브젝트 트래킹만 단독으로 작업했기 때문
 1. 플레이트의 내용물을 두 그룹으로 나눈다
     1. Ground >> Camera Tracking
         > ![](../img/week4/ground_only-optimize.gif)<br>
@@ -22,6 +22,8 @@
 1. Camera Tracking
 1. Object Tracking
 1. Parent Constraint
+
+## In Depth
 
 ## Object Tracking in 3DEqualizer
 
