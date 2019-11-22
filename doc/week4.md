@@ -10,7 +10,7 @@
         > ![](../img/week4/point_group_type_object.png)<br>
     1. 카메라는 가만히 있고 오브젝트가 움직인다
         > ![](../img/week4/fixed_camera_moving_object.gif)<br>
-    - 이렇게 Point Group Type까지 바꾸었는데도
+    - 이렇게 Point Group Type까지 바꾸었는데도 자동차는 직선으로 움직이지 않고있다. 무엇이 문제일까?
     
 ---
 
