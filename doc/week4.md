@@ -6,9 +6,11 @@
 1. 오브젝트에만 2D Point들을 찍어서 솔브한다
     1. 오브젝트는 가만히 있고 카메라가 움직인다
         > ![](../img/week4/moving_camera_fixed_object.gif)<br>
-    1. Point Group을 `Object`로 바꾼다
+    1. Point Group Type을 `Object`로 바꾼다
+        > ![](../img/week4/point_group_type_object.png)<br>
     1. 카메라는 가만히 있고 오브젝트가 움직인다
         > ![](../img/week4/fixed_camera_moving_object.gif)<br>
+    - 이렇게 Point Group Type까지 바꾸었는데도
     
 ---
 
