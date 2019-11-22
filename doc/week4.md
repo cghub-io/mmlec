@@ -21,7 +21,9 @@
     1. Car >> Object Tracking
         > ![](../img/week4/car_only-optimize.gif)<br>
 1. Camera Tracking
+1. Add Point Group
 1. Object Tracking
+1. Result
 
 ## In Depth
 - Tracked Camera + (Fixed Camera X Moving Object) = Object Tracking
