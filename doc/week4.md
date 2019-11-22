@@ -21,9 +21,9 @@
         > ![](../img/week4/car_only-optimize.gif)<br>
 1. Camera Tracking
 1. Object Tracking
-1. Parent Constraint
 
 ## In Depth
+
 
 ## Object Tracking in 3DEqualizer
 
