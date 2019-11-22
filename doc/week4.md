@@ -14,7 +14,7 @@
     
 ---
 
-1. 우선 플레이트의 내용물을 두 그룹으로 나누어 보자
+1. 플레이트의 내용물을 두 그룹으로 나눈다
     1. Ground >> Camera Tracking
         > ![](../img/week4/ground_only-optimize.gif)<br>
     1. Car >> Object Tracking
