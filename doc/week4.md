@@ -23,7 +23,7 @@
 1. Object Tracking
 
 ## In Depth
-
+- Tracked Camera + (Fixed Camera X Moving Object) = Object Tracking
 
 ## Object Tracking in 3DEqualizer
 
