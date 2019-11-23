@@ -37,17 +37,21 @@
 ### 3DEqualizer
 1. Open `mmlec/week4/3de/object_tracking_master.3de`
 1. Export Tracked Scene
+    - 3DE4 >> Export Project >> Maya
+    - `mmlec/week4/3de/object_tracking_master.mel`
 1. Delete Camera Point Group
 1. Solve
 1. Export Fixed Camera Moving Object Scene
-    - Create Camera Point Group >> Object Point Group 단독으로 Export 하는게 불가능하다
+    1. Create Camera Point Group >> Object Point Group 단독으로 Export 하는게 불가능하다
         1. Create New Point Group
             > ![](../img/week4/add_new_pointgroup.png)<br>
         1. Select New Point Group
             > ![](../img/week4/add_new_pointgroup_select.png)<br>
         1. Change Point Group Type to `Camera`
             > ![](../img/week4/add_new_pointgroup_type.png)<br>
-
+    1. Export Project
+        - 3DE4 >> Export Project >> Maya
+        - `mmlec/week4/3de/fixed_camera_moving_object.mel`
 ### Maya
 1. Import Tracked Scene (Maya)
     - Delete Object Point Group
