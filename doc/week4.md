@@ -62,7 +62,7 @@
     - `mmlec/week4/3de/fixed_camera_moving_object.mel`
     > ![](../img/week4/import_fixed_camera_moving_object.png)
 1. Parent Constraint
-    1. Select `Scene_cam`
+    1. Select `Scene_cam | camera_1_1`
     1. Select `Scene`
     1. Parent Constraint Option Box
 
