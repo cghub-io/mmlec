@@ -60,6 +60,7 @@
     > ![](../img/week4/moving_camera_moving_object_outliner.png) ![](../img/week4/moving_camera_moving_object_outliner_edit.png)<br>
 1. Import Fixed Camera Moving Object Scene
     - `mmlec/week4/3de/fixed_camera_moving_object.mel`
+    > ![](../img/week4/moving_camera_moving_object_outliner.png)
 1. Parent Constraint
     1. Select `Scene_cam`
     1. Select `Scene`
