@@ -36,9 +36,9 @@
 
 ### 3DEqualizer
 1. Open `mmlec/week4/3de/object_tracking_master.3de`
-1. Export Tracked Scene
+1. Export Moving Camera Moving Object
     - 3DE4 >> Export Project >> Maya
-    - `mmlec/week4/3de/object_tracking_master.mel`
+    - `mmlec/week4/3de/moving_camera_moving_object.mel`
 1. Delete Camera Point Group
 1. Solve
 1. Export Fixed Camera Moving Object Scene
@@ -53,10 +53,12 @@
         - 3DE4 >> Export Project >> Maya
         - `mmlec/week4/3de/fixed_camera_moving_object.mel`
 ### Maya
-1. Import Tracked Scene (Maya)
+1. Import Moving Camera Moving Object
+    - `mmlec/week4/3de/moving_camera_moving_object.mel`
     - Delete Object Point Group
     - Rename `Scene` to `Scene_cam`
 1. Import Fixed Camera Moving Object Scene
+    - `mmlec/week4/3de/fixed_camera_moving_object.mel`
 1. Parent Constraint
     1. Select `Scene_cam`
     1. Select `Scene`
