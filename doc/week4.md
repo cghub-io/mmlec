@@ -45,7 +45,7 @@
             > ![](../img/week4/add_new_pointgroup.png)<br>
         1. Select New Point Group
             > ![](../img/week4/add_new_pointgroup_select.png)<br>
-        1. Change Point Group Type to `Object`
+        1. Change Point Group Type to `Camera`
             > ![](../img/week4/add_new_pointgroup_type.png)<br>
 
 ### Maya
