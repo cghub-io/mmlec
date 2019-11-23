@@ -35,6 +35,7 @@
 > ![](../img/week4/camera_and_object_tracking.gif)<br>
 
 ### 3DEqualizer
+1. Open `mmlec/week4/3de/object_tracking_master.3de`
 1. Export Tracked Scene
 1. Delete Camera Point Group
 1. Solve
