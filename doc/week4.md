@@ -40,6 +40,7 @@
     - 3DE4 >> Export Project >> Maya
     - `mmlec/week4/3de/moving_camera_moving_object.mel`
 1. Delete Camera Point Group
+    > ![](../img/week4/delete_camera_pointgroup.png)<br>
 1. Solve
 1. Export Fixed Camera Moving Object Scene
     1. Create Camera Point Group >> Object Point Group 단독으로 Export 하는게 불가능하다
