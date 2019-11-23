@@ -65,6 +65,7 @@
     1. Select `Scene_cam | camera_1_1`
     1. Select `Scene`
     1. Parent Constraint Option Box
+    > ![](../img/week4/scenecam_camera_scene_parent_constraint.png)
 1. Result
    > ![](../img/week4/object_tracking_indepth.gif)
 ## Object Tracking in 3DEqualizer
