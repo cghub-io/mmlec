@@ -28,6 +28,11 @@
 
 ## In Depth
 - Tracked Camera + (Fixed Camera X Moving Object) = Object Tracking
+> ![](../img/week4/camera_tracking.gif)<br>
+> ![](../img/week4/plus.png)<br>
+> ![](../img/week4/fixed_camera_moving_object.gif)<br>
+> ![](../img/week4/equals.png)<br>
+> ![](../img/week4/camera_and_object_tracking.gif)<br>
 
 ### 3DEqualizer
 1. Export Tracked Scene
