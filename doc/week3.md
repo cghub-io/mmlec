@@ -170,6 +170,7 @@
 - 남자의 키가 180cm 라고 가정하고 씬스케일을 맞출 것이다. 따라서 남자가 서 있는 (대략적인)위치가 필요하다.
 - 남자가 서 있는 위치를 Triangulate Points를 사용해서 알아낸다.
     > ![](../img/week3/triangulate_points.png)<br>
+    > ![](../img/week2/pgm_triangulation.png)<br>
 ### Export 3DE Project to Maya
 1. Export Project
     - 3DE4 >> Export Project >> Maya...
