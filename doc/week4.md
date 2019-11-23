@@ -57,6 +57,7 @@
     - `mmlec/week4/3de/moving_camera_moving_object.mel`
     - Delete Object Point Group
     - Rename `Scene` to `Scene_cam`
+    > ![](../img/week4/moving_camera_moving_object_outliner.png) ![](../img/week4/moving_camera_moving_object_outliner_edit.png)<br>
 1. Import Fixed Camera Moving Object Scene
     - `mmlec/week4/3de/fixed_camera_moving_object.mel`
 1. Parent Constraint
