@@ -41,8 +41,12 @@
 1. Solve
 1. Export Fixed Camera Moving Object Scene
     - Create Camera Point Group >> Object Point Group 단독으로 Export 하는게 불가능하다
-        > ![](../img/week4/add_new_pointgroup.png) ![](../img/week4/add_new_pointgroup_select.png)<br>
-        > ![](../img/week4/add_new_pointgroup_type.png)<br>
+        1. Create New Point Group
+            > ![](../img/week4/add_new_pointgroup.png)<br>
+        1. Select New Point Group
+            > ![](../img/week4/add_new_pointgroup_select.png)<br>
+        1. Change Point Group Type to `Object`
+            > ![](../img/week4/add_new_pointgroup_type.png)<br>
 
 ### Maya
 1. Import Tracked Scene (Maya)
