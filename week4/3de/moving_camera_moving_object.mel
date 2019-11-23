@@ -7,8 +7,8 @@
 // create scene group...
 string $sceneGroupName = `group -em -name "Scene"`;
 
-// create camera object_tracking_1_1...
-string $cameraNodes[] = `camera -name "object_tracking_1_1" -hfa 1.417322834645669  -vfa 0.797244094488189 -fl 35.000000000000000 -ncp 0.01 -fcp 10000 -shutterAngle 180 -ff "overscan"`;
+// create camera camera_1_1...
+string $cameraNodes[] = `camera -name "camera_1_1" -hfa 1.417322834645669  -vfa 0.797244094488189 -fl 35.000000000000000 -ncp 0.01 -fcp 10000 -shutterAngle 180 -ff "overscan"`;
 string $cameraTransform = $cameraNodes[0];
 string $cameraShape = $cameraNodes[1];
 xform -zeroTransformPivots -rotateOrder zxy $cameraTransform;
@@ -32,7 +32,7 @@ setAttr ($myImagePlane[1]  + ".depth") (9000/2);
 // parent camera to scene group...
 parent $cameraTransform $sceneGroupName;
 
-// animating camera object_tracking_1_1...
+// animating camera camera_1_1...
 playbackOptions -min 1 -max 120;
 
 setKeyframe -at translateX -t 1 -v -72.318457734100207 $cameraTransform; 
