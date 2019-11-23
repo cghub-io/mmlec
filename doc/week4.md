@@ -29,6 +29,23 @@
 ## In Depth
 - Tracked Camera + (Fixed Camera X Moving Object) = Object Tracking
 
+### 3DEqualizer
+1. Export Tracked Scene
+1. Delete Camera Point Group
+1. Solve
+1. Export Fixed Camera Moving Object Scene
+    - Create Camera Point Group >> Object Point Group 단독으로 Export 하는게 불가능하다
+
+### Maya
+1. Import Tracked Scene (Maya)
+    - Delete Object Point Group
+    - Rename `Scene` to `Scene_cam`
+1. Import Fixed Camera Moving Object Scene
+1. Parent Constraint
+    1. Select `Scene_cam`
+    1. Select `Scene`
+    1. Parent Constraint Option Box
+
 ## Object Tracking in 3DEqualizer
 
 - Camera Tracking
