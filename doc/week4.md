@@ -85,9 +85,10 @@
 1. Set Current Point Group
     > ![](../img/week4/set_current_point_group_result_.png)
 1. 2D Point Tracking
-
+    1. Import 2D Tracks
+        > ![](../img/week4/import_2dtracks.png)<br>
+        > ![](../img/week4/import_2dtracks_result.png)<br>
 1. Solving
-
 1. Exporting
 
 ## Object Tracking in Maya
