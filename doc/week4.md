@@ -99,7 +99,7 @@
         > ![](../img/week4/scale_manip.png)<br>
     1. Adjust Scale
         > ![](../img/week4/scale_manip.gif)<br>
-1. [Orient Scene](../week3.md#orient-scene)
+1. [Orient Scene](https://github.com/kohyuk91/mmlec/blob/master/doc/week3.md#orient-scene)
 1. Exporting
 
 ## Object Tracking in Maya
