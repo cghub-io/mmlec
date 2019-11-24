@@ -95,6 +95,10 @@
     1. Scale Issue
         > ![](../img/week4/scale_problem.png)<br>
 1. Fix Scale
+    1. Turn On Scale Manipulator
+        > ![](../img/week4/scale_manip.png)<br>
+    1. Adjust Scale
+        > ![](../img/week4/scale_manip.gif)<br>
 1. Exporting
 
 ## Object Tracking in Maya
