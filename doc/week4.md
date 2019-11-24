@@ -112,7 +112,7 @@
 
 ### Compensate for Overscan(오버스캔 상쇄)
 
-### Modeling Set Geometry
+### Set Modeling
 
 ### Scale Scene
 
