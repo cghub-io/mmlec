@@ -1,6 +1,6 @@
 //Maya ASCII 2018ff09 scene
 //Name: object_tracking_indepth.ma
-//Last modified: 토, 11월 23, 2019 10:17:31 오후
+//Last modified: 토, 11월 23, 2019 10:49:49 오후
 //Codeset: UTF-8
 requires maya "2018ff09";
 requires "mtoa" "3.1.2.1";
@@ -1762,7 +1762,7 @@ createNode parentConstraint -n "Scene_parentConstraint1" -p "Scene";
 	setAttr -k off ".sy";
 	setAttr -k off ".sz";
 	setAttr ".erp" yes;
-	setAttr ".lr" -type "double3" -32.823529411800045 -12.352941176500002 -4.7310304029182438e-16 ;
+	setAttr ".lr" -type "double3" -30.388235294100017 37.976470588200002 1.8435485447385546e-15 ;
 	setAttr ".rst" -type "double3" -72.318457734100207 85.121973501800369 -109.06349510899983 ;
 	setAttr ".rsrr" -type "double3" -34.200000000000053 -40.799999999999976 -1.9227598739416683e-15 ;
 	setAttr -k on ".w0";
