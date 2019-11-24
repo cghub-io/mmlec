@@ -94,6 +94,7 @@
         > ![](../img/week4/object_tracking_solved.png)<br>
     1. Scale Issue
         > ![](../img/week4/scale_problem.png)<br>
+1. Fix Scale
 1. Exporting
 
 ## Object Tracking in Maya
