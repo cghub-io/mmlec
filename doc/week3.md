@@ -249,7 +249,7 @@
         > ![](../img/week3/oscam_original_resolution.png)
     1. <kbd>Overscan</kbd> 버튼 클릭
     
-### Modeling Set Geometry
+### Set Modeling 
 - 바닥 & 벽 모델링
     > ![](../img/week3/ground_wall_modeling.png)<br>
     > ![](../img/week3/ground_wall_modeling_persp.png)<br>
