@@ -17,9 +17,9 @@
 - 카메라 트래킹 없이 오브젝트 트래킹만 단독으로 작업했기 때문
 1. 플레이트의 내용물을 두 그룹으로 나눈다
     1. Ground >> Camera Tracking
-        > ![](../img/week4/ground_only-optimize.gif)<br>
+        > ![](../img/week4/ground_only_wm.gif)<br>
     1. Car >> Object Tracking
-        > ![](../img/week4/car_only-optimize.gif)<br>
+        > ![](../img/week4/car_only_wm.gif)<br>
 1. Camera Tracking
     > ![](../img/week4/camera_tracking.gif)<br>
 1. Add Point Group
