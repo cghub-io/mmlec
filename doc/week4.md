@@ -90,6 +90,10 @@
         > ![](../img/week4/import_2dtracks_result.png)<br>
 1. Solving
     - Calc >> Calc All From Scratch <kbd>Alt+C</kbd>
+    1. Solved
+        > ![](../img/week4/object_tracking_solved.png)<br>
+    1. Scale Issue
+        > ![](../img/week4/scale_problem.png)<br>
 1. Exporting
 
 ## Object Tracking in Maya
