@@ -50,6 +50,8 @@
             > ![](../img/week4/add_new_pointgroup_select.png)<br>
         1. Change Point Group Type to `Camera`
             > ![](../img/week4/add_new_pointgroup_type.png)<br>
+        1. Result
+            > ![](../img/week4/point_group_type_camera_result.png)<br>
     1. Export Project
         - 3DE4 >> Export Project >> Maya
         - `mmlec/week4/3de/fixed_camera_moving_object.mel`
