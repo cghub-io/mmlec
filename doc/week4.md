@@ -94,6 +94,7 @@
     > ![](../img/week4/object_tracking_solved.png)<br>
 1. Scale Issue
     > ![](../img/week4/scale_problem.png)<br>
+- Screen Space(카메라 시점)로 봤을 때는 맞아 보이지만, World Space로 봤을때는 문제가 있는 상태다.
 ### Fix Scale
 1. Turn On Scale Manipulator
     > ![](../img/week4/scale_manip.png)<br>
