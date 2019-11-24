@@ -214,11 +214,11 @@
     - 이미지 시퀀스를 올바르게 재생하기 위한 셋팅
     > ![](../img/week3/playback.png)
     
-### 3DE 프로젝트 임포트 (Import 3DE Project)
+### Import 3DE Project
 - 뷰포트(viewport)에 멜스크립트(MEL Script)를 드래그 앤 드롭
     > ![](../img/week3/maya_original_plate.png)
 
-### 오버스캔 상쇄 (Compensate for Overscan)
+### Compensate for Overscan(오버스캔 상쇄)
 - 3D포인트(로케이터)가 이퀄라이져 뷰포트와 다르게 위치해 있다. 이런 현상이 나타나는 이유는 우리가 강제로 이미지 사이즈를 키우면서 화각도 같이 키웠기 때문이다. 카메라의 화각은 그대로인데 이미지의 화각만 넓어졌으니 이런 문제가 생긴것이다. 필름백 가로 길이와 세로 길이를 조절하여 오버스캔을 상쇄한다. (포컬랭스로 화각을 조정하지 않는 이유는 가로와 세로 화각이 커진 스케일 다를 수 있기 때문)
 1. 이미지플랜을 Undistort Plate로 교체한다
     > ![](../img/week3/maya_undistorted_plate.png)
