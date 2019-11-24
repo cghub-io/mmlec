@@ -315,6 +315,7 @@
 1. Merge Render Image with "Distorted(Original)" plate
     - FINAL COMP SIZE - 1936 x 1288
     > ![](../img/week3/comp.0001.jpg)<br>
+    
 ---
 
 ### [PREV - Matchmove Software](./week2.md) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [NEXT - Object Tracking](./week4.md)
