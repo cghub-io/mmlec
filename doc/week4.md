@@ -107,3 +107,13 @@
 ### [Export 3DE Project to Maya](https://github.com/kohyuk91/mmlec/blob/master/doc/week3.md#export-3de-project-to-maya)
 
 ## Object Tracking in Maya
+
+### Import 3DE Project
+
+### Compensate for Overscan(오버스캔 상쇄)
+
+### Modeling Set Geometry
+
+### Scale Scene
+
+### Preview
