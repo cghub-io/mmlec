@@ -76,14 +76,16 @@
    
 ## Object Tracking in 3DEqualizer
 
-- Camera Tracking
+1. Camera Tracking
+    - 3DE4 >> Open Project
+        - `mmlec/week4/3de/trackboy_object_tracking_start.3de`
+        > ![](../img/week4/trackboy_object_tracking_start.png)
+1. Create Point Group
 
-- Create Point Group
+1. 2D Point Tracking
 
-- 2D Point Tracking
+1. Solving
 
-- Solving
-
-- Exporting
+1. Exporting
 
 ## Object Tracking in Maya
