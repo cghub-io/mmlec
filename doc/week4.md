@@ -103,6 +103,6 @@
     > ![](../img/week4/scale_fixed.png)<br>
 ### [Orient Scene](https://github.com/kohyuk91/mmlec/blob/master/doc/week3.md#orient-scene)
 > ![](../img/week4/orient_scene.png)<br>
-### Exporting
+### [Export 3DE Project to Maya](https://github.com/kohyuk91/mmlec/blob/master/doc/week3.md#export-3de-project-to-maya)
 
 ## Object Tracking in Maya
