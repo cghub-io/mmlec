@@ -89,6 +89,7 @@
         > ![](../img/week4/import_2dtracks.png)<br>
         > ![](../img/week4/import_2dtracks_result.png)<br>
 1. Solving
+    - Calc >> Calc All From Scratch <kbd>Alt+C</kbd>
 1. Exporting
 
 ## Object Tracking in Maya
