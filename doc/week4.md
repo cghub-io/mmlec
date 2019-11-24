@@ -114,6 +114,7 @@
 
 ### Set Modeling
 1. 바닥 & 벽 모델링
+1. 사다리 모델링
 1. 상자 모델링
 - Viewport2.0 Tips
     1. Multisample anti-aliasing
@@ -121,3 +122,4 @@
 ### Scale Scene
 
 ### Preview
+> ![](../img/week4/trackboy_preview.gif)<br>
