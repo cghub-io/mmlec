@@ -57,6 +57,7 @@
 1. Import Moving Camera Moving Object
     - `mmlec/week4/3de/moving_camera_moving_object.mel`
     - Delete Object Point Group
+        > ![](../img/week4/delete_camera_pointgroup.png)
     - Rename `Scene` to `Scene_cam`
     > ![](../img/week4/moving_camera_moving_object_outliner.png) ![](../img/week4/moving_camera_moving_object_outliner_edit.png)<br>
 1. Import Fixed Camera Moving Object Scene
