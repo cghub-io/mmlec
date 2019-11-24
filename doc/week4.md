@@ -100,6 +100,7 @@
 1. Adjust Scale
     > ![](../img/week4/scale_manip.gif)<br>
 1. Fixed
+    - Object Point Group이 남자가 서 있는 위치 까지 올 수 있게 스케일을 조정한다.
     > ![](../img/week4/scale_fixed.png)<br>
 ### [Orient Scene](https://github.com/kohyuk91/mmlec/blob/master/doc/week3.md#orient-scene)
 > ![](../img/week4/orient_scene.png)<br>
