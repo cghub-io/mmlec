@@ -81,7 +81,9 @@
         - `mmlec/week4/3de/trackboy_object_tracking_start.3de`
         > ![](../img/week4/trackboy_object_tracking_start.png)
 1. Create Point Group
-
+    > ![](../img/week4/trackboy_object_tracking_add_new_pointgroup_result_.png)
+1. Set Current Point Group
+    > ![](../img/week4/set_current_point_group_result_.png)
 1. 2D Point Tracking
 
 1. Solving
