@@ -6,11 +6,11 @@
 1. 오브젝트에만 2D Point들을 찍어서 솔브한다
     > ![](../img/week4/object_2dtracks.png)<br>
     1. 오브젝트는 가만히 있고 카메라가 움직인다
-        > ![](../img/week4/moving_camera_fixed_object.gif)<br>
+        > ![](../img/week4/moving_camera_fixed_object_wm.gif)<br>
     1. Point Group Type을 `Object`로 바꾼다
-        > ![](../img/week4/point_group_type_object.png)<br>
+        > ![](../img/week4/point_group_type_object_wm.png)<br>
     1. 카메라는 가만히 있고 오브젝트가 움직인다
-        > ![](../img/week4/fixed_camera_moving_object.gif)<br>
+        > ![](../img/week4/fixed_camera_moving_object_wm.gif)<br>
     - 이렇게 Point Group Type까지 바꾸었는데도 자동차는 직선으로 움직이지 않고있다. 무엇이 문제일까?
     
 ## Answer
@@ -21,18 +21,18 @@
     1. Car >> Object Tracking
         > ![](../img/week4/car_only_wm.gif)<br>
 1. Camera Tracking
-    > ![](../img/week4/camera_tracking.gif)<br>
+    > ![](../img/week4/camera_tracking_wm.gif)<br>
 1. Add Point Group
 1. Object Tracking
-    > ![](../img/week4/camera_and_object_tracking.gif)<br>
+    > ![](../img/week4/camera_and_object_tracking_wm.gif)<br>
 
 ## In Depth
 - Tracked Camera + (Fixed Camera X Moving Object) = Object Tracking
-> ![](../img/week4/camera_tracking.gif)<br>
+> ![](../img/week4/camera_tracking_wm.gif)<br>
 > ![](../img/week4/plus.png)<br>
-> ![](../img/week4/fixed_camera_moving_object.gif)<br>
+> ![](../img/week4/fixed_camera_moving_object_wm.gif)<br>
 > ![](../img/week4/equals.png)<br>
-> ![](../img/week4/camera_and_object_tracking.gif)<br>
+> ![](../img/week4/camera_and_object_tracking_wm.gif)<br>
 
 ### 3DEqualizer
 1. Open `mmlec/week4/3de/object_tracking_master.3de`
