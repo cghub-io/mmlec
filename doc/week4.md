@@ -113,7 +113,8 @@
 ### Compensate for Overscan(오버스캔 상쇄)
 
 ### Set Modeling
-
+1. 바닥 & 벽 모델링
+1. 상자 모델링
 ### Scale Scene
 
 ### Preview
