@@ -115,6 +115,9 @@
 ### Set Modeling
 1. 바닥 & 벽 모델링
 1. 상자 모델링
+- Viewport2.0 Tips
+    1. Multisample anti-aliasing
+    1. Holdout
 ### Scale Scene
 
 ### Preview
