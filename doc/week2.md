@@ -41,22 +41,22 @@
 1. 최소 대응점 개수
     - 위치(Position) XYZ, 회전(Rotation) XYZ 6개의 값을 솔브하기 위해서, 프레임 마다 최소 6개의 대응점이 필요하다.
     - BAD
-        > ![](../img/week2/min_markers_bad.gif)
+        > ![](../img/week2/min_markers_bad_wm.gif)
     - GOOD
-        > ![](../img/week2/min_markers_good.gif)
+        > ![](../img/week2/min_markers_good_wm.gif)
 1. 정적인 장면
     - 동적인 장면(Dynamic Scene)
         > ![](../img/week2/sea.gif)
         > ![](../img/week2/dynamic_scene.png)
 1. 시차
     - Parallax(패럴랙스)
-        > ![](../img/week2/pgm_parallax.png)
+        > ![](../img/week2/pgm_parallax_wm.png)
     - Translation
-        > ![](../img/week2/parallax_translate.gif)<br>
-        > ![](../img/week2/parallax_translate_camview.gif)<br>
+        > ![](../img/week2/parallax_translate_wm.gif)<br>
+        > ![](../img/week2/parallax_translate_camview_wm.gif)<br>
     - Rotation
-        > ![](../img/week2/parallax_rotate.gif)<br>
-        > ![](../img/week2/parallax_rotate_camview.gif)<br>    
+        > ![](../img/week2/parallax_rotate_wm.gif)<br>
+        > ![](../img/week2/parallax_rotate_camview_wm.gif)<br>    
 ## 심화
 
 ### 포컬 랭스를 모르면? (필름백은 알고 있다)
