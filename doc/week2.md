@@ -50,7 +50,7 @@
         > ![](../img/week2/dynamic_scene.png)
 1. 시차
     - Parallax(패럴랙스)
-        > ![](../img/week2/parallax_wm.png)
+        > ![](../img/week2/parallax_wm.gif)
     - Translation
         > ![](../img/week2/parallax_translate_wm.gif)<br>
         > ![](../img/week2/parallax_translate_camview_wm.gif)<br>
