@@ -22,7 +22,6 @@
         > ![](../img/week4/car_only_wm.gif)<br>
 1. Camera Tracking
     > ![](../img/week4/camera_tracking_wm.gif)<br>
-1. Add Point Group
 1. Object Tracking
     > ![](../img/week4/camera_and_object_tracking_wm.gif)<br>
 
