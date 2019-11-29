@@ -77,7 +77,7 @@
 
 ### Camera Tracking
 - 3DE4 >> Open Project
-    - `mmlec/week4/3de/trackboy_object_tracking_start.3de`
+    - `mmlec/week4/3de/trackboy_object_tracking/trackboy_object_tracking_start.3de`
     > ![](../img/week4/trackboy_object_tracking_start.png)
 ### Create Point Group
 > ![](../img/week4/trackboy_object_tracking_add_new_pointgroup_result_.png)
