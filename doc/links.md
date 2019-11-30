@@ -27,7 +27,5 @@
 ## Pixar in a Box
 > [Pixar in a Box - Virtual cameras](https://www.khanacademy.org/partner-content/pixar/virtual-cameras/virtual-cameras-1/v/virtual-cameras)
 
----
-
-### Matchmove Demo Reel
+## Matchmove Demo Reel
 > [!["Matchmove Showreel" - by Taylor Cooper](http://img.youtube.com/vi/ki-yMlSP_Ro/0.jpg)](http://www.youtube.com/watch?v=ki-yMlSP_Ro "")
