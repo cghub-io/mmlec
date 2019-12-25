@@ -5,9 +5,6 @@
 
 매치무브를 장기적으로 그리고 효율적으로 공부하기 위해서 **필수 과목**과 **선택 과목**을 구분해야 합니다. mmlec은 이제 막 매치무브에 입문한 사람들이 필수로 배워야 하는 개념들을 정리한 리포지토리 입니다. 즉, **매치무브의 사칙연산**을 배울 수 있는 곳입니다.
 
-## 수업 전에 보고오면 좋은 자료들
-### [Pixar in a Box - 가상 카메라가 작동하는 방법](https://ko.khanacademy.org/partner-content/pixar/virtual-cameras/virtual-cameras-1/v/virtual-cameras)
-
 ## 목차
 ### [Orientaion - 매치무브?](doc/orientation.md)
 ### [Week1 - 카메라와 영상](doc/week1.md)
@@ -24,6 +21,6 @@
 ### [Week4 - 오브젝트 트래킹](doc/week4.md)
 - 촬영본에 등장하는 오브젝트들의 궤적을 재건하는 오브젝트 트래킹 작업에 대해 학습합니다. 
 
----
-
-### [Links](doc/links.md)
+## 수업 전에 보고오면 좋은 자료
+### [Pixar in a Box - 가상 카메라가 작동하는 방법](https://ko.khanacademy.org/partner-content/pixar/virtual-cameras/virtual-cameras-1/v/virtual-cameras)
+> ![](img/week1/pixar_in_a_box.png)
