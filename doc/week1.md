@@ -19,5 +19,3 @@
 [![](http://img.youtube.com/vi/aDYDsCwbpDA/0.jpg)](http://www.youtube.com/watch?v=aDYDsCwbpDA "")
 
 ## [Pixar in a Box - 가상 카메라(Virtual Camera)](https://ko.khanacademy.org/partner-content/pixar/virtual-cameras)
-[![](http://img.youtube.com/vi/LswXfRF-o70/0.jpg)](http://www.youtube.com/watch?v=LswXfRF-o7 "")
-> 한글 자막 있습니다!
