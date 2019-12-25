@@ -1,8 +1,10 @@
 # Overview
 
-### [Week1 - Introduction to Matchmove](doc/week1.md)
+### [Orientation](doc/orientation.md)
 
-### [Week2 - Matchmove Software](doc/week2.md)
+### [Week1 - Camera](doc/week1.md)
+
+### [Week2 - Photogrammetry](doc/week2.md)
 
 ### [Week3 - Camera Tracking](doc/week3.md)
 
