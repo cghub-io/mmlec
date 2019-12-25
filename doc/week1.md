@@ -15,6 +15,7 @@
 - 정의: 렌즈를 통해 들어오는 광량을 카메라에서 **증폭**시키는 정도를 나타낸다
 - 노출과 관련된 특성: ISO가 올라가면 사진이 밝아진다
 - 고유의 특성: ISO가 올라가면 화질이 저하된다
+    > ![](../img/week1/iso_noise_comparison.png)
 
 ### 화각(Angle of View)
 #### 포컬 랭스(Focal Length)
