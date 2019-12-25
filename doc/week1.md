@@ -23,6 +23,7 @@
 - 특징
     1. 포착할 수 있는 장면의 화각을 결정한다
     1. 렌즈에 의해 결정된다
+        > ![](../img/week1/prime_and_zoom_lens.png)
 #### 필름 백(Film Back)
 - 정의: 이미지 센서의 **활성 영역(Active Area)**
 - 특징
