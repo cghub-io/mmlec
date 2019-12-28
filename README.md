@@ -24,3 +24,8 @@
 ## 수업 전에 보고오면 좋은 자료
 ### [Pixar in a Box - 가상 카메라가 작동하는 방법](https://ko.khanacademy.org/partner-content/pixar/virtual-cameras/virtual-cameras-1/v/virtual-cameras)
 > ![](img/week1/pixar_in_a_box_virtual_camera.png)
+
+
+## What's Next?
+1. [3DEqualizer 공식 튜토리얼](https://www.3dequalizer.com/index.php?site=tutorials)
+    > ![](img/week1/pixar_in_a_box_virtual_camera.png)
