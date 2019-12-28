@@ -30,7 +30,9 @@
 - 정의: 이미지 센서의 **활성 영역(Active Area)**.
     > ![](../img/week1/active_area.png)<br>
     > **Film Back Size**와 **Active Area Size**는 같은 말<br>
-    > **Film Back Size**와 **Sensor Size**는 전혀 다른 말!!! 
+    > **Film Back Size**와 **Sensor Size**는 전혀 다른 말!!!<br>
+    > ![](../img/week1/active_area_all_part.png)<br>
+    > **활성 영역**은 **센서의 전체**가 될 수도 있고, **센서의 일부분**이 될 수도 있다.<br> 
 - 특징
     1. 포착할 수 있는 장면의 화각을 결정한다
         > ![](../img/week1/fb_aov.png)
