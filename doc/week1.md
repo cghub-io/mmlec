@@ -42,7 +42,8 @@
     1. **포컬 랭스와 필름 백의 조합**에 의해 결정된다
     1. 즉, **렌즈와 바디에 조합**에 의해 결정된다
 - 계산법
-    > ![](../img/week1/aov_formula_concept.png)
+    > ![](../img/week1/aov_formula_concept.png)<br>
+    > ![](../img/week1/aov_formula_formula.png)
 ## 렌즈
 ### 구조
 > ![](../img/week1/lens_half.png)
