@@ -44,6 +44,7 @@
 - 계산법
 ## 렌즈
 ### 구조
+> ![](../img/week1/lens_half.png)
 ### 볼록렌즈
 - 볼록렌즈로 빛을 집중시킬 수 있다
     > ![](../img/week1/convex_lens_focal_point_.png)
