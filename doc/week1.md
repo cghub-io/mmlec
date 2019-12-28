@@ -25,7 +25,7 @@
         > ![](../img/week1/fl_aov.png)
     1. 렌즈에 의해 결정된다
         > ![](../img/week1/prime_and_zoom_lens.png)<br>
-        > 참고로 렌즈의 적혀있는 포컬 랭스 값은 **대략**입니다. 50mm 라고 적혀있다고 50.0mm로 딱 떨어지는 게 절대 아니라는 점.
+        > 참고로 렌즈의 적혀있는 포컬 랭스 수치는 **대략값**입니다. 50mm 라고 적혀있다고 50.0mm로 딱 떨어지는 게 절대 아니라는 점.
 ### 필름 백(Film Back)
 - 정의: 이미지 센서의 **활성 영역(Active Area)**.
     > ![](../img/week1/active_area.png)<br>
@@ -46,9 +46,9 @@
 ### 구조
 > ![](../img/week1/lens_half.png)
 ### 볼록렌즈
-- 볼록렌즈로 빛을 집중시킬 수 있다
+- 볼록렌즈로 빛을 집중시킬 수 있다.
     > ![](../img/week1/convex_lens_focal_point_.png)
-- 하지만 볼록렌즈 한개 만으로는 한점에 집중시키기 힘듬
+- 하지만 볼록렌즈 한개 만으로는 한점에 집중시키기 힘듭니다.
     > ![](../img/week1/convex_lens_focal_point_limit.png)
 ### 수차(Abberation)
 - 구면수차
