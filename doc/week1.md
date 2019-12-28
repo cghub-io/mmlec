@@ -48,6 +48,7 @@
 - 볼록렌즈로 빛을 집중시킬 수 있다
     > ![](../img/week1/convex_lens_focal_point_.png)
 - 하지만 볼록렌즈 한개 만으로는 한점에 집중시키기 힘듬
+    > ![](../img/week1/convex_lens_focal_point_limit.png)
 #### 수차(Abberation)
 - 구면수차
 - 왜곡수차
