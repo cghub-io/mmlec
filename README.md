@@ -21,11 +21,16 @@
 ### [Week4 - 오브젝트 트래킹](doc/week4.md)
 - 촬영본에 등장하는 오브젝트들의 궤적을 재건하는 오브젝트 트래킹 작업에 대해 학습합니다. 
 
+---
+
 ## 수업 전에 보고오면 좋은 자료
 ### [Pixar in a Box - 가상 카메라가 작동하는 방법](https://ko.khanacademy.org/partner-content/pixar/virtual-cameras/virtual-cameras-1/v/virtual-cameras)
 > ![](img/week1/pixar_in_a_box_virtual_camera.png)
 
+---
 
 ## What's Next?
-1. [3DEqualizer 공식 튜토리얼](https://www.3dequalizer.com/index.php?site=tutorials)
-    > ![](img/week1/pixar_in_a_box_virtual_camera.png)
+이제부턴 **선택 과목**들을 학습할 차례 입니다. 일단 필수 과목과 선택 과목의 가장 큰 차이점은 배우는 순서가 정해져 있지 않다는 겁니다. 작업을 하다가 막히는 부분들은 스스로 답을 찾아가면서 해결해야 하는 단계입니다.
+### [3DEqualizer 공식 튜토리얼](https://www.3dequalizer.com/index.php?site=tutorials)
+이퀄라이져 공식 홈페이지에는 양질의 튜토리얼 굉장히 많이 올라와 있습니다. 하지만 생각보다 어드벤스한 내용들이라 초보자가 처음부터 시청하기에는 다소 부담스러운 면이 있습니다. 이퀄라이져가 어느정도 익숙해진 뒤에 좀더 깊이 있게 공부하고 싶을때 시청하는 것을 추천드립니다.
+> ![](img/week1/tde4_tutorials.png)
