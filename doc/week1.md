@@ -46,7 +46,7 @@
     > ![](../img/week1/aov_formula_formula.png)
 - 예제
     > ![](../img/week1/full_frame_fl_35mm.png)<br>
-    > ![](../img/week1/full_frame_fl_35mm_.png)<br>
+    > ![](../img/week1/full_frame_fl_35mm_aov.png)<br>
 ## 렌즈
 ### 구조
 > ![](../img/week1/lens_half.png)
