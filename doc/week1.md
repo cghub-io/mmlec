@@ -29,7 +29,7 @@
 #### 필름 백(Film Back)
 - 정의: 이미지 센서의 **활성 영역(Active Area)**.
     > ![](../img/week1/active_area.png)<br>
-    > **Film Back Size**와 **Active Area Size**는 같은 말
+    > **Film Back Size**와 **Active Area Size**는 같은 말<br>
     > **Film Back Size**와 **Sensor Size**는 전혀 다른 말!!! 
 - 특징
     1. 포착할 수 있는 장면의 화각을 결정한다
