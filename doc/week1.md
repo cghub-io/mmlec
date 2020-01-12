@@ -62,7 +62,7 @@
 1. 혜성형 수차
 1. 비점수차
 1. 상면만곡
-1. **왜곡(Distortion)**
+1. :star:**왜곡(Distortion)**:star:
 #### 색수차(Chromatic Aberration)
 > ![](https://upload.wikimedia.org/wikipedia/commons/a/aa/Chromatic_aberration_lens_diagram.svg)<br>
 > DrBob at the English language Wikipedia [CC BY-SA]
