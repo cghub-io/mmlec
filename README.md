@@ -24,6 +24,7 @@
 ---
 
 ### [수업 관련 Q&A](doc/qna.md)
+> [![](img/qna/mm_qna_01.jpg)](doc/qna.md)
 
 ---
 
