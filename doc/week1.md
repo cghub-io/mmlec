@@ -63,6 +63,9 @@
 1. 비점수차
 1. 상면만곡
 1. :star:**왜곡(Distortion)**:star:
+> ![](https://upload.wikimedia.org/wikipedia/commons/2/2c/Panotools5618.jpg)<br>
+> Ashley Pomeroy at English Wikipedia [CC BY]
+
 #### 색수차(Chromatic Aberration)
 > ![](https://upload.wikimedia.org/wikipedia/commons/a/aa/Chromatic_aberration_lens_diagram.svg)<br>
 > DrBob at the English language Wikipedia [CC BY-SA]
