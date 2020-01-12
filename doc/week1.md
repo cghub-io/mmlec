@@ -56,12 +56,21 @@
     > ![](../img/week1/convex_lens_focal_point_.png)
 - 하지만 볼록 렌즈 한개 만으로는 한점에 집중시키기 힘듭니다.
     > ![](../img/week1/convex_lens_focal_point_limit.png)
-### 수차(Abberation)
-- 구면수차
-- 왜곡수차
-- 색수차
+### [광학 수차(Optical Abberation)](https://ko.wikipedia.org/wiki/%EA%B4%91%ED%95%99_%EC%88%98%EC%B0%A8)
+#### 단색수차(Monochromatic Aberration)
+1. 구면수차
+1. 혜성형 수차
+1. 비점수차
+1. 상면만곡
+1. **왜곡(Distortion)**
+#### 색수차(Chromatic Aberration)
+> ![](https://upload.wikimedia.org/wikipedia/commons/a/aa/Chromatic_aberration_lens_diagram.svg)<br>
+> DrBob at the English language Wikipedia [CC BY-SA]
+> ![](https://upload.wikimedia.org/wikipedia/commons/9/94/FeralHorse044.JPG)<br>
 ### 교정
 - **볼록 렌즈**와 **오목 렌즈**의 조합
+    > ![](https://upload.wikimedia.org/wikipedia/commons/1/15/Lens6b-en.svg)<br>
+    > Original uploaded by DrBob (Transfered by nbarth) [CC BY-SA]
 ### X군 Y매
 - 볼록 렌즈 + 오목 렌즈 = 1군
 - 렌즈 조각 = 1매
