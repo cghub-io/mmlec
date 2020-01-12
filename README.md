@@ -22,6 +22,8 @@
 - 촬영본에 등장하는 오브젝트들의 궤적을 재건하는 오브젝트 트래킹 작업에 대해 학습합니다. 
 
 ---
+## [수업 관련 Q&A](doc/qna.md)
+---
 
 ## 수업 전에 보고오면 좋은 자료
 ### [Pixar in a Box - 가상 카메라가 작동하는 방법](https://ko.khanacademy.org/partner-content/pixar/virtual-cameras/virtual-cameras-1/v/virtual-cameras)
