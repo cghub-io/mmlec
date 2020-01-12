@@ -63,9 +63,9 @@
 1. 비점수차
 1. 상면만곡
 1. :star:**왜곡(Distortion)**:star:
-- 다른 수차가 화상의 초점 선명도와 관계가 있지만, 왜곡은 화상의 전체적인 모양(Shape)과 관련이 있다.
-> ![](https://upload.wikimedia.org/wikipedia/commons/2/2c/Panotools5618.jpg)<br>
-> Ashley Pomeroy at English Wikipedia [CC BY]
+    - 다른 수차가 화상의 초점 선명도와 관계가 있지만, 왜곡은 화상의 전체적인 모양(Shape)과 관련이 있다.
+    > ![](https://upload.wikimedia.org/wikipedia/commons/2/2c/Panotools5618.jpg)<br>
+    > Ashley Pomeroy at English Wikipedia [CC BY]
 
 #### 색수차(Chromatic Aberration)
 > ![](https://upload.wikimedia.org/wikipedia/commons/a/aa/Chromatic_aberration_lens_diagram.svg)<br>
