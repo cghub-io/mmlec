@@ -26,6 +26,13 @@
     1. 렌즈에 의해 결정된다
         > ![](../img/week1/prime_and_zoom_lens.png)<br>
         > 참고로 렌즈의 적혀있는 포컬 랭스 수치는 **대략값**입니다. 50mm 라고 적혀있다고 50.0mm로 딱 떨어지는 게 절대 아니라는 점.
+    - 화각 비교
+        - 카메라 위치 및 각도는 고정. 포컬 랭스만 바꿔서 촬영된 이미지들.
+        > ![](../img/week1/fl_24mm.png)<br>
+        > ![](../img/week1/fl_35mm.png)<br>
+        > ![](../img/week1/fl_50mm.png)<br>
+        > ![](../img/week1/fl_75mm.png)<br>
+        > ![](../img/week1/fl_24_75mm.png)<br>
 ### 필름 백(Film Back)
 - 정의: 이미지 센서의 **활성 영역(Active Area)**.
     > ![](../img/week1/active_area.png)<br>
@@ -33,10 +40,15 @@
     > **Film Back Size**와 **Sensor Size**는 전혀 다른 말!!!<br>
     > ![](../img/week1/active_area_all_part.png)<br>
     > **활성 영역**은 **센서의 전체**가 될 수도 있고, **센서의 일부분**이 될 수도 있다.<br>
+    - :star: **Film Back Size**와 **Active Area Size**는 같은 말, **Film Back Size**와 **Sensor Size**는 전혀 다른 말!!! :star:
+        > ![](../img/week1/active_area.png)<br>
+    - **활성 영역**은 **센서의 전체**가 될 수도 있고, **센서의 일부분**이 될 수도 있다.
+        > ![](../img/week1/active_area_all_part.png)
 - 특징
     1. 포착할 수 있는 장면의 화각을 결정한다
         > ![](../img/week1/fb_aov.png)
     1. 바디에 의해 결정된다
+
 ### 화각
 - 특징
     1. **포컬 랭스와 필름 백의 조합**에 의해 결정된다
@@ -80,8 +92,9 @@
 1. 비점수차
 1. 상면만곡
 1. :star:**왜곡(Distortion)**:star:
-> ![](https://upload.wikimedia.org/wikipedia/commons/2/2c/Panotools5618.jpg)<br>
-> Ashley Pomeroy at English Wikipedia [CC BY]
+    - 다른 수차가 화상의 초점 선명도와 관계가 있지만, 왜곡은 화상의 전체적인 모양(Shape)과 관련이 있다.
+    > ![](https://upload.wikimedia.org/wikipedia/commons/2/2c/Panotools5618.jpg)<br>
+    > Ashley Pomeroy at English Wikipedia [CC BY]
 
 #### 색수차(Chromatic Aberration)
 > ![](https://upload.wikimedia.org/wikipedia/commons/a/aa/Chromatic_aberration_lens_diagram.svg)<br>
@@ -103,15 +116,25 @@
 
 ## 영상
 
-### 이미지 파일 형식
 
-## 동영상
-
-### 비디오 파일 형식
-
-#### 이미지 시퀀스
-- [DJV - 오픈소스 비디오 플레이어](https://darbyjohnston.github.io/DJV/)
+## 파일 형식
+### 이미지
+- jpg / png / gif / dpx / exr 등
+### 동영상
 #### 비디오 파일
+- 이미지 시퀀스를 단일 파일로 압축한 것
+- mp4 / mov / avi 등
+#### 이미지 시퀀스
+- 낮장으로 이루어진 연속적인 이름을 가진 이미지 파일
+- <이름(Name)>.<패딩(Padding)>.<확장자(Extension)>
+- ```
+  myvid.0001.jpg
+  myvid.0002.jpg
+  myvid.0003.jpg
+  ...
+  ```
+- 이미지 시퀀스의 경우 일반적인 비디오 플레이어로는 재생이 안되는 경우가 많다. 영상편집 프로그램 같은 특수한 소프트웨어를 통해서만 재생이 가능하다.
+    > [DJV - 오픈소스 비디오 플레이어](https://darbyjohnston.github.io/DJV/)
 
 ---
 
@@ -129,7 +152,11 @@
 [![](http://img.youtube.com/vi/IM_JA3yv5ek/0.jpg)](http://www.youtube.com/watch?v=IM_JA3yv5ek "")
 [![](http://img.youtube.com/vi/aDYDsCwbpDA/0.jpg)](http://www.youtube.com/watch?v=aDYDsCwbpDA "")
 [![](http://img.youtube.com/vi/fQCEgreQf2E/0.jpg)](http://www.youtube.com/watch?v=fQCEgreQf2E "")
+<<<<<<< HEAD
 [![](http://img.youtube.com/vi/tNjsSN7vCLk/0.jpg)](http://www.youtube.com/watch?v=tNjsSN7vCLk "")
+[![](http://img.youtube.com/vi/fQCEgreQf2E/0.jpg)](http://www.youtube.com/watch?v=fQCEgreQf2E "")
+[![](http://img.youtube.com/vi/jtUvPXW5iWg/0.jpg)](http://www.youtube.com/watch?v=jtUvPXW5iWg "")
+
 
 ---
 
