@@ -32,7 +32,7 @@
     > **Film Back Size**와 **Active Area Size**는 같은 말<br>
     > **Film Back Size**와 **Sensor Size**는 전혀 다른 말!!!<br>
     > ![](../img/week1/active_area_all_part.png)<br>
-    > **활성 영역**은 **센서의 전체**가 될 수도 있고, **센서의 일부분**이 될 수도 있다.<br> 
+    > **활성 영역**은 **센서의 전체**가 될 수도 있고, **센서의 일부분**이 될 수도 있다.<br>
 - 특징
     1. 포착할 수 있는 장면의 화각을 결정한다
         > ![](../img/week1/fb_aov.png)
@@ -47,6 +47,23 @@
 - 예제
     > ![](../img/week1/full_frame_fl_35mm.png)<br>
     > ![](../img/week1/full_frame_fl_35mm_aov.png)<br>
+## 원근법 & 원근감 (Perspective)
+### 원근법
+- 가까이 있는 물체는 커 보이고, 멀리 있는 물체는 작아 보이는...
+    > ![](../img/week1/perspective/perspective_two_statue.png)<br>
+    > ![](../img/week1/perspective/perspective_same_size.png)<br>
+    > ![](../img/week1/perspective/perspective_diff_size.png)<br>
+### 원근감
+- 멀고 가까운 거리에 대한 느낌
+    > ![](../img/week1/perspective/perspective_diff_size_bigger.png)<br>
+    > ![](../img/week1/perspective/perspective_diff_size_bigger_result.png)<br>
+    > ![](../img/week1/perspective/perspective_diff_size_smaller.png)<br>
+    > ![](../img/week1/perspective/perspective_diff_size_smaller_result.png)<br>
+- 원근감은 상대적 거리가 클수록 강하게 먹힘
+    > ![](../img/week1/perspective/perspective_strong.png)<br>
+    > ![](../img/week1/perspective/perspective_medium.png)<br>
+    > ![](../img/week1/perspective/perspective_weak.png)<br>
+## 시차 (Parallax)
 ## 렌즈
 ### 구조
 렌즈의 단면만 봐도 바로 느껴질 겁니다. ~~아 복잡한다.~~ 전문가가 아닌 이상 렌즈를 완벽하게 이해 할 필요가 없습니다. 경통 안에 왜 수많은 렌즈들이 들어가 있는지 그 이유 정도만 살펴보면 됩니다.
@@ -112,6 +129,7 @@
 [![](http://img.youtube.com/vi/IM_JA3yv5ek/0.jpg)](http://www.youtube.com/watch?v=IM_JA3yv5ek "")
 [![](http://img.youtube.com/vi/aDYDsCwbpDA/0.jpg)](http://www.youtube.com/watch?v=aDYDsCwbpDA "")
 [![](http://img.youtube.com/vi/fQCEgreQf2E/0.jpg)](http://www.youtube.com/watch?v=fQCEgreQf2E "")
+[![](http://img.youtube.com/vi/tNjsSN7vCLk/0.jpg)](http://www.youtube.com/watch?v=tNjsSN7vCLk "")
 
 ---
 
