@@ -26,6 +26,13 @@
     1. 렌즈에 의해 결정된다
         > ![](../img/week1/prime_and_zoom_lens.png)<br>
         > 참고로 렌즈의 적혀있는 포컬 랭스 수치는 **대략값**입니다. 50mm 라고 적혀있다고 50.0mm로 딱 떨어지는 게 절대 아니라는 점.
+    - 화각 비교
+        - 카메라 위치 및 각도는 고정. 포컬 랭스만 바꿔서 촬영된 이미지들.
+        > ![](../img/week1/fl_24mm.png)<br>
+        > ![](../img/week1/fl_35mm.png)<br>
+        > ![](../img/week1/fl_50mm.png)<br>
+        > ![](../img/week1/fl_75mm.png)<br>
+        > ![](../img/week1/fl_24_75mm.png)<br>
 ### 필름 백(Film Back)
 - 정의: 이미지 센서의 **활성 영역(Active Area)**.
     - :star: **Film Back Size**와 **Active Area Size**는 같은 말, **Film Back Size**와 **Sensor Size**는 전혀 다른 말!!! :star:
@@ -36,6 +43,7 @@
     1. 포착할 수 있는 장면의 화각을 결정한다
         > ![](../img/week1/fb_aov.png)
     1. 바디에 의해 결정된다
+
 ### 화각
 - 특징
     1. **포컬 랭스와 필름 백의 조합**에 의해 결정된다
@@ -122,6 +130,8 @@
 [![](http://img.youtube.com/vi/IM_JA3yv5ek/0.jpg)](http://www.youtube.com/watch?v=IM_JA3yv5ek "")
 [![](http://img.youtube.com/vi/aDYDsCwbpDA/0.jpg)](http://www.youtube.com/watch?v=aDYDsCwbpDA "")
 [![](http://img.youtube.com/vi/fQCEgreQf2E/0.jpg)](http://www.youtube.com/watch?v=fQCEgreQf2E "")
+[![](http://img.youtube.com/vi/fQCEgreQf2E/0.jpg)](http://www.youtube.com/watch?v=fQCEgreQf2E "")
+[![](http://img.youtube.com/vi/jtUvPXW5iWg/0.jpg)](http://www.youtube.com/watch?v=jtUvPXW5iWg "")
 
 ---
 
