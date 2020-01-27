@@ -23,6 +23,12 @@
     - 셔터 스피드가 동일해도 조리개의 크기에 따라 광량이 달라진다.
         > ![](../img/week1/aperture_example.png)
 - 고유의 특성: 조리개를 조이면 심도가 깊어진다 [(이것 말고도 고유 특성이 많음)](http://www.youtube.com/watch?v=SxdpOwJCb4k)
+    - 얕은(Shallow) 심도
+        - 가장 앞에 꽃만 선명하고 그 뒤에 배경은 흐릿하다.
+        > ![](../img/week1/shallow_dof.jpg)
+    - 깊은(Deep) 심도
+        - 앞뒤 할 것 없이 사진의 전영역이 선명하다.
+        > ![](../img/week1/deep_dof.jpg)
 ### ISO(감광속도)
 - 정의: 렌즈를 통해 들어오는 광량을 카메라에서 **증폭**시키는 정도를 나타낸다
 - 노출과 관련된 특성: ISO가 올라가면 사진이 밝아진다
@@ -138,8 +144,12 @@
 
 # 영상
 ## 디지털 이미지
+> ![](../img/week1/digital_image_fhd.jpg)
 ### 픽셀(Pixel)
+- 디지털 이미지를 이루는 가장 작은 원소
+> ![](../img/week1/digital_image_pixel.png)
 ### 해상도(Resolution)
+> ![](../img/week1/digital_image_resolution.png)
 
 ## 파일 형식(File Format)
 ### 이미지
