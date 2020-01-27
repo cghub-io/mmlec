@@ -9,6 +9,8 @@
     > ![](../img/week1/exposure_types.png)
 ### 셔터 스피드
 - 정의: 이미지 센서 앞쪽의 셔터가 열려 있는 시간
+    - '찰'부터 '칵'까지의 시간
+        > ![](../img/week1/shutter.png)
 - 노출과 관련된 특성: 셔터 스피드가 느려지면 사진이 밝아진다
     - 초당 같은 양의 물을 뿜어내는 두 수도꼭지가 있다. 수도꼭지를 더 오래 틀어 놓은 쪽이 더 많은 물을 뿜어냈다.
     - 센서나 필름이 빛에 더 오래 노출 될수록 광량을 더 많이 받는다.
@@ -20,7 +22,7 @@
     - 초당 다른 양의 물을 뿜어내는 두 수도꼭지가 있다. 같은 시간동안 틀어놓았더니, 뿜어낸 물의 총양은 왼쪽 수도꼭지가 훨씬 많았다.
     - 셔터 스피드가 동일해도 조리개의 크기에 따라 광량이 달라진다.
         > ![](../img/week1/aperture_example.png)
-- 고유의 특성: 조리개를 조이면 심도가 깊어진다
+- 고유의 특성: 조리개를 조이면 심도가 깊어진다 [(이것 말고도 고유 특성이 많음)](http://www.youtube.com/watch?v=SxdpOwJCb4k)
 ### ISO(감광속도)
 - 정의: 렌즈를 통해 들어오는 광량을 카메라에서 **증폭**시키는 정도를 나타낸다
 - 노출과 관련된 특성: ISO가 올라가면 사진이 밝아진다
@@ -116,16 +118,16 @@
 1. 상면만곡
 1. :star:**왜곡(Distortion)**:star:
     - 다른 수차가 화상의 초점 선명도와 관계가 있지만, 왜곡은 화상의 전체적인 모양(Shape)과 관련이 있다.
-    > ![](https://upload.wikimedia.org/wikipedia/commons/2/2c/Panotools5618.jpg)<br>
+    > ![https://upload.wikimedia.org/wikipedia/commons/2/2c/Panotools5618.jpg](https://upload.wikimedia.org/wikipedia/commons/2/2c/Panotools5618.jpg)<br>
     > Ashley Pomeroy at English Wikipedia [CC BY]
 
 #### 색수차(Chromatic Aberration)
-> ![](https://upload.wikimedia.org/wikipedia/commons/a/aa/Chromatic_aberration_lens_diagram.svg)<br>
+> ![https://upload.wikimedia.org/wikipedia/commons/a/aa/Chromatic_aberration_lens_diagram.svg](https://upload.wikimedia.org/wikipedia/commons/a/aa/Chromatic_aberration_lens_diagram.svg)<br>
 > DrBob at the English language Wikipedia [CC BY-SA]
-> ![](https://upload.wikimedia.org/wikipedia/commons/9/94/FeralHorse044.JPG)<br>
+> ![https://upload.wikimedia.org/wikipedia/commons/9/94/FeralHorse044.JPG](https://upload.wikimedia.org/wikipedia/commons/9/94/FeralHorse044.JPG)<br>
 ### 교정
 - **볼록 렌즈**와 **오목 렌즈**의 조합
-    > ![](https://upload.wikimedia.org/wikipedia/commons/1/15/Lens6b-en.svg)<br>
+    > ![https://upload.wikimedia.org/wikipedia/commons/1/15/Lens6b-en.svg](https://upload.wikimedia.org/wikipedia/commons/1/15/Lens6b-en.svg)<br>
     > Original uploaded by DrBob (Transfered by nbarth) [CC BY-SA]
 ### X군 Y매
 - 볼록 렌즈 + 오목 렌즈 = 1군
@@ -158,7 +160,7 @@
 
 ---
 
-## [DJV - 오픈소스 비디오 플레이어](https://darbyjohnston.github.io/DJV/)
+## [DJV - 오픈소스 비디오 플레이어 - 무료](https://darbyjohnston.github.io/DJV/)
 > ![](../img/week1/djv.png)<br>
 
 - 이미지 시퀀스의 경우 일반적인 비디오 플레이어로는 재생이 안되는 경우가 많다. 영상편집 프로그램 같은 특수한 소프트웨어를 통해서만 재생이 가능하다.
@@ -167,9 +169,16 @@
     - `File >> Export Sequence`
 
 ### [Download](https://darbyjohnston.github.io/DJV/download.html)
+- 윈도우 유저는 ZIP파일로 받을 것을 권장한다.
 > ![](../img/week1/djv_download.png)<br>
 
-## XnView
+## [XnView - 개인용/교육용 무료](https://www.xnview.com/en/xnviewmp/)
+> ![](https://www.xnview.com/assets/img/screenshots/xnviewmp-win-01.png)<br>
+
+- CG작업하다 보면 이미지 시퀀스 리네이밍, RAW파일 보기, 파일확장자 변환, 메타데이터 확인 등등의 업무가 생긴다. XnView의 유틸리티들을 사용하면 쉽게 해결할 수 있다.
+
+### [Download](https://www.xnview.com/en/xnviewmp/#downloads)
+> ![](../img/week1/xnview_download.png)<br>
 
 ---
 
