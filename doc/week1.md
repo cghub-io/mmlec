@@ -1,6 +1,7 @@
 # 카메라와 영상
 
 # 카메라
+## 사진은 어떻게 만들어지는가?
 
 ## 노출(Exposure)
 - 사진은 이미지 센서나 필름이 빛에 노출되어 만들어진다.
@@ -9,10 +10,16 @@
 ### 셔터 스피드
 - 정의: 이미지 센서 앞쪽의 셔터가 열려 있는 시간
 - 노출과 관련된 특성: 셔터 스피드가 느려지면 사진이 밝아진다
+    - 초당 같은 양의 물을 뿜어내는 두 수도꼭지가 있다. 수도꼭지를 더 오래 틀어 놓은 쪽이 더 많은 물을 뿜어냈다.
+    - 센서나 필름이 빛에 더 오래 노출 될수록 광량을 더 많이 받는다.
+        > ![](../img/week1/shutter_speed_example.png)
 - 고유의 특성: 셔터가 느려지면 사진이 흔들릴 수 있다
 ### 조리개
 - 정의: 빛이 들어오는 **구멍의 크기**를 조절하여 빛의 양을 조절하는 장치
 - 노출과 관련된 특성: 조리개를 조이면 사진이 어두워진다
+    - 초당 다른 양의 물을 뿜어내는 두 수도꼭지가 있다. 같은 시간동안 틀어놓았더니, 뿜어낸 물의 총양은 왼쪽 수도꼭지가 훨씬 많았다.
+    - 셔터 스피드가 동일해도 조리개의 크기에 따라 광량이 달라진다.
+        > ![](../img/week1/aperture_example.png)
 - 고유의 특성: 조리개를 조이면 심도가 깊어진다
 ### ISO(감광속도)
 - 정의: 렌즈를 통해 들어오는 광량을 카메라에서 **증폭**시키는 정도를 나타낸다
@@ -51,7 +58,6 @@
     1. 포착할 수 있는 장면의 화각을 결정한다
         > ![](../img/week1/fb_aov.png)
     1. 바디에 의해 결정된다
-
 ### 화각
 - 특징
     1. **포컬 랭스와 필름 백의 조합**에 의해 결정된다
@@ -62,6 +68,7 @@
 - 예제
     > ![](../img/week1/full_frame_fl_35mm.png)<br>
     > ![](../img/week1/full_frame_fl_35mm_aov.png)<br>
+
 ## 원근법 & 원근감 (Perspective)
 ### 원근법
 - 가까이 있는 물체는 커 보이고, 멀리 있는 물체는 작아 보이는...
@@ -78,16 +85,20 @@
     > ![](../img/week1/perspective/perspective_strong.png)<br>
     > ![](../img/week1/perspective/perspective_medium.png)<br>
     > ![](../img/week1/perspective/perspective_weak.png)<br>
+
 ## 시차 (Parallax)
 - 어떤 물체를 서로 다른 위치에 있는 두 관측자가 관측했을 때 발생하는 겉보기 위치의 차이 또는 변위.
 > ![](../img/week1/parallax/parallax_two_camera.png)<br>
 > ![](../img/week1/parallax/parallax_two_camera_image.png)<br>
 ### 위치(Position)이동만 하는 카메라
-- 카메라와 가까운 물체 일수록 시차가 강하게 먹힌다. 가장 앞에 있는 노란콘이 가장 빨리 움직이고, 하늘은 너무 멀어서 미동도 없다.
+- 카메라와 가까운 물체 일수록 시차가 강하게 먹힌다.
+- 가장 앞에 있는 노란콘이 가장 빨리 움직이고, 하늘은 너무 멀어서 미동도 없다.
 > ![](../img/week1/parallax/parallax_translate_camview_reformat-min.gif)<br>
 ### 화전(Rotation)만 하는 카메라
-- 시차가 발생하지 않는다. 가장 앞에 있는 노란콘과 가장 먼 하늘이 같은 속도로 움직인다.
+- 시차가 발생하지 않는다.
+- 가장 앞에 있는 노란콘과 가장 먼 하늘이 같은 속도로 움직인다.
 > ![](../img/week1/parallax/parallax_rotate_camview_reformat-min.gif)<br>
+
 ## 렌즈
 ### 구조
 렌즈의 단면만 봐도 바로 느껴질 겁니다. ~~아 복잡한다.~~ 전문가가 아닌 이상 렌즈를 완벽하게 이해 할 필요가 없습니다. 경통 안에 왜 수많은 렌즈들이 들어가 있는지 그 이유 정도만 살펴보면 됩니다.
@@ -125,18 +136,17 @@
 
 # 영상
 ## 디지털 이미지
+### 픽셀(Pixel)
+### 해상도(Resolution)
 
-## 영상
-
-
-## 파일 형식
+## 파일 형식(File Format)
 ### 이미지
 - jpg / png / gif / dpx / exr 등
 ### 동영상
 #### 비디오 파일
 - 이미지 시퀀스를 단일 파일로 압축한 것
 - mp4 / mov / avi 등
-#### 이미지 시퀀스
+#### 이미지 시퀀스(Image Sequence)
 - 낮장으로 이루어진 연속적인 이름을 가진 이미지 파일
 - <이름(Name)>.<패딩(Padding)>.<확장자(Extension)>
 - ```
@@ -145,8 +155,21 @@
   myvid.0003.jpg
   ...
   ```
+
+---
+
+## [DJV - 오픈소스 비디오 플레이어](https://darbyjohnston.github.io/DJV/)
+> ![](../img/week1/djv.png)<br>
+
 - 이미지 시퀀스의 경우 일반적인 비디오 플레이어로는 재생이 안되는 경우가 많다. 영상편집 프로그램 같은 특수한 소프트웨어를 통해서만 재생이 가능하다.
-    > [DJV - 오픈소스 비디오 플레이어](https://darbyjohnston.github.io/DJV/)
+
+- 비디오 파일을 이미지 시퀀스로 변환해주는 툴도 내장되어 있다.
+    - `File >> Export Sequence`
+
+### [Download](https://darbyjohnston.github.io/DJV/download.html)
+> ![](../img/week1/djv_download.png)<br>
+
+## XnView
 
 ---
 
