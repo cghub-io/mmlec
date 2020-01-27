@@ -76,6 +76,15 @@
     > ![](../img/week1/perspective/perspective_medium.png)<br>
     > ![](../img/week1/perspective/perspective_weak.png)<br>
 ## 시차 (Parallax)
+- 어떤 물체를 서로 다른 위치에 있는 두 관측자가 관측했을 때 발생하는 겉보기 위치의 차이 또는 변위.
+> ![](../img/week1/parallax/parallax_two_camera.png)<br>
+> ![](../img/week1/parallax/parallax_two_camera_image.png)<br>
+### 위치(Position)이동만 하는 카메라
+- 카메라와 가까운 물체 일수록 시차가 강하게 먹힌다. 가장 앞에 있는 노란콘이 가장 빨리 움직이고, 하늘은 너무 멀어서 미동도 없다.
+> ![](../img/week1/parallax/parallax_translate_camview_reformat-min.gif)<br>
+### 화전(Rotation)만 하는 카메라
+- 시차가 발생하지 않는다. 가장 앞에 있는 노란콘과 가장 먼 하늘이 같은 속도로 움직인다.
+> ![](../img/week1/parallax/parallax_rotate_camview_reformat-min.gif)<br>
 ## 렌즈
 ### 구조
 렌즈의 단면만 봐도 바로 느껴질 겁니다. ~~아 복잡한다.~~ 전문가가 아닌 이상 렌즈를 완벽하게 이해 할 필요가 없습니다. 경통 안에 왜 수많은 렌즈들이 들어가 있는지 그 이유 정도만 살펴보면 됩니다.
@@ -152,10 +161,9 @@
 [![](http://img.youtube.com/vi/IM_JA3yv5ek/0.jpg)](http://www.youtube.com/watch?v=IM_JA3yv5ek "")
 [![](http://img.youtube.com/vi/aDYDsCwbpDA/0.jpg)](http://www.youtube.com/watch?v=aDYDsCwbpDA "")
 [![](http://img.youtube.com/vi/fQCEgreQf2E/0.jpg)](http://www.youtube.com/watch?v=fQCEgreQf2E "")
-<<<<<<< HEAD
-[![](http://img.youtube.com/vi/tNjsSN7vCLk/0.jpg)](http://www.youtube.com/watch?v=tNjsSN7vCLk "")
 [![](http://img.youtube.com/vi/fQCEgreQf2E/0.jpg)](http://www.youtube.com/watch?v=fQCEgreQf2E "")
 [![](http://img.youtube.com/vi/jtUvPXW5iWg/0.jpg)](http://www.youtube.com/watch?v=jtUvPXW5iWg "")
+[![](http://img.youtube.com/vi/tNjsSN7vCLk/0.jpg)](http://www.youtube.com/watch?v=tNjsSN7vCLk "")
 
 
 ---
