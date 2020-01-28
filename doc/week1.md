@@ -59,15 +59,10 @@
         > ![](../img/week1/fl_24_75mm.png)<br>
 ### 필름 백(Film Back)
 - 정의: 이미지 센서의 **활성 영역(Active Area)**.
-    > ![](../img/week1/active_area.png)<br>
-    > **Film Back Size**와 **Active Area Size**는 같은 말<br>
-    > **Film Back Size**와 **Sensor Size**는 전혀 다른 말!!!<br>
-    > ![](../img/week1/active_area_all_part.png)<br>
-    > **활성 영역**은 **센서의 전체**가 될 수도 있고, **센서의 일부분**이 될 수도 있다.<br>
     - :star: **Film Back Size**와 **Active Area Size**는 같은 말, **Film Back Size**와 **Sensor Size**는 전혀 다른 말!!! :star:
         > ![](../img/week1/active_area.png)<br>
-    - **활성 영역**은 **센서의 전체**가 될 수도 있고, **센서의 일부분**이 될 수도 있다.
-        > ![](../img/week1/active_area_all_part.png)
+    - **활성 영역**은 **센서의 전체**가 될 수도 있고, **센서의 일부분**이 될 수도 있다.<br>
+        > ![](../img/week1/active_area_all_part.png)<br>
 - 특징
     1. 포착할 수 있는 장면의 화각을 결정한다
         > ![](../img/week1/fb_aov.png)
@@ -153,10 +148,16 @@
 > ![](../img/week1/digital_image_fhd.jpg)
 ### 픽셀(Pixel)
 - 디지털 이미지를 이루는 가장 작은 원소
-> ![](../img/week1/digital_image_pixel.png)
+    > ![](../img/week1/digital_image_pixel.png)
 ### 해상도(Resolution)
-> ![](../img/week1/digital_image_resolution.png)
-
+    - 정확히 말하면 이미지 사이즈(Image Size). 업계에선 혼용해서 사용함.
+    > ![](../img/week1/digital_image_resolution.png)
+### 종횡비(Aspect Ratio)
+- 가로외 세로의 비율
+1. 픽셀 종횡비(Pixel Aspect Ratio)
+    > ![](../img/week1/pixel_aspect_ratio.png)
+1. 이미지 종횡비(Image Aspect Ratio)
+    > ![](../img/week1/image_aspect_ratio.png)
 ## 동영상
 - 시간상 연속된 이미지들의 모음
 ### 프레임
