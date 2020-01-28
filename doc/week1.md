@@ -2,7 +2,13 @@
 
 # 카메라
 ## 사진은 어떻게 만들어지는가?
-
+> ![](../img/week1/front_of_camera.png)
+> ![](../img/week1/image_circle.png)
+> ![](../img/week1/image_sensor.png)
+> ![](../img/week1/image_sensor_image_circle.png)
+> ![](../img/week1/image_sensor_image_circle_photo.png)<br>
+> 참고로 "사진은 이미지 센서와 이미지 서클의 교집합"이라는 설명은 이해를 돕기 위해 단순화 시킨 말.<br>
+> 정확히 말하면 "사진은 이미지 센서의 활성영역과 이미지 서클의 교집합".
 ## 노출(Exposure)
 - 사진은 이미지 센서나 필름이 빛에 노출되어 만들어진다.
 - 광량을 조절해서 사진의 밝기를 조절 할 수 있다.
@@ -150,6 +156,11 @@
 > ![](../img/week1/digital_image_pixel.png)
 ### 해상도(Resolution)
 > ![](../img/week1/digital_image_resolution.png)
+
+## 동영상
+- 시간상 연속된 이미지들의 모음
+### 프레임
+### 프레임 레이트
 
 ## 파일 형식(File Format)
 ### 이미지
