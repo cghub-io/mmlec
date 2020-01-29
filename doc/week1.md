@@ -24,6 +24,8 @@
 - 고유의 특성: 셔터가 느려지면 사진이 흔들릴 수 있다
 ### 조리개
 - 정의: 빛이 들어오는 **구멍의 크기**를 조절하여 빛의 양을 조절하는 장치
+    > ![](https://upload.wikimedia.org/wikipedia/commons/f/f8/Lenses_with_different_apertures.jpg)<br>
+    > [KoeppiK [CC BY-SA 4.0]](https://commons.wikimedia.org/wiki/File:Lenses_with_different_apertures.jpg)
 - 노출과 관련된 특성: 조리개를 조이면 사진이 어두워진다
     - 초당 다른 양의 물을 뿜어내는 두 수도꼭지가 있다. 같은 시간동안 틀어놓았더니, 뿜어낸 물의 총양은 왼쪽 수도꼭지가 훨씬 많았다.
     - 셔터 스피드가 동일해도 조리개의 크기에 따라 광량이 달라진다.
