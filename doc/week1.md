@@ -150,7 +150,7 @@
 - 디지털 이미지를 이루는 가장 작은 원소
     > ![](../img/week1/digital_image_pixel.png)
 ### 해상도(Resolution)
-    - 정확히 말하면 이미지 사이즈(Image Size). 업계에선 혼용해서 사용함.
+- 정확히 말하면 이미지 사이즈(Image Size). 업계에선 "이미지 사이즈"와 "해상도"를 혼용해서 사용함.
     > ![](../img/week1/digital_image_resolution.png)
 ### 종횡비(Aspect Ratio)
 - 가로외 세로의 비율
