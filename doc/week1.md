@@ -139,7 +139,7 @@
     > ![https://upload.wikimedia.org/wikipedia/commons/1/15/Lens6b-en.svg](https://upload.wikimedia.org/wikipedia/commons/1/15/Lens6b-en.svg)<br>
     > Original uploaded by DrBob (Transfered by nbarth) [CC BY-SA]
 ### X군 Y매
-- 볼록 렌즈 + 오목 렌즈 = 1군
+- 렌즈 조합(볼록 렌즈 + 오목 렌즈) = 1군
 - 렌즈 조각 = 1매
 > ![](../img/week1/group_element.png)
 
