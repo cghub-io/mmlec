@@ -137,7 +137,7 @@
 > DrBob at the English language Wikipedia [CC BY-SA]
 > ![https://upload.wikimedia.org/wikipedia/commons/9/94/FeralHorse044.JPG](https://upload.wikimedia.org/wikipedia/commons/9/94/FeralHorse044.JPG)<br>
 ### 교정
-- **볼록 렌즈**와 **오목 렌즈**의 조합
+- **볼록 렌즈**와 **오목 렌즈**의 조합 (+재질이 다른 유리)
     > ![https://upload.wikimedia.org/wikipedia/commons/1/15/Lens6b-en.svg](https://upload.wikimedia.org/wikipedia/commons/1/15/Lens6b-en.svg)<br>
     > Original uploaded by DrBob (Transfered by nbarth) [CC BY-SA]
 ### X군 Y매
@@ -209,23 +209,10 @@
 ---
 
 # 참고자료 모음
-
-## 기초
-[![](http://img.youtube.com/vi/AVWTiAN6J6Q/0.jpg)](http://www.youtube.com/watch?v=AVWTiAN6J6Q "")
-[![](http://img.youtube.com/vi/-Y4YZlEQafs/0.jpg)](http://www.youtube.com/watch?v=-Y4YZlEQafs "")
-[![](http://img.youtube.com/vi/xgx8jMrGARg/0.jpg)](http://www.youtube.com/watch?v=xgx8jMrGARg "")
-[![](http://img.youtube.com/vi/ZKmNUP_5TFQ/0.jpg)](http://www.youtube.com/watch?v=ZKmNUP_5TFQ "")
-
-## 심화
-[![](http://img.youtube.com/vi/SxdpOwJCb4k/0.jpg)](http://www.youtube.com/watch?v=SxdpOwJCb4k "")
-[![](http://img.youtube.com/vi/NCDnwVecS6o/0.jpg)](http://www.youtube.com/watch?v=NCDnwVecS6o "")
-[![](http://img.youtube.com/vi/IM_JA3yv5ek/0.jpg)](http://www.youtube.com/watch?v=IM_JA3yv5ek "")
-[![](http://img.youtube.com/vi/aDYDsCwbpDA/0.jpg)](http://www.youtube.com/watch?v=aDYDsCwbpDA "")
-[![](http://img.youtube.com/vi/fQCEgreQf2E/0.jpg)](http://www.youtube.com/watch?v=fQCEgreQf2E "")
-[![](http://img.youtube.com/vi/fQCEgreQf2E/0.jpg)](http://www.youtube.com/watch?v=fQCEgreQf2E "")
-[![](http://img.youtube.com/vi/jtUvPXW5iWg/0.jpg)](http://www.youtube.com/watch?v=jtUvPXW5iWg "")
-[![](http://img.youtube.com/vi/tNjsSN7vCLk/0.jpg)](http://www.youtube.com/watch?v=tNjsSN7vCLk "")
-
+- [요즘카메라 - 기초강의](https://www.youtube.com/playlist?list=PLm5OUkKBVlpHKECLyLb9HGZTAerv95gEM)
+- [사진찍는회계사 - YK사진교실](https://www.youtube.com/playlist?list=PLuQ0pAf6nnK_2ROlCwTwPiauZs6xNYig-)
+- [한 눈에 쏙, 렌즈 이야기 (카메라의 역사)](https://youtu.be/-Y4YZlEQafs)
+- [Canon - In Pursuit of the Ideal Lens](https://youtu.be/DUy9bAlidVU)
 
 ---
 
