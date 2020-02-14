@@ -1,4 +1,4 @@
-# 사진측량
+## 사진측량
 - Photogrammetry(포토그래메트리)
 - 사진들로부터 물체를 측정하는 작업
 
@@ -48,20 +48,70 @@
         > ![](../img/week2/dynamic_scene.png)
 1. 시차
     - Parallax(패럴랙스)
-        > ![](../img/week2/parallax_wm.gif)
+        > ![](../img/week1/parallax/parallax_two_camera.png)
+        > ![](../img/week1/parallax/parallax_two_camera_image.png)
     - Translation
-        > ![](../img/week2/parallax_translate_wm.gif)<br>
-        > ![](../img/week2/parallax_translate_camview_wm.gif)<br>
+        > ![](../img/week1/parallax/parallax_translate_camview_reformat-min.gif)<br>
     - Rotation
-        > ![](../img/week2/parallax_rotate_wm.gif)<br>
-        > ![](../img/week2/parallax_rotate_camview_wm.gif)<br>    
+        > ![](../img/week1/parallax/parallax_rotate_camview_reformat-min.gif)<br>
+
+## Photomodeling
+1. 각 카메라 화각 구하기
+    1. 필름 백 가로 또는 세로 구하기
+        > ![](../img/week2/photomodeling/image_pixel_ratio.png)<br>
+        > ![](../img/week2/photomodeling/fixed_fbw_passive_fbh.png)<br>
+        > ![](../img/week2/photomodeling/fixed_fbh_passive_fbw.png)<br>
+        > ![](../img/week2/photomodeling/simple_math.png)<br>
+    1. 포컬 랭스 구하기
+        - 35mm
+1. 씬의 스케일 및 로테이션(오리엔테이션) 규정
+    1. 스케일 규정
+        - 현장에서 측정해온 실측정보로 Distance Constraint 생성
+        > ![](../img/week2/photomodeling/set_measure.png)<br>
+    1. 로테이션(오리엔테이션) 규정
+        - 가장 빠른 방법은 바닥점들을 무더기로 잡고 수평을 상태로 만들기.
+        > ![](../img/week2/photomodeling/select_ground_points.png)<br>
+- 화각이 같으면 솔브가 같다
+    > ![](../img/week2/photomodeling/same_aov_same_solve.png)<br>
+
 ## 심화
 
-### 포컬 랭스를 모르면? (필름백은 알고 있다)
+### A. 포컬 랭스를 모르면? (필름백은 알고 있다)
+> ![](../img/week2/guess_fl_fb/guess_fl.png)<br>
 
-### 필름백을 모르면? (포컬랭스는 알고 있다)
+1. 최저 에러
+    - 수동
+        > ![](../img/week2/guess_fl_fb/guess_fl_and_aov.png)<br>
+        > ![](../img/week2/guess_fl_fb/guess_fl_by_deviation.png)<br>
+        > ![](../img/week2/guess_fl_fb/punching_in_fl.png)<br>
+        > ![](../img/week2/guess_fl_fb/lowest_deviation.png)<br>
+    - 자동
+        > ![](../img/week2/guess_fl_fb/param_adj.png)<br>
+        > ![](../img/week2/guess_fl_fb/param_adj_howitworks.png)<br>
+1. 소실점
+    - fspy - [https://fspy.io/](https://fspy.io/)
+        > ![](../img/week2/guess_fl_fb/fspy.png)<br>
 
-### 둘다 모른다
+### B. 필름 백을 모르면? (포컬랭스는 알고 있다)
+- 녹화 해상도(원본 해상도)를 아는 상황
+    - 제조사 홈페이지에 가서 역추적
+        - [RED](https://www.red.com/crop-factor)
+            > ![](../img/week2/guess_fl_fb/red_crop_factor_tool.png)<br>
+        - [ARRI](https://www.arri.com/en/learn-help/learn-help-camera-system/white-papers)
+            > ![](../img/week2/guess_fl_fb/afro.png)<br>
+            > ![](../img/week2/guess_fl_fb/afro_link.png)<br>
+- 녹화 해상도(원본 해상도)를 모른는 상황
+    - 최저 에러, 소실점 방법을 동원해서 필름 백 찾기.(비추천)
+    - Go to C!!!
+
+### C. 포컬 랭스 & 필름 백, 둘다 모른다
+- 카메라 기종을 아는 상황
+    1. 필름 백 가로를 센서의 가로 길이로 Fix.
+    1. 최저 에러, 소실점 방법을 동원해서 포컬랭스 찾기.
+- 카메라 기종을 모르는 상황
+    1. 필름 백 가로를 36mm로 Fix.
+    1. 최저 에러, 소실점 방법을 동원해서 포컬랭스 찾기.
+
 
 ---
 
