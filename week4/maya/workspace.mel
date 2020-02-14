@@ -2,3 +2,4 @@
 
 workspace -fr "particles" "particles";
 workspace -fr "templates" "assets";
+workspace -fr "alembicCache" "cache/alembic";
