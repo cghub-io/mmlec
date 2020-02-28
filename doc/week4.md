@@ -2,7 +2,10 @@
 
 ## Problem
 1. 평평한 땅을 직선으로 달리는 자동차를 매치무브 하려고 한다
-    > ![](../img/week4/object_tracking_wm.gif)<br>
+    - Input
+        > ![](../img/week4/object_tracking_wm.gif)<br>
+    - 우리가 원하는 Output
+        > ![](../img/week4/camera_and_object_tracking_wm.gif)<br>    
 1. 오브젝트에만 2D Point들을 찍어서 솔브한다
     > ![](../img/week4/object_2dtracks.png)<br>
     1. 오브젝트는 가만히 있고 카메라가 움직인다
@@ -12,8 +15,6 @@
     1. 카메라는 가만히 있고 오브젝트가 움직인다
         > ![](../img/week4/fixed_camera_moving_object_wm.gif)<br>
     - 이렇게 Point Group Type까지 바꾸었는데도 자동차는 직선으로 움직이지 않고있다. 무엇이 문제일까?
-        > ![](../img/week4/camera_and_object_tracking_wm.gif)<br>
-        > 우리가 원하는 결과
 
 ## Answer
 - 카메라 트래킹 없이 오브젝트 트래킹만 단독으로 작업했기 때문
