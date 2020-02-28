@@ -12,7 +12,9 @@
     1. 카메라는 가만히 있고 오브젝트가 움직인다
         > ![](../img/week4/fixed_camera_moving_object_wm.gif)<br>
     - 이렇게 Point Group Type까지 바꾸었는데도 자동차는 직선으로 움직이지 않고있다. 무엇이 문제일까?
-    
+        > ![](../img/week4/camera_and_object_tracking_wm.gif)<br>
+        > 우리가 원하는 결과
+
 ## Answer
 - 카메라 트래킹 없이 오브젝트 트래킹만 단독으로 작업했기 때문
 1. 플레이트의 내용물을 두 그룹으로 나눈다
@@ -72,7 +74,7 @@
     > ![](../img/week4/scenecam_camera_scene_parent_constraint.png)<br>
 1. Result
    > ![](../img/week4/object_tracking_indepth.gif)
-   
+
 ## Object Tracking in 3DEqualizer
 
 ### Camera Tracking
